@@ -12,6 +12,8 @@
 
         @include('includes._header')
 
+        @include('includes._messages')
+
         @yield('content')
 
         @include('includes._footer')
