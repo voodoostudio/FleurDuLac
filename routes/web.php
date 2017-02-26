@@ -31,7 +31,3 @@ Route::get('/restaurant/{locale}',['as' => 'restaurant.locale', 'uses' => 'Local
 Route::get('/bar_and_terrace/{locale}',['as' => 'bar_and_terrace.locale', 'uses' => 'LocalizationController@BarAndTerrace']);
 Route::get('/events/{locale}',['as' => 'events.locale', 'uses' => 'LocalizationController@Events']);
 Route::get('/contact/{locale}',['as' => 'contact.locale', 'uses' => 'LocalizationController@Contact']);
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index');
