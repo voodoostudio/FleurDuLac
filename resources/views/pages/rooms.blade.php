@@ -8,7 +8,7 @@
 
 @section('content')
     <!--Breadcrumb Section-->
-    <section id="breadcrumb-section" data-bg-img="img/backgrounds/rooms.jpg">
+    <section id="breadcrumb-section" data-bg-img="/img/backgrounds/rooms.jpg">
         <div class="inner-container container">
             <div class="ravis-title">
                 <div class="inner-box">
@@ -40,10 +40,10 @@
 
             <div class="room-container clearfix">
                 <div class="room-box row animated-box" data-animation="fadeInUp">
-                    <div class="col-md-4 room-img" data-bg-img="img/rooms/single_main.jpg">
+                    <div class="col-md-4 room-img" data-bg-img="/img/rooms/single_main.jpg">
                         <div class="gallery">
-                            <a href="img/rooms/single_main.jpg" class="more-info-url"></a>
-                            <a href="img/rooms/single_bath.jpg"></a>
+                            <a href="/img/rooms/single_main.jpg" class="more-info-url"></a>
+                            <a href="/img/rooms/single_bath.jpg"></a>
                         </div>
                     </div>
                     <div class="r-sec col-md-8">
@@ -81,16 +81,16 @@
                                         <div class="value">
                                             <ul class="services_icons">
                                                 <li>
-                                                    <img src="img/icons/wifi.svg" alt="TV">
+                                                    <img src="/img/icons/wifi.svg" alt="TV">
                                                 </li>
                                                 <li>
-                                                    <img src="img/icons/tv.svg" alt="TV">
+                                                    <img src="/img/icons/tv.svg" alt="TV">
                                                 </li>
                                                 <li>
-                                                    <img src="img/icons/24h_service.svg" alt="TV">
+                                                    <img src="/img/icons/24h_service.svg" alt="TV">
                                                 </li>
                                                 <li>
-                                                    <img src="img/icons/roomservice2.svg" alt="TV">
+                                                    <img src="/img/icons/roomservice2.svg" alt="TV">
                                                 </li>
                                             </ul>
                                         </div>
@@ -111,11 +111,11 @@
 
             <div class="room-container clearfix">
                 <div class="room-box row animated-box" data-animation="fadeInUp">
-                    <div class="col-md-4 room-img" data-bg-img="img/rooms/standart_main.jpg">
+                    <div class="col-md-4 room-img" data-bg-img="/img/rooms/standart_main.jpg">
                         <div class="gallery">
-                            <a href="img/rooms/standart_main.jpg" class="more-info-url"></a>
-                            <a href="img/rooms/standart_main2.jpg"></a>
-                            <a href="img/rooms/standart_bath.jpg"></a>
+                            <a href="/img/rooms/standart_main.jpg" class="more-info-url"></a>
+                            <a href="/img/rooms/standart_main2.jpg"></a>
+                            <a href="/img/rooms/standart_bath.jpg"></a>
                         </div>
                     </div>
                     <div class="r-sec col-md-8">
@@ -155,16 +155,16 @@
                                         <div class="value">
                                             <ul class="services_icons">
                                                 <li>
-                                                    <img src="img/icons/wifi.svg" alt="TV">
+                                                    <img src="/img/icons/wifi.svg" alt="TV">
                                                 </li>
                                                 <li>
-                                                    <img src="img/icons/tv.svg" alt="TV">
+                                                    <img src="/img/icons/tv.svg" alt="TV">
                                                 </li>
                                                 <li>
-                                                    <img src="img/icons/24h_service.svg" alt="TV">
+                                                    <img src="/img/icons/24h_service.svg" alt="TV">
                                                 </li>
                                                 <li>
-                                                    <img src="img/icons/roomservice2.svg" alt="TV">
+                                                    <img src="/img/icons/roomservice2.svg" alt="TV">
                                                 </li>
                                             </ul>
                                         </div>
@@ -185,11 +185,11 @@
 
             <div class="room-container clearfix">
                 <div class="room-box row animated-box" data-animation="fadeInUp">
-                    <div class="col-md-4 room-img" data-bg-img="img/rooms/superior_main.jpg">
+                    <div class="col-md-4 room-img" data-bg-img="/img/rooms/superior_main.jpg">
                         <div class="gallery">
-                            <a href="img/rooms/superior_main.jpg" class="more-info-url"></a>
-                            <a href="img/rooms/superior_main2.jpg"></a>
-                            <a href="img/rooms/superior_bath.jpg"></a>
+                            <a href="/img/rooms/superior_main.jpg" class="more-info-url"></a>
+                            <a href="/img/rooms/superior_main2.jpg"></a>
+                            <a href="/img/rooms/superior_bath.jpg"></a>
                         </div>
                     </div>
                     <div class="r-sec col-md-8">
@@ -228,16 +228,16 @@
                                         <div class="value">
                                             <ul class="services_icons">
                                                 <li>
-                                                    <img src="img/icons/wifi.svg" alt="TV">
+                                                    <img src="/img/icons/wifi.svg" alt="TV">
                                                 </li>
                                                 <li>
-                                                    <img src="img/icons/tv.svg" alt="TV">
+                                                    <img src="/img/icons/tv.svg" alt="TV">
                                                 </li>
                                                 <li>
-                                                    <img src="img/icons/24h_service.svg" alt="TV">
+                                                    <img src="/img/icons/24h_service.svg" alt="TV">
                                                 </li>
                                                 <li>
-                                                    <img src="img/icons/roomservice2.svg" alt="TV">
+                                                    <img src="/img/icons/roomservice2.svg" alt="TV">
                                                 </li>
                                             </ul>
                                         </div>
@@ -258,9 +258,9 @@
 
             <div class="room-container clearfix">
                 <div class="room-box row animated-box" data-animation="fadeInUp">
-                    <div class="col-md-4 room-img" data-bg-img="img/rooms/packromance.jpg">
+                    <div class="col-md-4 room-img" data-bg-img="/img/rooms/packromance.jpg">
                         <div class="gallery">
-                            <a href="img/rooms/packromance.jpg" class="more-info-url"></a>
+                            <a href="/img/rooms/packromance.jpg" class="more-info-url"></a>
                         </div>
                     </div>
                     <div class="r-sec col-md-8">

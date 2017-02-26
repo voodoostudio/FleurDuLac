@@ -9,7 +9,7 @@
 @section('content')  
     
     <!--Breadcrumb Section-->
-    <section id="breadcrumb-section" data-bg-img="img/backgrounds/bar_and_terrace.jpg">
+    <section id="breadcrumb-section" data-bg-img="/img/backgrounds/bar_and_terrace.jpg">
         <div class="inner-container container">
             <div class="ravis-title">
                 <div class="inner-box">
@@ -44,10 +44,10 @@
                                 Ouvert tous les jours de 10h à minuit.</p>
                         </div>
                         <div class="col-xs-6">
-                            <img src="img/bar_and_terrace/1.jpg" alt="" style="width: 100%; margin-top: 20px">
+                            <img src="/img/bar_and_terrace/1.jpg" alt="" style="width: 100%; margin-top: 20px">
                         </div>
                         <div class="col-xs-6">
-                            <img src="img/bar_and_terrace/2.jpg" alt=""  style="width: 100%; margin-top: 20px">
+                            <img src="/img/bar_and_terrace/2.jpg" alt=""  style="width: 100%; margin-top: 20px">
                         </div>
                     </div>
 
@@ -59,10 +59,10 @@
                                 Accès direct à notre établissement par bateau via notre ponton privé. Merci de téléphoner pour réservation.</p>
                         </div>
                         <div class="col-xs-6">
-                            <img src="img/bar_and_terrace/3.jpg" alt="" style="width: 100%; margin-top: 20px">
+                            <img src="/img/bar_and_terrace/3.jpg" alt="" style="width: 100%; margin-top: 20px">
                         </div>
                         <div class="col-xs-6">
-                            <img src="img/bar_and_terrace/4.jpg" alt=""  style="width: 100%; margin-top: 20px">
+                            <img src="/img/bar_and_terrace/4.jpg" alt=""  style="width: 100%; margin-top: 20px">
                         </div>
                     </div>
 

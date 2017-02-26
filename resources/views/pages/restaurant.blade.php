@@ -8,7 +8,7 @@
 
 @section('content')
     <!--Breadcrumb Section-->
-    <section id="breadcrumb-section" data-bg-img="img/backgrounds/restaurant.jpg">
+    <section id="breadcrumb-section" data-bg-img="/img/backgrounds/restaurant.jpg">
         <div class="inner-container container">
             <div class="ravis-title">
                 <div class="inner-box">
@@ -47,17 +47,17 @@
                     <ul class="partners_list">
                         <li class="partner">
                             <a href="http://www.passeport-gourmand.ch/restaurants/detail.php?restaurant=7" target="_blank">
-                                <img src="img/partners/passeport_gourmand.jpg" alt="Passeport Gourmand">
+                                <img src="/img/partners/passeport_gourmand.jpg" alt="Passeport Gourmand">
                             </a>
                         </li>
                         <li class="partner">
                             <a href="https://edenred.ch/fr" target="_blank">
-                                <img src="img/partners/ticket_restaurant.jpg" alt="Ticket Restaurant">
+                                <img src="/img/partners/ticket_restaurant.jpg" alt="Ticket Restaurant">
                             </a>
                         </li>
                         <li class="partner">
                             <a href="https://www.lafourchette.ch/restaurant/la-fleur-du-lac/282921" target="_blank">
-                                <img src="img/partners/lafourchette.png" alt="Passeport Gourmand">
+                                <img src="/img/partners/lafourchette.png" alt="Passeport Gourmand">
                             </a>
                         </li>
                     </ul>
@@ -86,8 +86,8 @@
                         <span class="sub-title">Detente entre lac et montagne</span>
                     </a>
                 </div>
-                <div class="col-md-8 tab-content" data-bg-img="img/menu-tabs/1.jpg">
-                    <div class="tab-pane fadeInLeft clearfix active" id="menu-1" data-img-name="img/menu-tabs/1.jpg">
+                <div class="col-md-8 tab-content" data-bg-img="/img/menu-tabs/1.jpg">
+                    <div class="tab-pane fadeInLeft clearfix active" id="menu-1" data-img-name="/img/menu-tabs/1.jpg">
                         <div class="menu-list col-xs-12">
                             <ul>
                                 <li>
@@ -111,7 +111,7 @@
                                         <div class="price">21.-</div>
                                     </div>
                                     <div class="icns_block">
-                                        <img src="img/gluten_free_1.svg" alt="gluten free">
+                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
                                     </div>
                                 </li>
                                 <li>
@@ -120,7 +120,7 @@
                                         <div class="price">36.-</div>
                                     </div>
                                     <div class="icns_block">
-                                        <img src="img/gluten_free_1.svg" alt="gluten free">
+                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
                                     </div>
                                 </li>
                                 <li>
@@ -147,8 +147,8 @@
                                         <div class="price">9.-</div>
                                     </div>
                                     <div class="icns_block">
-                                        <img src="img/gluten_free_1.svg" alt="gluten free">
-                                        <img src="img/vegetarian_1.svg" alt="vegetarian">
+                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
+                                        <img src="/img/vegetarian_1.svg" alt="vegetarian">
                                     </div>
                                 </li>
                                 <li>
@@ -157,8 +157,8 @@
                                         <div class="price">9.-</div>
                                     </div>
                                     <div class="icns_block">
-                                        <img src="img/gluten_free_1.svg" alt="gluten free">
-                                        <img src="img/vegetarian_1.svg" alt="vegetarian">
+                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
+                                        <img src="/img/vegetarian_1.svg" alt="vegetarian">
                                     </div>
                                 </li>
                                 <li>
@@ -188,7 +188,7 @@
                                         <div class="price">48.-</div>
                                     </div>
                                     <div class="icns_block">
-                                        <img src="img/gluten_free_1.svg" alt="gluten free">
+                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
                                     </div>
                                 </li>
                                 <li>
@@ -237,7 +237,7 @@
                                         <div class="price">36.-</div>
                                     </div>
                                     <div class="icns_block">
-                                        <img src="img/vegetarian_1.svg" alt="vegetarian">
+                                        <img src="/img/vegetarian_1.svg" alt="vegetarian">
                                     </div>
                                 </li>
                                 <li>
@@ -287,7 +287,7 @@
                                         <div class="price">13.-</div>
                                     </div>
                                     <div class="icns_block">
-                                        <img src="img/vegetarian_1.svg" alt="vegetarian">
+                                        <img src="/img/vegetarian_1.svg" alt="vegetarian">
                                     </div>
                                 </li>
                                 <li>
@@ -299,18 +299,18 @@
                             </ul>
                             <div class="icons_legend">
                                 <div>
-                                    <img src="img/vegetarian_1.svg" alt="vegetarian">
+                                    <img src="/img/vegetarian_1.svg" alt="vegetarian">
                                     <span>Vegetarien</span>
                                 </div>
                                 <div>
-                                    <img src="img/gluten_free_1.svg" alt="gluten free">
+                                    <img src="/img/gluten_free_1.svg" alt="gluten free">
                                     <span>Sans gluten (à préciser)</span>
                                 </div>
                             </div>
                             <p class="currency_explanation">Nos prix sont en francs suisses avec TVA à 8%</p>
                         </div>
                     </div>
-                    <div class="tab-pane fadeInLeft clearfix" id="menu-2" data-img-name="img/menu-tabs/1.jpg">
+                    <div class="tab-pane fadeInLeft clearfix" id="menu-2" data-img-name="/img/menu-tabs/1.jpg">
                         <div class="menu-list col-xs-12">
                             <ul>
                                 <li class="menu_block">
@@ -375,7 +375,7 @@
                             <p class="currency_explanation">Nos prix sont en francs suisses avec TVA à 8%</p>
                         </div>
                     </div>
-                    <div class="tab-pane fadeInLeft clearfix" id="menu-3" data-img-name="img/menu-tabs/1.jpg">
+                    <div class="tab-pane fadeInLeft clearfix" id="menu-3" data-img-name="/img/menu-tabs/1.jpg">
                         <div class="menu-list col-xs-12">
                             <ul>
                                 <li class="menu_block">
@@ -435,7 +435,7 @@
                             <p class="currency_explanation">Nos prix sont en francs suisses avec TVA à 8%</p>
                         </div>
                     </div>
-                    <div class="tab-pane fadeInLeft clearfix" id="menu-4" data-img-name="img/menu-tabs/1.jpg">
+                    <div class="tab-pane fadeInLeft clearfix" id="menu-4" data-img-name="/img/menu-tabs/1.jpg">
                         <div class="menu-list col-xs-12">
                             <ul>
                                 <li>
@@ -505,7 +505,7 @@
                             <p class="currency_explanation">Nos prix sont en francs suisses avec TVA à 8%</p>
                         </div>
                     </div>
-                    <div class="tab-pane fadeInLeft clearfix" id="menu-5" data-img-name="img/menu-tabs/1.jpg">
+                    <div class="tab-pane fadeInLeft clearfix" id="menu-5" data-img-name="/img/menu-tabs/1.jpg">
                         <div class="menu-list col-xs-12">
                             <ul>
                                 <li>

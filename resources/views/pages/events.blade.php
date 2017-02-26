@@ -9,7 +9,7 @@
 @section('content')
 
     <!--Breadcrumb Section-->
-    <section id="breadcrumb-section" data-bg-img="img/backgrounds/events.jpg">
+    <section id="breadcrumb-section" data-bg-img="/img/backgrounds/events.jpg">
         <div class="inner-container container">
             <div class="ravis-title">
                 <div class="inner-box">
@@ -54,7 +54,7 @@
     </section>
 
     <!-- Video Tour -->
-    <section id="video-tour" data-bg-img="img/video.jpg">
+    <section id="video-tour" data-bg-img="/img/video.jpg">
         <div class="inner-container container">
             <div class="row">
                 <div class="col-md-offset-3 col-md-6">
@@ -107,13 +107,13 @@
                         <div class="col-xs-12">
                             <p style="color: #d2bd7f; font: 30px/70px 'Great Vibes', Arial, Helvetica, sans-serif; margin-top: 50px;">Mariage</p>
                             <div class="col-xs-12 col-sm-4 col-md-4 margin_bottom_15">
-                                <img src="img/events/1.jpg" alt="" style="width: 100%">
+                                <img src="/img/events/1.jpg" alt="" style="width: 100%">
                             </div>
                             <div class="col-xs-12 col-sm-4 col-md-4 margin_bottom_15">
-                                <img src="img/events/2.jpg" alt=""  style="width: 100%">
+                                <img src="/img/events/2.jpg" alt=""  style="width: 100%">
                             </div>
                             <div class="col-xs-12 col-sm-4 col-md-4">
-                                <img src="img/events/3.jpg" alt=""  style="width: 100%">
+                                <img src="/img/events/3.jpg" alt=""  style="width: 100%">
                             </div>
                         </div>
                     </div>

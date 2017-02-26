@@ -70,14 +70,14 @@
 
             <div class="b-sec clearfix">
                 <div class="contact-form col-md-6">
-                    <form action="{{ url('contact') }}" method="POST">
+                    <form name="contactForm" action="{{ url('contact') }}" method="POST">
                         {{ csrf_field() }}
                         <div class="field-row">
-                            <input id="subject" name="subject" type="text" placeholder="Nom :" required>
+                            <input id="name" name="name" type="text" placeholder="Nom :">
                         </div>
-                       {{-- <div class="field-row">
-                            <input name="phone" type="text" placeholder="Téléphone :">
-                        </div>--}}
+                        <div class="field-row">
+                            <input id="phone" name="phone" type="text" placeholder="Téléphone :" required>
+                        </div>
                         <div class="field-row">
                             <input id="email" name="email" type="email" placeholder="Courriel :" required>
                         </div>
@@ -94,5 +94,26 @@
         </div>
     </section>
     <!--End of Contact Section-->
+
+@endsection
+
+@section('scripts')
+
+    <script>
+        $('form[name="contactForm"]').validate({
+
+            rules:{
+                name:"required"
+            },
+            messages:{
+                name:"This field is required"
+            },
+
+            submitHandler: function(form) {
+                form.submit();
+            }
+
+        })
+    </script>
 
 @endsection
