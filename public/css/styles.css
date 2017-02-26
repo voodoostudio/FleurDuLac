@@ -15101,3 +15101,6 @@ body.room-detials .room-desc .r-sec {
   .fa-file-pdf-o, .fa-wifi {
     font-size: 25px;
   }
+ .error{
+    color:red;
+ }

@@ -9,7 +9,7 @@
 @section('content')
 
     <!--Breadcrumb Section-->
-    <section id="breadcrumb-section" data-bg-img="img/backgrounds/contact.jpg">
+    <section id="breadcrumb-section" data-bg-img="/img/backgrounds/contact.jpg">
         <div class="inner-container container">
             <div class="ravis-title">
                 <div class="inner-box">
@@ -70,26 +70,26 @@
 
             <div class="b-sec clearfix">
                 <div class="contact-form col-md-6">
-                    <form name="contactForm" action="{{ url('contact') }}" method="POST">
+                    <form id="contactForm" name="contactForm" action="{{ url('contact') }}" method="POST">
                         {{ csrf_field() }}
                         <div class="field-row">
                             <input id="name" name="name" type="text" placeholder="Nom :">
                         </div>
                         <div class="field-row">
-                            <input id="phone" name="phone" type="text" placeholder="Téléphone :" required>
+                            <input id="phone" name="phone" type="text" placeholder="Téléphone :">
                         </div>
                         <div class="field-row">
-                            <input id="email" name="email" type="email" placeholder="Courriel :" required>
+                            <input id="email" name="email" type="email" placeholder="Courriel :">
                         </div>
                         <div class="field-row">
-                            <textarea id="message" name="message" placeholder="Votre message" required></textarea>
+                            <textarea id="message" name="message" placeholder="Votre message"></textarea>
                         </div>
                         <div class="field-row">
                             <input type="submit" value="Envoyer">
                         </div>
                     </form>
                 </div>
-                <div id="google-map" class="col-md-6" data-marker="img/marker.svg"></div>
+                <div id="google-map" class="col-md-6" data-marker="/img/marker.svg"></div>
             </div>
         </div>
     </section>
@@ -100,20 +100,52 @@
 @section('scripts')
 
     <script>
-        $('form[name="contactForm"]').validate({
 
-            rules:{
-                name:"required"
-            },
-            messages:{
-                name:"This field is required"
-            },
+        $(document).ready(function(){
 
-            submitHandler: function(form) {
-                form.submit();
-            }
+            $('form[name="contactForm"]').validate({
 
+                rules:{
+                    error:{
+                        color:"red"
+                    },
+                    name:{
+                        required:true,
+                        minlength:2
+                    },
+
+                    phone:{
+                        required:true,
+                        number:true
+                    },
+
+                    email:{
+                        required:true,
+                        email:true
+                    },
+                    message:"required"
+                },
+                messages:{
+                    name:{
+                        minlength:"Your name must consist at least 2 characters"
+                    },
+
+                    phone:{
+                        number:"Must be only digits"
+                    },
+
+                    email:{
+                        email:"Please provide a valid email address"
+                    }
+                },
+
+                 submitHandler: function(form) {
+                 form.submit();
+                 }
+
+            })
         })
+
     </script>
 
 @endsection
