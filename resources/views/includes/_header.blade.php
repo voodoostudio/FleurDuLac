@@ -21,9 +21,9 @@
             <div id="main-menu-handle" class="ravis-btn btn-type-2"><i class="fa fa-bars"></i><i class="fa fa-close"></i></div><!-- Mobile Menu handle -->
             <a href="#" id="header-book-bow" class="ravis-btn btn-type-2"><span>Reservation</span> <i class="fa fa-calendar"></i></a>
             <div class="languages">
-                <a href="{{ url($current_page.'/fr') }}" class="ravis-btn btn-type-2 active"><span>Fr</span></a>
-                <a href="{{ url($current_page.'/en') }}" class="ravis-btn btn-type-2"><span>En</span></a>
-                <a href="{{ url($current_page.'/de') }}" class="ravis-btn btn-type-2"><span>De</span></a>
+                <a href="{{ url($current_page.'/fr') }}" class="ravis-btn btn-type-2 {{ App::getLocale() == 'fr' ? 'active' : '' }}"><span>Fr</span></a>
+                <a href="{{ url($current_page.'/en') }}" class="ravis-btn btn-type-2 {{ App::getLocale() == 'en' ? 'active' : '' }}"><span>En</span></a>
+                <a href="{{ url($current_page.'/de') }}" class="ravis-btn btn-type-2 {{ App::getLocale() == 'de' ? 'active' : '' }}"><span>De</span></a>
             </div>
 
         </div>

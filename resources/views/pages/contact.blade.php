@@ -20,8 +20,8 @@
 
             <div class="breadcrumb">
                 <ul class="list-inline">
-                    <li><a href="index.php">Accueil</a></li>
-                    <li class="current"><a href="#">Contactez-nous</a></li>
+                    <li><a href="/{{ App::getLocale() }}">Accueil</a></li>
+                    <li class="current"><a href="{{ url($current_page.'/'.App::getLocale()) }}">Contactez-nous</a></li>
                 </ul>
             </div>
         </div>
@@ -70,7 +70,7 @@
 
             <div class="b-sec clearfix">
                 <div class="contact-form col-md-6">
-                    <form id="contactForm" name="contactForm" action="{{ url('contact') }}" method="POST">
+                    <form name="contactForm" action="{{ url('contact') }}" method="POST">
                         {{ csrf_field() }}
                         <div class="field-row">
                             <input id="name" name="name" type="text" placeholder="Nom :">
@@ -106,9 +106,6 @@
             $('form[name="contactForm"]').validate({
 
                 rules:{
-                    error:{
-                        color:"red"
-                    },
                     name:{
                         required:true,
                         minlength:2

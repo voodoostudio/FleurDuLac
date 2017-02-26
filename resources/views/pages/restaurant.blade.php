@@ -19,8 +19,8 @@
 
             <div class="breadcrumb">
                 <ul class="list-inline">
-                    <li><a href="index.php">Accueil</a></li>
-                    <li class="current"><a href="#">Restaurants</a></li>
+                    <li><a href="/{{ App::getLocale() }}">Accueil</a></li>
+                    <li class="current"><a href="{{ url($current_page.'/'.App::getLocale()) }}">Restaurants</a></li>
                 </ul>
             </div>
         </div>

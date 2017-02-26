@@ -20,8 +20,8 @@
 
             <div class="breadcrumb">
                 <ul class="list-inline">
-                    <li><a href="index.php">Accueil</a></li>
-                    <li class="current"><a href="#">Evénements</a></li>
+                    <li><a href="/{{ App::getLocale() }}">Accueil</a></li>
+                    <li class="current"><a href="{{ url($current_page.'/'.App::getLocale()) }}">Evénements</a></li>
                 </ul>
             </div>
         </div>
@@ -84,22 +84,22 @@
                 <div class="content">
                     <div class="row">
                         <div class="col-xs-12 col-sm-4">
-                            <a href="pdf/forfaits_boissons_apritif.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>Forfait apéritif (PDF)</a><br><br>
+                            <a href="/pdf/forfaits_boissons_apritif.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>Forfait apéritif (PDF)</a><br><br>
                         </div>
                         <div class="col-xs-12 col-sm-4">
-                            <a href="pdf/forfaits_amuse_bouches.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>Forfait Amuse-Bouches  (PDF)</a><br><br>
+                            <a href="/pdf/forfaits_amuse_bouches.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>Forfait Amuse-Bouches  (PDF)</a><br><br>
                         </div>
                         <div class="col-xs-12 col-sm-4">
-                            <a href="pdf/amuse_bouches.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>Carte amuse bouche  (PDF)</a><br><br>
+                            <a href="/pdf/amuse_bouches.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>Carte amuse bouche  (PDF)</a><br><br>
                         </div>
                         <div class="col-xs-12 col-sm-4">
-                            <a href="pdf/forfait_boissons.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>Forfait boissons  (PDF)</a><br><br>
+                            <a href="/pdf/forfait_boissons.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>Forfait boissons  (PDF)</a><br><br>
                         </div>
                         <div class="col-xs-12 col-sm-4">
-                            <a href="pdf/carte_banquets.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>Carte banquet  (PDF)</a><br><br>
+                            <a href="/pdf/carte_banquets.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>Carte banquet  (PDF)</a><br><br>
                         </div>
                         <div class="col-xs-12 col-sm-4">
-                            <a href="pdf/menus_banquets.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>Menu banquet  (PDF)</a><br><br>
+                            <a href="/pdf/menus_banquets.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>Menu banquet  (PDF)</a><br><br>
                         </div>
                     </div>
 
@@ -128,10 +128,10 @@
                         <div class="col-xs-12 col-sm-6 col-sm-offset-3">
                             <div class="row">
                                 <div class="col-xs-12 col-sm-6">
-                                    <a href="pdf/forfait_mariage.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>Forfait Mariage (PDF)</a><br><br>
+                                    <a href="/pdf/forfait_mariage.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>Forfait Mariage (PDF)</a><br><br>
                                 </div>
                                 <div class="col-xs-12 col-sm-6">
-                                    <a href="pdf/cgv_mariage.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>CGV (PDF)</a>
+                                    <a href="/pdf/cgv_mariage.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>CGV (PDF)</a>
                                 </div>
                             </div>
                         </div>
