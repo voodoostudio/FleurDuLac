@@ -2,8 +2,6 @@
 
 namespace App\Http\Controllers;
 
-namespace App\Http\Controllers;
-
 use Illuminate\Http\Request;
 use Api\Http\Requests;
 use Illuminate\Support\Facades\Mail;
@@ -44,16 +42,17 @@ class PagesController extends Controller
             'message' => 'required',
         ]);
 
-        $data = array(
+        $data = [
             'name' => $request->name,
             'phone' => $request->phone,
             'email' => $request->email,
             'bodyMessage' => $request->message
-        );
+        ];
+
         Mail::send('emails.welcome', $data, function($message) use ($data){
+
             $message->from($data['email']);
             $message->to('dipasatdi@gmail.com');
-            $message->subject('Message to you');
         });
 
         Session::flash('success', 'Your email was send!');
