@@ -23,6 +23,7 @@
 <script type="text/javascript" src="/js/helper.js"></script>
 <script type="text/javascript" src="/js/imagesloaded.pkgd.min.js"></script>
 <script type="text/javascript" src="/js/isotope.pkgd.min.js"></script>
+<script type="text/javascript" src="/js/jquery.magnific-popup.min.js"></script>
 <script type="text/javascript" src="/js/template.js"></script>
 
 @elseif($current_page == 'contact')

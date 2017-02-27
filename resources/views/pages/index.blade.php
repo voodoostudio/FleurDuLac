@@ -3,7 +3,7 @@
 @section('title','La Fleur du Lac')
 
 @section('current_page')
-    <?php $current_page = ''?>
+    <?php $current_page = 'home'?>
 @endsection
 
 @section('content')
@@ -79,7 +79,7 @@
                 </div>
             </div>
             <div class="r-sec col-md-5">
-                <img src="/img/welcome.jpg" alt="Colosseum Hotel">
+                <img src="/img/welcome.jpg" alt="Fleur du Lac">
             </div>
         </div>
     </section>
@@ -96,7 +96,6 @@
                             <div class="sub-title">Un petit coin de paradis en Suisse</div>
                         </div>
                     </div>
-
                 </div>
             </div>
             <div class="row btn-box">
@@ -393,3 +392,4 @@
     <!-- End of Gallery -->
 
 @endsection
+

@@ -9,7 +9,7 @@
         <div class="r-sec col-xs-5 col-sm-6 col-md-9">
             <nav id="main-menu">
                 <ul class="list-inline">
-                    <li class="<?php if($current_page == '') {echo 'active';} ?>"><a href="/{{ App::getLocale() }}">{{ trans('lang.home') }}</a></li>
+                    <li class="<?php if($current_page == 'home') {echo 'active';} ?>"><a href="/{{ App::getLocale() }}">{{ trans('lang.home') }}</a></li>
                     <li class="<?php if($current_page == 'rooms') {echo 'active';} ?>"><a href="/rooms/{{ App::getLocale() }}">{{ trans('lang.room') }}</a></li>
                     <li class="<?php if($current_page == 'restaurant') {echo 'active';} ?>"><a href="/restaurant/{{ App::getLocale() }}">{{ trans('lang.restaurant') }}</a></li>
                     <li class="<?php if($current_page == 'bar_and_terrace') {echo 'active';} ?>"><a href="/bar_and_terrace/{{ App::getLocale() }}">{{ trans('lang.bar_and_terrace') }}</a></li>
