@@ -52,7 +52,7 @@ class PagesController extends Controller
         Mail::send('emails.welcome', $data, function($message) use ($data){
 
             $message->from($data['email']);
-            $message->to('dipasatdi@gmail.com');
+            $message->to(env('CONTACT_EMAIL'));
         });
 
         Session::flash('success', 'Your email was send!');
