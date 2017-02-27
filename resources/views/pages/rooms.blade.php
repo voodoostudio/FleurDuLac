@@ -18,8 +18,8 @@
             </div>
             <div class="breadcrumb">
                 <ul class="list-inline">
-                    <li><a href="/{{ App::getLocale() }}">Accueil</a></li>
-                    <li class="current"><a href="{{ url($current_page.'/'.App::getLocale()) }}">Chambres</a></li>
+                    <li><a href="{{ route('home.locale') }}">Accueil</a></li>
+                    <li class="current"><a href="{{ route('rooms.locale') }}">Chambres</a></li>
                 </ul>
             </div>
         </div>
