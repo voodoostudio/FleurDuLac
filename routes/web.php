@@ -15,7 +15,12 @@
     return view('welcome');
 });*/
 
-Route::group(['prefix' => LaravelLocalization::setLocale()], function(){
+Route::group(
+    [
+        'prefix' => LaravelLocalization::setLocale(),
+        'middleware' => [ 'localize' ] // Route translate middleware
+    ],
+    function(){
 
     Route::get('/', ['as' => 'home.locale', 'uses' => 'PagesController@getIndex']);
     Route::get('/rooms', ['as' => 'rooms.locale', 'uses' => 'PagesController@getRooms']);

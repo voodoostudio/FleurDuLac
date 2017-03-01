@@ -20,10 +20,12 @@
             </nav>
             <div id="main-menu-handle" class="ravis-btn btn-type-2"><i class="fa fa-bars"></i><i class="fa fa-close"></i></div><!-- Mobile Menu handle -->
             <a href="#" id="header-book-bow" class="ravis-btn btn-type-2"><span>Reservation</span> <i class="fa fa-calendar"></i></a>
-            <div class="languages">
-                <a href="{{ ($current_page == 'home')? 'fr' : url('fr/'.$current_page) }}" class="ravis-btn btn-type-2 {{ App::getLocale() == 'fr' ? 'active' : '' }}"><span>Fr</span></a>
-                <a href="{{ ($current_page == 'home')? 'en' : url('en/'.$current_page) }}" class="ravis-btn btn-type-2 {{ App::getLocale() == 'en' ? 'active' : '' }}"><span>En</span></a>
-                <a href="{{ ($current_page == 'home')? 'de' : url('de/'.$current_page) }}" class="ravis-btn btn-type-2 {{ App::getLocale() == 'de' ? 'active' : '' }}"><span>De</span></a>
+            <div id="languages" class="languages">
+                @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
+                        <a class="ravis-btn btn-type-2 {{ ($localeCode == App::getLocale()) ? 'active' : '' }}" rel="alternate" hreflang="{{$localeCode}}" href="{{ LaravelLocalization::getLocalizedURL($localeCode) }}">
+                            <span>{{ $properties['native'] }}</span>
+                        </a>
+                @endforeach
             </div>
 
         </div>
