@@ -18,12 +18,12 @@
 Route::group(['prefix' => LaravelLocalization::setLocale()], function(){
 
     Route::get('/', ['as' => 'home.locale', 'uses' => 'PagesController@getIndex']);
-    Route::get('rooms', ['as' => 'rooms.locale', 'uses' => 'PagesController@getRooms']);
-    Route::get('restaurant', ['as' => 'restaurant.locale', 'uses' => 'PagesController@getRestaurant']);
-    Route::get('bar_and_terrace', ['as' => 'bar_and_terrace.locale', 'uses' => 'PagesController@getBarAndTerrace']);
-    Route::get('events', ['as' => 'events.locale', 'uses' => 'PagesController@getEvents']);
-    Route::get('contact', ['as' => 'contact.locale', 'uses' => 'PagesController@getContact']);
-    Route::post('/contact/', 'PagesController@postContact');
+    Route::get('/rooms', ['as' => 'rooms.locale', 'uses' => 'PagesController@getRooms']);
+    Route::get('/restaurant', ['as' => 'restaurant.locale', 'uses' => 'PagesController@getRestaurant']);
+    Route::get('/bar_and_terrace', ['as' => 'bar_and_terrace.locale', 'uses' => 'PagesController@getBarAndTerrace']);
+    Route::get('/events', ['as' => 'events.locale', 'uses' => 'PagesController@getEvents']);
+    Route::get('/contact', ['as' => 'contact.locale', 'uses' => 'PagesController@getContact']);
+    Route::post('/contact', 'PagesController@postContact');
 
 });
 
