@@ -1,6 +1,6 @@
 @extends('main')
 
-@section('title','Restaurants')
+@section('title',trans('lang.restaurant'))
 
 @section('current_page')
     <?php $current_page = 'restaurant'?>
@@ -12,15 +12,15 @@
         <div class="inner-container container">
             <div class="ravis-title">
                 <div class="inner-box">
-                    <div class="title">Restaurants</div>
-                    <div class="sub-title">Un panorama unique pour un repas memorable</div>
+                    <div class="title">{{ trans('lang.restaurant') }}</div>
+                    <div class="sub-title">{{ trans('lang.sub_title_restaurant') }}</div>
                 </div>
             </div>
 
             <div class="breadcrumb">
                 <ul class="list-inline">
-                    <li><a href="{{ route('home.locale') }}">Accueil</a></li>
-                    <li class="current"><a href="{{ route('restaurant.locale') }}">Restaurants</a></li>
+                    <li><a href="{{ route('home.locale') }}">{{ trans('lang.home') }}</a></li>
+                    <li class="current"><a href="{{ route('restaurant.locale') }}">{{ trans('lang.restaurant') }}</a></li>
                 </ul>
             </div>
         </div>
@@ -32,17 +32,11 @@
         <div class="inner-container container">
             <div class="t-sec">
                 <div class="content">
-                    <p>L’hiver, le restaurant La Fleur du Lac vous accueille dans différentes ambiances.<br>
-                        La salle principale de 100 places, le Salon d’Or de 40 places.<br>
-                        Aux beaux jours, la véranda de 60 places et la terrasse de 40 places à fleur d’eau.</p>
-                    <p style="color: #d2bd7f; font: 30px/70px 'Great Vibes', Arial, Helvetica, sans-serif;">Envie de plats raffinés classiques revisités et de saveurs oubliées</p>
-                    <p>Dans la grande salle retro au plafond boisé style art déco, la baie vitrée s’ouvre sur le Lac comme un tableau.<br>
-                        Un décor permanent, idyllique, qui aiguise les sens et met en appétit.<br>
-                        Spécialités de poissons lacustres et de mer grillé ou en croute de sel et la fameuse entrecôte sauce Charlemagne sauront vous mettre l’eau à la bouche.</p>
-                    <p style="color: #d2bd7f; font: 30px/70px 'Great Vibes', Arial, Helvetica, sans-serif;">Un diner en amoureux, une réunion familiale, un repas d’entreprise</p>
-                    <p>Le Salon d’Or, pour une ambiance plus intime, privatisable pour les moments d’exception.<br>
-                        De l’apéritif dinatoire en petit comité, à la pièce montée des grandes réceptions.<br>
-                        Le professionnalisme de nos équipes rendra ces moments inoubliables.
+                    <p>{!! trans('lang.description_restaurant_1') !!}</p>
+                    <p style="color: #d2bd7f; font: 30px/70px 'Great Vibes', Arial, Helvetica, sans-serif;">{{ trans('lang.title_restaurant_1') }}</p>
+                    <p>{!! trans('lang.description_restaurant_2') !!}</p>
+                    <p style="color: #d2bd7f; font: 30px/70px 'Great Vibes', Arial, Helvetica, sans-serif;">{{ trans('lang.title_restaurant_2') }}</p>
+                    <p>{!! trans('lang.description_restaurant_3') !!}
                     </p>
                     <ul class="partners_list">
                         <li class="partner">

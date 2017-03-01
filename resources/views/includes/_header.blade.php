@@ -3,7 +3,7 @@
     <div class="inner-container container">
         <div class="l-sec col-xs-7 col-sm-6 col-md-3">
             <a href="{{ route('home.locale') }}" id="t-logo">
-                <img src="/img/logo.svg" alt="Hotel Fleur du Lac">
+                <img src="/img/logo.svg" alt="La Fleur du Lac">
             </a>
         </div>
         <div class="r-sec col-xs-5 col-sm-6 col-md-9">
@@ -19,7 +19,7 @@
                 </ul>
             </nav>
             <div id="main-menu-handle" class="ravis-btn btn-type-2"><i class="fa fa-bars"></i><i class="fa fa-close"></i></div><!-- Mobile Menu handle -->
-            <a href="#" id="header-book-bow" class="ravis-btn btn-type-2"><span>Reservation</span> <i class="fa fa-calendar"></i></a>
+            <a href="#" id="header-book-bow" class="ravis-btn btn-type-2"><span>{{ trans('lang.reservation') }}</span> <i class="fa fa-calendar"></i></a>
             <div id="languages" class="languages">
                 @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
                         <a class="ravis-btn btn-type-2 {{ ($localeCode == App::getLocale()) ? 'active' : '' }}" rel="alternate" hreflang="{{$localeCode}}" href="{{ LaravelLocalization::getLocalizedURL($localeCode) }}">

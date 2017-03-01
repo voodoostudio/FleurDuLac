@@ -1,6 +1,6 @@
 @extends('main')
 
-@section('title','Contact')
+@section('title',trans('lang.contact'))
 
 @section('current_page')
     <?php $current_page = 'contact'?>
@@ -13,15 +13,15 @@
         <div class="inner-container container">
             <div class="ravis-title">
                 <div class="inner-box">
-                    <div class="title">Contactez-nous</div>
-                    <div class="sub-title">Votre meilleur tarif garanti sur notre site Internet officiel</div>
+                    <div class="title">{{ trans('lang.title_contact') }}</div>
+                    <div class="sub-title">{{ trans('lang.sub_title_contact') }}</div>
                 </div>
             </div>
 
             <div class="breadcrumb">
                 <ul class="list-inline">
-                    <li><a href="{{ route('home.locale') }}">Accueil</a></li>
-                    <li class="current"><a href="{{ route('contact.locale') }}">Contactez-nous</a></li>
+                    <li><a href="{{ route('home.locale') }}">{{ trans('lang.home') }}</a></li>
+                    <li class="current"><a href="{{ route('contact.locale') }}">{{ trans('lang.title_contact') }}</a></li>
                 </ul>
             </div>
         </div>
@@ -33,9 +33,9 @@
         <div class="inner-container container">
             <div class="t-sec">
                 <div class="content">
-                    <p>Chers clients, savez-vous qu’il est toujours mieux de réserver son séjour par téléphone ou par courriel directement à l’hôtelier plutôt que de passer via des sites de réservation en ligne.</p>
-                    <p>Si vous réservez ainsi, auprès de nous, vous pouvez bénéficier d’un surclassement ou d’un apéritif offert.</p>
-                    <p>En évitant ces prestataires intermédiaires commissionnés, vous nous aidez à rénover et à améliorer notre établissement pour mieux vous recevoir, tout comme mieux rémunérer notre personnel à votre service ! </p>
+                    <p>{{ trans('lang.description_contact_1') }}</p>
+                    <p>{{ trans('lang.description_contact_2') }}</p>
+                    <p>{{ trans('lang.description_contact_3') }}</p>
                     <!--						Chers clients, Savez-vous qu’il est toujours mieux de réserver son séjour par téléphone ou par courriel directement à l’hôtelier plutôt que de passer via des sites de réservation en ligne comme Booking, Expedia, Venere… Sachez que ces sites de réservation en ligne prennent de 15 à 17% de commission ! Si vous réservez directement auprès de nous, vous pouvez bénéficier d’un surclassement ou d’un apéritif offert ! Il suffit de nous dire que vous préférez réserver directement avec nous plutôt que par Booking ou autres sites. En évitant de reverser ces énormes commissions à des prestataires intermédiaires inutiles, vous nous aidez à rénover et à améliorer nos établissements pour mieux vous recevoir, tout comme mieux rémunérer notre personnel à votre service !-->
                 </div>
 
@@ -73,19 +73,19 @@
                     <form name="contactForm" action="{{ route('contact.post') }}" method="POST">
                         {{ csrf_field() }}
                         <div class="field-row">
-                            <input id="name" name="name" type="text" placeholder="Nom :">
+                            <input id="name" name="name" type="text" placeholder="{{ trans('lang.name') }}">
                         </div>
                         <div class="field-row">
-                            <input id="phone" name="phone" type="text" placeholder="Téléphone :">
+                            <input id="phone" name="phone" type="text" placeholder="{{ trans('lang.phone') }}">
                         </div>
                         <div class="field-row">
-                            <input id="email" name="email" type="email" placeholder="Courriel :">
+                            <input id="email" name="email" type="email" placeholder="{{ trans('lang.e_mail') }}">
                         </div>
                         <div class="field-row">
-                            <textarea id="message" name="message" placeholder="Votre message"></textarea>
+                            <textarea id="message" name="message" placeholder="{{ trans('lang.your_message') }}"></textarea>
                         </div>
                         <div class="field-row">
-                            <input type="submit" value="Envoyer">
+                            <input type="submit" value="{{ trans('lang.send') }}">
                         </div>
                     </form>
                 </div>

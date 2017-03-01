@@ -3,7 +3,7 @@
     <div class="inner-container container">
         <div class="b-sec clearfix">
             <div class="copy-right">
-                Copyright 2017 © La Fleur du Lac - Tous droits réservés - Création et développement par voodoo studio.
+                {{ trans('lang.all_rights_reserved_footer') }}
             </div>
             <ul class="social-icons list-inline">
                 <li><a href="https://www.facebook.com/LaFleurduLac"><i class="fa fa-facebook"></i></a></li>

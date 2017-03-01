@@ -55,7 +55,7 @@ class PagesController extends Controller
             $message->to(env('CONTACT_EMAIL'));
         });
 
-        Session::flash('success', 'Your email was send!');
+        Session::flash('success', trans('lang.your_email_was_send'));
 
         return redirect()->route('contact.locale');
     }
