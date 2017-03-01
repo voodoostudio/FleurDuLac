@@ -51,12 +51,12 @@ class PagesController extends Controller
 
         Mail::send('emails.welcome', $data, function($message) use ($data){
 
-            $message->from($data['email']);
+            $message->from($data['email'],'Fleur-du-lac Contact form');
             $message->to(env('CONTACT_EMAIL'));
         });
 
         Session::flash('success', 'Your email was send!');
 
-        return redirect('/');
+        return redirect()->route('contact.locale');
     }
 }

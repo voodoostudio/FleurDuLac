@@ -28,7 +28,7 @@ Route::group(
     Route::get('/bar_and_terrace', ['as' => 'bar_and_terrace.locale', 'uses' => 'PagesController@getBarAndTerrace']);
     Route::get('/events', ['as' => 'events.locale', 'uses' => 'PagesController@getEvents']);
     Route::get('/contact', ['as' => 'contact.locale', 'uses' => 'PagesController@getContact']);
-    Route::post('/contact', 'PagesController@postContact');
+    Route::post('/contact', ['as' => 'contact.post','uses'=>'PagesController@postContact']);
 
 });
 

@@ -70,7 +70,7 @@
 
             <div class="b-sec clearfix">
                 <div class="contact-form col-md-6">
-                    <form name="contactForm" action="{{ url('contact') }}" method="POST">
+                    <form name="contactForm" action="{{ route('contact.post') }}" method="POST">
                         {{ csrf_field() }}
                         <div class="field-row">
                             <input id="name" name="name" type="text" placeholder="Nom :">
