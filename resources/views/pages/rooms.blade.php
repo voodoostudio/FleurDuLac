@@ -125,10 +125,10 @@
                                             14	Bulgarian
                                             15	Romanian
                                     -->
-                                    <input type="hidden" name="Language" value="1" />
+                                    <input type="hidden" name="Language" value="4" />
 
                                     <!-- PUT DATE AS VALUE (format must be dd.mm.yyyy) -->
-                                    <input type="text" id="tdate" name="tdate" value="01.01.2010" />
+                                    <input type="text" id="tdate" name="tdate" value="<?php echo date("d.m.Y"); ?>" />
 
                                     <!-- SELECT NIGHTS -->
                                     <select name="tnights">
