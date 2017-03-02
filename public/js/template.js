@@ -347,6 +347,10 @@ jQuery(document).ready(function () {
 		})
 	}
 
+	$('.alert button.close_btn').on('click', function () {
+		$(this).closest('.alert').fadeOut();
+	})
+
 });
 var mainHeader = jQuery("#main-header");
 jQuery(window).on('scroll', function () {

@@ -1,7 +1,8 @@
 @if(Session::has('success'))
 
     <div class="alert alert-success" role="alert">
-        <strong>{{ trans('lang.success') }}</strong> {{ Session::get('success') }}
+        <p><strong>{{ trans('lang.success') }}</strong> {{ Session::get('success') }}</p>
+        <button class="close_btn"><i class="fa fa-times" aria-hidden="true"></i></button>
     </div>
 
 @endif
@@ -15,6 +16,7 @@
                 <li>{{ $error }}</li>
             @endforeach
         </ul>
+        <button class="close_btn"><i class="fa fa-times" aria-hidden="true"></i></button>
     </div>
 
 @endif

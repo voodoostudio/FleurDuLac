@@ -4393,9 +4393,22 @@ a.thumbnail.active {
 
 .alert {
   padding: 15px;
-  margin-bottom: 20px;
   border: 1px solid transparent;
-  border-radius: 0; }
+  border-radius: 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+.alert button.close_btn {
+  position: absolute;
+  right: 12px;
+  top: 14px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+}
   .alert h4 {
     margin-top: 0;
     color: inherit; }
@@ -11693,6 +11706,7 @@ input[type="text"]:disabled, input[type="email"]:disabled, input[type="password"
     #main-footer .b-sec .copy-right {
       float: left;
       font-size: 12px;
+      padding: 1px 0 2px;
     }
       @media (max-width: 767px) {
         #main-footer .b-sec .copy-right {
@@ -11718,7 +11732,9 @@ input[type="text"]:disabled, input[type="email"]:disabled, input[type="password"
         -o-transition: all 0.3s ease;
         transition: all 0.3s ease;
         margin: 0 2px;
-        color: #d2bd7f; }
+        color: #d2bd7f;
+        font-size: 20px;
+      }
         #main-footer .b-sec .social-icons li a:hover {
           color: #FFFFFF; }
 
