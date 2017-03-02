@@ -1,6 +1,10 @@
 <?php
 return [
 
+
+
+
+
 //    HANDLER START
     'unauthenticated' => 'Unauthenticated.',
 //    HANDLER END
@@ -119,7 +123,7 @@ return [
     'description_img_index_5' => '',
     'description_img_index_6' => 'Restaurant "La Fleur du Lac" récemment rénové',
     'description_img_index_7' => 'Vue sur lac pour vos réceptions',
-    'description_img_index_8' => 'Jardin pieds dans l\'eau pour les grandes occasions',
+    'description_img_index_8' => 'Jardin pieds dans l’eau pour les grandes occasions',
     'description_img_index_9' => 'Notre lobby accueillant',
     'description_img_index_10' => 'Business corner pour vos rendez-vous pro',
     'description_img_index_11' => 'Bar Le Galion',
@@ -134,7 +138,7 @@ return [
     'description_img_index_20' => 'Mythique',
     'description_img_index_21' => 'Café des amis',
     'description_img_index_22' => 'Parking privé de 50 places',
-    'description_img_index_23' => 'Un sentier pittoresque, à fleur d\'eau jusqu\'à Lausanne',
+    'description_img_index_23' => 'Un sentier pittoresque, à fleur d’eau jusqu’à Lausanne',
     'description_img_index_24' => 'Sans jamais quitter les rives du Lac Léman',
     'description_img_index_25' => 'En passant par la conviviale plage de Préverenges, le Lac Léman comme terrain de jeu',
     'description_img_index_26' => 'A 15 minutes à pied de Morges, son histoire, sa culture et ses vignobles',
@@ -242,9 +246,9 @@ return [
     'name_menu_restaurant_16' => 'Mardi 8 novembre 2016',
     'description_menu_restaurant_61' => 'Pavé de lieu noir, sauce homardine <br> Pommes de terre écrasées à la fourchette <br> Légumes du jour',
     'name_menu_restaurant_17' => 'Mercredi 9 novembre 2016',
-    'description_menu_restaurant_62' => 'Papillote de carrelet, <br> beurre à l\'orange et julienne de légumes <br> Pommes vapeur & Légumes du jour',
+    'description_menu_restaurant_62' => 'Papillote de carrelet, <br> beurre à l’orange et julienne de légumes <br> Pommes vapeur & Légumes du jour',
     'name_menu_restaurant_18' => 'Jeudi 10 novembre 2016',
-    'description_menu_restaurant_63' => 'Gambas flambées au Pineau des Charentes <br> taglioline à l\'encre de seiche <br> Mousseline de Panais',
+    'description_menu_restaurant_63' => 'Gambas flambées au Pineau des Charentes <br> taglioline à l’encre de seiche <br> Mousseline de Panais',
     'name_menu_restaurant_19' => 'Vendredi 11 novembre 2016',
     'description_menu_restaurant_64' => 'Filet de truite, sauce tomate à la coriandre <br> Riz basmati au chou chinois <br> Légumes du jour',
     'name_menu_restaurant_20' => 'Dessert de la semaine',
@@ -296,33 +300,9 @@ return [
     'description_restaurant_room' => '1 Repas Menu Dégustation avec vin, 1 Repas à la carte au choix',
 //  ROOMS END
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//  E_MAIL START
+    'description_email_1' => 'Bonjour,',
+    'description_email_2' => 'Vous avez un nouveau message de <span style="color:#d1bc82;">:amount</span>, via le formulaire de contact du site Internet.',
+    'description_email_3' => 'Envoyé depuis',
+//  E_MAIL END
 ];

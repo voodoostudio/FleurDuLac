@@ -47,12 +47,12 @@
                             <table cellpadding="10">
                                 <tr>
                                     <td style="font-family: 'Josefin Sans', sans-serif; font-size:15px; color:#d1bc82;">
-                                        <span>Bonjour, </span>
+                                        <span>{{ trans('lang.description_email_1') }} </span>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td style="font-family: 'Josefin Sans', sans-serif; font-size:15px; color:#d9d9d9;">
-                                        <span>Vous avez un nouveau message de <span style="color:#d1bc82;">{{ $name }}</span>, via le formulaire de contact du site Internet.</span>
+                                        <span>{!! trans('lang.description_email_2', ['amount' => $name]) !!}</span>
                                     </td>
                                 </tr>
                                 <tr>
@@ -62,7 +62,7 @@
                                 </tr>
                                 <tr>
                                     <td style="font-size: 15px; font-family: 'Josefin Sans', sans-serif; color: #d9d9d9;">
-                                        Envoyé depuis <a href="mailto:{{ $email }}" style="text-decoration: none; color:#d1bc82">{{ $email }}</a>.
+                                        {{ trans('lang.description_email_3') }} <a href="mailto:{{ $email }}" style="text-decoration: none; color:#d1bc82">{{ $email }}</a>.
                                     </td>
                                 </tr>
                             </table>
