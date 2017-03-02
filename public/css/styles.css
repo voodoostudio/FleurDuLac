@@ -15120,3 +15120,13 @@ body.room-detials .room-desc .r-sec {
  .error{
     color:red;
  }
+
+
+ #formPicker {
+   visibility: hidden;
+   width: 0;
+   height: 0;
+ }
+ .book_room {
+   cursor: pointer;
+ }

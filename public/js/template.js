@@ -351,6 +351,13 @@ jQuery(document).ready(function () {
 		$(this).closest('.alert').fadeOut();
 	})
 
+    $('.book_room').on('click', function () {
+        // e.preventDefault();
+        var this_parent = $(this).closest('.reservation_btn_container');
+        $(this_parent).find('#formPicker input[type="submit"]').trigger( "click" );
+
+    });
+
 });
 var mainHeader = jQuery("#main-header");
 jQuery(window).on('scroll', function () {

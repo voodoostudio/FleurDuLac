@@ -33,7 +33,7 @@
                 <div class="title"><span>{{ trans('lang.title_room') }}</span></div>
             </div>
             <div class="desc">
-                {{ trans('lang.description_room') }}
+                {!! trans('lang.description_room') !!}
             </div>
 
             <div class="room-container clearfix">
@@ -101,7 +101,7 @@
                             <div class="reservation_btn_container">
                                 <!-- DO NOT CHANGE THIS PART -->
                                 @include('includes._ghix')
-                                <a href="#" class="more-info">{{ trans('lang.reservation_button_room') }}</a>
+                                <div class="book_room more-info">{{ trans('lang.reservation_button_room') }}</div>
                             </div>
                         </div>
                     </div>
@@ -173,7 +173,9 @@
                                 </ul>
                             </div>
                             <div class="reservation_btn_container">
-                                <a href="#" class="more-info">{{ trans('lang.reservation_button_room') }}</a>
+                                <!-- DO NOT CHANGE THIS PART -->
+                                @include('includes._ghix')
+                                <div class="book_room more-info">{{ trans('lang.reservation_button_room') }}</div>
                             </div>
                         </div>
                     </div>
@@ -245,7 +247,9 @@
                                 </ul>
                             </div>
                             <div class="reservation_btn_container">
-                                <a href="#" class="more-info">{{ trans('lang.reservation_button_room') }}</a>
+                                <!-- DO NOT CHANGE THIS PART -->
+                                @include('includes._ghix')
+                                <div class="book_room more-info">{{ trans('lang.reservation_button_room') }}</div>
                             </div>
                         </div>
                     </div>
@@ -289,7 +293,9 @@
                                 </ul>
                             </div>
                             <div class="reservation_btn_container">
-                                <a href="#" class="more-info">{{ trans('lang.reservation_button_room') }}</a>
+                                <!-- DO NOT CHANGE THIS PART -->
+                                @include('includes._ghix')
+                                <div class="book_room more-info">{{ trans('lang.reservation_button_room') }}</div>
                             </div>
                         </div>
                     </div>
