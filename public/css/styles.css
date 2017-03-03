@@ -10738,6 +10738,10 @@ input[type="text"]:disabled, input[type="email"]:disabled, input[type="password"
   }
   .languages a.ravis-btn {
     padding: 0 14px;
+    float: left;
+  }
+  .languages a.ravis-btn:nth-child(2) {
+    margin: 0 4px;
   }
   .languages a.ravis-btn.active {
     background: rgba(0, 0, 0, 0.5);
@@ -15120,7 +15124,6 @@ body.room-detials .room-desc .r-sec {
  .error{
     color:red;
  }
-
 
  #formPicker {
    visibility: hidden;
