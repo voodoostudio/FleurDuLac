@@ -54,7 +54,7 @@
                             <i class="fa fa-envelope"></i>
                         </div>
                         <div class="text">
-                            <a href="info:hotel@fleur-du-lac.ch" style="color: white">info@fleur-du-lac.ch</a>
+                            <a href="mailto:info@fleur-du-lac.ch" style="color: white">info@fleur-du-lac.ch</a>
                         </div>
                     </div>
                     <div class="contact-inf-box">
