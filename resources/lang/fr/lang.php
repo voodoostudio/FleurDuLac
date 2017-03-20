@@ -18,7 +18,7 @@ return [
 //  FOOTER END
 
 //  HEADER START
-    'home' => 'Accueill',
+    'home' => 'Accueil',
     'room' => 'Chambres',
     'restaurant' => 'Restaurants',
     'bar_and_terrace' => 'Bar et Terrasses',
@@ -240,7 +240,7 @@ return [
     'description_menu_restaurant_57' => 'Plateau de fromages',
     'description_menu_restaurant_58' => 'Gelée de Rhum et son écume de noix de coco',
     'name_menu_restaurant_14' => 'Entrée de la semaine :',
-    'description_menu_restaurant_59' => 'Saladine',
+    'description_menu_restaurant_59' => 'Saladine aux légumes croquants',
     'name_menu_restaurant_15' => 'Lundi 7 novembre 2016',
     'description_menu_restaurant_60' => 'Bœuf bourguignon <br>aux tagliatelles fraîches <br> Légumes du jour',
     'name_menu_restaurant_16' => 'Mardi 8 novembre 2016',
