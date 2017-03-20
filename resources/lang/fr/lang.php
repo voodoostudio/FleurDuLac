@@ -239,7 +239,7 @@ return [
     'description_menu_restaurant_56' => 'SURF’N TURF<br>Filet de Bœuf grille à la plancha et Homard rôti',
     'description_menu_restaurant_57' => 'Plateau de fromages',
     'description_menu_restaurant_58' => 'Gelée de Rhum et son écume de noix de coco',
-    'name_menu_restaurant_14' => 'Entrée de la semaine',
+    'name_menu_restaurant_14' => 'Entrée de la semainee',
     'description_menu_restaurant_59' => 'Saladine aux légumes croquants',
     'name_menu_restaurant_15' => 'Lundi 20 mars 2017',
     'description_menu_restaurant_60' => 'Emincé de bœuf, sauce au poivre <br> Risotto d’orge perlé et légumes ',
