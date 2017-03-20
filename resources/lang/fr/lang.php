@@ -18,7 +18,7 @@ return [
 //  FOOTER END
 
 //  HEADER START
-    'home' => 'Accueil',
+    'home' => 'Accueill',
     'room' => 'Chambres',
     'restaurant' => 'Restaurants',
     'bar_and_terrace' => 'Bar et Terrasses',
