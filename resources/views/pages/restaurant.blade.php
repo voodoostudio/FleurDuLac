@@ -50,7 +50,7 @@
                             </a>
                         </li>
                         <li class="partner">
-                            <a href="https://www.lafourchette.ch/restaurant/la-fleur-du-lac/282921" target="_blank">
+                            <a href="<?php if(Lang::locale() == 'fr') {echo 'https://module.lafourchette.com/fr_CH/module/282921-b80fb';} else {echo'https://module.lafourchette.com/en_GB/module/282921-b80fb';} ?> " target="_blank">
                                 <img src="/img/partners/lafourchette.png" alt="Passeport Gourmand">
                             </a>
                         </li>
