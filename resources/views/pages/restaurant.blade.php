@@ -649,13 +649,13 @@
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">Entrecôte de bœuf</div>
-                                        <div class="price">200g / 300g/ 400g : 42.- / 48.- / 54.-</div>
+                                        <div class="price">200gr / 300gr/ 400gr : 42.- / 48.- / 54.-</div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">Filet de bœuf</div>
-                                        <div class="price">200g 47.-</div>
+                                        <div class="price">200gr : 47.-</div>
                                     </div>
                                     <p class="sub_title">Sauce au choix :  Charlemagne, Moutarde, Morilles Saladine et frites maison
                                     </p>
