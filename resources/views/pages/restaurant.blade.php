@@ -60,24 +60,24 @@
             <div class="b-sec clearfix">
                 <div class="col-md-4 tab-container">
                     <a href="#menu-1" class="tab-box active">
-                        <span class="title">{{ trans('lang.title_menu_restaurant_1') }}</span>
-                        <span class="sub-title">{{ trans('lang.sub_title_menu_restaurant_1') }}</span>
+                        <span class="title">Carte</span>
+                        <span class="sub-title">Sens en éveil</span>
                     </a>
                     <a href="#menu-2" class="tab-box">
-                        <span class="title">{{ trans('lang.title_menu_restaurant_2') }}</span>
-                        <span class="sub-title">{{ trans('lang.sub_title_menu_restaurant_2') }}</span>
+                        <span class="title">Suggestions de Printemps</span>
+                        <span class="sub-title">Tradition revisitée</span>
                     </a>
                     <a href="#menu-3" class="tab-box">
-                        <span class="title">{{ trans('lang.title_menu_restaurant_3') }}</span>
-                        <span class="sub-title">{{ trans('lang.sub_title_menu_restaurant_3') }}</span>
+                        <span class="title">Menus</span>
+                        <span class="sub-title">Accords parfaits</span>
                     </a>
                     <a href="#menu-4" class="tab-box">
-                        <span class="title">{{ trans('lang.title_menu_restaurant_4') }}</span>
-                        <span class="sub-title">{{ trans('lang.sub_title_menu_restaurant_4') }}</span>
+                        <span class="title">Plats du jour</span>
+                        <span class="sub-title">Fraicheur quotidienne</span>
                     </a>
                     <a href="#menu-5" class="tab-box">
-                        <span class="title">{{ trans('lang.title_menu_restaurant_5') }}</span>
-                        <span class="sub-title">{{ trans('lang.sub_title_menu_restaurant_5') }}</span>
+                        <span class="title">Café des amis</span>
+                        <span class="sub-title">Detente entre lac et montagne</span>
                     </a>
                 </div>
                 <div class="col-md-8 tab-content" data-bg-img="/img/menu-tabs/1.jpg">
@@ -85,35 +85,35 @@
                         <div class="menu-list col-xs-12">
                             <ul>
                                 <li>
-                                    <div class="title main_title">{{ trans('lang.name_menu_restaurant_1') }}</div>
+                                    <div class="title main_title">Entrées</div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">{{ trans('lang.description_menu_restaurant_1') }}</div>
+                                        <div class="title">Salade de foies de volaille, déglacés au vinaigre de Xérès et pignons de pin grillés</div>
                                         <div class="price">19.-</div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">{{ trans('lang.description_menu_restaurant_2') }}</div>
+                                        <div class="title">Tartare de bœuf coupé au couteau</div>
                                         <div class="price">entrée / plat : 21.- / 42.-</div>
                                     </div>
                                     <div class="icns_block">
                                         <img src="/img/gluten_free_1.svg" alt="gluten free">
                                     </div>
                                 </li>
+                                {{--<li>--}}
+                                    {{--<div class="menu_item">--}}
+                                        {{--<div class="title">Chaud- froid de langoustines aux saveurs Thaï</div>--}}
+                                        {{--<div class="price">19.-</div>--}}
+                                    {{--</div>--}}
+                                    {{--<div class="icns_block">--}}
+                                        {{--<img src="/img/gluten_free_1.svg" alt="gluten free">--}}
+                                    {{--</div>--}}
+                                {{--</li>--}}
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">{{ trans('lang.description_menu_restaurant_3') }}</div>
-                                        <div class="price">19.-</div>
-                                    </div>
-                                    <div class="icns_block">
-                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">{{ trans('lang.description_menu_restaurant_4') }}</div>
+                                        <div class="title">Bouquet de mesclun aux légumes croquants</div>
                                         <div class="price">9.-</div>
                                     </div>
                                     <div class="icns_block">
@@ -123,7 +123,7 @@
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">{{ trans('lang.description_menu_restaurant_5') }}</div>
+                                        <div class="title">Saladine</div>
                                         <div class="price">6.-</div>
                                     </div>
                                     <div class="icns_block">
@@ -133,19 +133,19 @@
                                 </li>
                                 {{--<li>--}}
                                     {{--<div class="menu_item">--}}
-                                        {{--<div class="title">{{ trans('lang.description_menu_restaurant_6') }}</div>--}}
+                                        {{--<div class="title">Tomme vaudoise croustillante au jambon Penthaz</div>--}}
                                         {{--<div class="price">22.-</div>--}}
                                     {{--</div>--}}
                                 {{--</li>--}}
                                 {{--<li>--}}
                                     {{--<div class="menu_item">--}}
-                                        {{--<div class="title">{{ trans('lang.description_menu_restaurant_7') }}</div>--}}
+                                        {{--<div class="title">Salade gourmande : foie gras, saumon fumé, œufs de caille, magret fumé</div>--}}
                                         {{--<div class="price">27.-</div>--}}
                                     {{--</div>--}}
                                 {{--</li>--}}
                                 {{--<li>--}}
                                     {{--<div class="menu_item">--}}
-                                        {{--<div class="title">{{ trans('lang.description_menu_restaurant_8') }}</div>--}}
+                                        {{--<div class="title">Bouquet de mesclun aux légumes croquants</div>--}}
                                         {{--<div class="price">9.-</div>--}}
                                     {{--</div>--}}
                                     {{--<div class="icns_block">--}}
@@ -155,7 +155,7 @@
                                 {{--</li>--}}
                                 {{--<li>--}}
                                     {{--<div class="menu_item">--}}
-                                        {{--<div class="title">{{ trans('lang.description_menu_restaurant_9') }}</div>--}}
+                                        {{--<div class="title">Saladine</div>--}}
                                         {{--<div class="price">9.-</div>--}}
                                     {{--</div>--}}
                                     {{--<div class="icns_block">--}}
@@ -164,23 +164,23 @@
                                     {{--</div>--}}
                                 {{--</li>--}}
                                 <li>
-                                    <div class="title main_title">{{ trans('lang.name_menu_restaurant_2') }}</div>
+                                    <div class="title main_title">Du lac à la mer...</div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">{{ trans('lang.description_menu_restaurant_10') }}</div>
+                                        <div class="title">Filets de perches meunière, pommes frites ou vapeur et légumes</div>
                                         <div class="price">entrée / plat : 22.- / 42.-</div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">{{ trans('lang.description_menu_restaurant_11') }}</div>
+                                        <div class="title">Assiette du pêcheur - féra, langoustine, rouget – aux saveurs gingembre et coco,légumes de saison et riz vénéré</div>
                                         <div class="price">48.-</div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">{{ trans('lang.description_menu_restaurant_12') }}</div>
+                                        <div class="title">Pavé de sandre au beurre surprise, écrasé de pommes de terre aux olives et légumes</div>
                                         <div class="price">44.-</div>
                                     </div>
                                     <div class="icns_block">
@@ -189,7 +189,7 @@
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">{{ trans('lang.description_menu_restaurant_13') }}</div>
+                                        <div class="title">Rougets barbet en croûte de sésame, méli-mélo de légumes et riz vénéré</div>
                                         <div class="price">45.-</div>
                                     </div>
                                     <div class="icns_block">
@@ -198,7 +198,7 @@
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">{{ trans('lang.description_menu_restaurant_14') }}</div>
+                                        <div class="title">Loup de mer sauvage en croûte de sel, beurre citronné et déclinaison de légumes de saison, pommes vapeur (à commander 24 heures à l’avance)</div>
                                         <div class="price">52.-</div>
                                     </div>
                                     <div class="icns_block">
@@ -207,54 +207,54 @@
                                 </li>
                                 {{--<li>--}}
                                     {{--<div class="menu_item">--}}
-                                        {{--<div class="title">{{ trans('lang.description_menu_restaurant_15') }}</div>--}}
+                                        {{--<div class="title">Bar entier en croûte de sel pour 2 personnes, légumes de saison</div>--}}
                                         {{--<div class="price">58.-/pers</div>--}}
                                     {{--</div>--}}
                                 {{--</li>--}}
                                 <li>
-                                    <div class="title main_title">{{ trans('lang.name_menu_restaurant_3') }}</div>
+                                    <div class="title main_title">De la terre...</div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">{{ trans('lang.description_menu_restaurant_16') }}</div>
-                                        <div class="price">200g / 300g/ 400g : 42.- / 48.- / 54.-</div>
+                                        <div class="title">Entrecôte de bœuf</div>
+                                        <div class="price">200gr / 300gr/ 400gr : 42.- / 48.- / 54.-</div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">{{ trans('lang.description_menu_restaurant_17') }}</div>
-                                        <div class="price">200g 47.-</div>
+                                        <div class="title">Filet de bœuf</div>
+                                        <div class="price">200gr : 47.-</div>
                                     </div>
-                                    <p class="sub_title">{{ trans('lang.additional_description_menu_restaurant_1') }}</p>
-                                    <p class="sub_title">Frites fraîches au parmesan et à la truffe + Chf 8.-</p>
+                                    <p class="sub_title">Sauce au choix :  Charlemagne, Moutarde, Morilles, Pommes frites maison et légumes poêlés</p>
+                                    {{--<p class="sub_title">Frites fraîches au parmesan et à la truffe + Chf 8.-</p>--}}
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">{{ trans('lang.description_menu_restaurant_18') }}</div>
+                                        <div class="title">Filet de canard laqué au miel et poivre de Sichuan, riz vénéré aux légumes</div>
                                         <div class="price">42.-</div>
                                     </div>
                                 </li>
+                                {{--<li>--}}
+                                    {{--<div class="menu_item">--}}
+                                        {{--<div class="title">Carré d’agneau grillé aux herbes, jardinière de légumes et gratin dauphinois</div>--}}
+                                        {{--<div class="price">45.-</div>--}}
+                                    {{--</div>--}}
+                                {{--</li>--}}
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">{{ trans('lang.description_menu_restaurant_19') }}</div>
-                                        <div class="price">45.-</div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">{{ trans('lang.description_menu_restaurant_20') }}</div>
+                                        <div class="title">Ballotine de pintade aux morilles, écrasé pommes de terre aux olives</div>
                                         <div class="price">39.-</div>
                                     </div>
                                 </li>
+                                {{--<li>--}}
+                                    {{--<p>Provenance de nos viandes : bœuf - Suisse/ veau - Suisse - Hollande / volaille - Suisse – France</p>--}}
+                                {{--</li>--}}
                                 <li>
-                                    <p>{{ trans('lang.additional_description_menu_restaurant_2') }}</p>
-                                </li>
-                                <li>
-                                    <div class="title main_title">{{ trans('lang.name_menu_restaurant_4') }}</div>
+                                    <div class="title main_title">Fromages</div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">{{ trans('lang.description_menu_restaurant_21') }}</div>
+                                        <div class="title">Assiette de fromages du pays : tomme vaudoise, chèvre, gruyère</div>
                                         <div class="price">10.-</div>
                                     </div>
                                     <div class="icns_block">
@@ -262,182 +262,29 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="title main_title">{{ trans('lang.name_menu_restaurant_5') }}</div>
+                                    <div class="title main_title">Desserts</div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">{{ trans('lang.description_menu_restaurant_22') }}</div>
+                                        <div class="title">Moelleux au chocolat et son sorbet maison</div>
                                         <div class="price">15.-</div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">{{ trans('lang.description_menu_restaurant_23') }}</div>
+                                        <div class="title">Mille-feuille « La Fleur du Lac » aux fraises et son sorbet maison</div>
                                         <div class="price">14.-</div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">{{ trans('lang.description_menu_restaurant_24') }}</div>
+                                        <div class="title">Corolle exotique aux fruits frais et son sorbet maison</div>
                                         <div class="price">13.-</div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">{{ trans('lang.description_menu_restaurant_25') }}</div>
-                                        <div class="price">13.-</div>
-                                    </div>
-                                    <div class="icns_block">
-                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">{{ trans('lang.description_menu_restaurant_26') }}</div>
-                                        <div class="price">15.-</div>
-                                    </div>
-                                </li>
-                                {{--<li>--}}
-                                    {{--<div class="menu_item">--}}
-                                        {{--<div class="title">{{ trans('lang.description_menu_restaurant_27') }}</div>--}}
-                                        {{--<div class="price">13.-</div>--}}
-                                    {{--</div>--}}
-                                {{--</li>--}}
-                            </ul>
-
-                            <p style="margin-top: 20px">Chers Clients, Nous travaillons avec des produits frais et de saison issus du terroir, de ce fait, nos menus sont susceptibles de changer en fonction des arrivages. </p>
-                            <p>Provenance de nos viandes</p>
-                            <p>Bœuf : Suisse</p>
-                            <p>Canard : France</p>
-                            <p>Agneau : Irlande</p>
-                            <p>Pintade : France</p>
-                            <div class="icons_legend">
-                                <div>
-                                    <img src="/img/vegetarian_1.svg" alt="vegetarian">
-                                    <span>{{ trans('lang.additional_description_menu_restaurant_3') }}</span>
-                                </div>
-                                <div>
-                                    <img src="/img/gluten_free_1.svg" alt="gluten free">
-                                    <span>{{ trans('lang.additional_description_menu_restaurant_4') }}</span>
-                                </div>
-                            </div>
-                            <p class="currency_explanation">{{ trans('lang.additional_description_menu_restaurant') }}</p>
-                        </div>
-                    </div>
-                    <div class="tab-pane fadeInLeft clearfix" id="menu-2" data-img-name="/img/menu-tabs/1.jpg">
-                        <div class="menu-list col-xs-12">
-                            <ul>
-                                {{--<li class="menu_block">--}}
-                                    {{--<div class="title main_title">{{ trans('lang.name_menu_restaurant_6') }}</div>--}}
-                                    {{--<div class="price main_price">82.-</div>--}}
-                                    {{--<p>{{ trans('lang.description_menu_restaurant_28') }}--}}
-                                        {{--<br><span>*</span><br>--}}
-                                        {{--{{ trans('lang.description_menu_restaurant_29') }}--}}
-                                        {{--<br><span>*</span><br>--}}
-                                        {{--{{ trans('lang.description_menu_restaurant_30') }}</p>--}}
-                                {{--</li>--}}
-                                <li>
-                                    <div class="title main_title">{{ trans('lang.name_menu_restaurant_7') }}</div>
-                                    <div class="menu_item">
-                                        <div class="title"> {{ trans('lang.description_menu_restaurant_31') }}</div>
-                                        <div class="price">19.-</div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title"> {{ trans('lang.description_menu_restaurant_32') }}</div>
-                                        <div class="price">19.-</div>
-                                    </div>
-                                    <div class="icns_block">
-                                        <img src="/img/vegetarian_1.svg" alt="vegetarian">
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title"> {{ trans('lang.description_menu_restaurant_33') }}</div>
-                                        <div class="price">entrée / plat : 17.- / 28.-</div>
-                                    </div>
-                                    <div class="icns_block">
-                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title"> {{ trans('lang.description_menu_restaurant_34') }}</div>
-                                        <div class="price">24.-</div>
-                                    </div>
-                                    <div class="icns_block">
-                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
-                                    </div>
-                                </li>
-                                {{--<li>--}}
-                                    {{--<div class="menu_item">--}}
-                                        {{--<div class="title"> {{ trans('lang.description_menu_restaurant_35') }}</div>--}}
-                                        {{--<div class="price">23.-</div>--}}
-                                    {{--</div>--}}
-                                {{--</li>--}}
-                                <li>
-                                    <div class="title main_title">{{ trans('lang.name_menu_restaurant_8') }}</div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">{{ trans('lang.description_menu_restaurant_36') }}</div>
-                                        <div class="price">39.-</div>
-                                    </div>
-                                    <div class="icns_block">
-                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
-                                    </div>
-{{--                                    <p>{{ trans('lang.additional_description_menu_restaurant_5') }}</p>--}}
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">{{ trans('lang.description_menu_restaurant_37') }}</div>
-                                        <div class="price">28.-</div>
-                                    </div>
-                                    <p>Frites fraîches au parmesan et à la truffe + Chf 8.-</p>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">Filet de Saint-Pierre, jus de chorizo, riz vénéré comme une paëlla</div>
-                                        <div class="price">44.-</div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">Tagliatelles aux gambas et pistou de tomates séchées</div>
-                                        <div class="price">29.-</div>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <div class="title main_title">Petits plats en plus</div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">Frites fraîches au parmesan et à la truffe</div>
-                                        <div class="price">12.-</div>
-                                    </div>
-                                    <div class="icns_block">
-                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
-                                        <img src="/img/vegetarian_1.svg" alt="vegetarian">
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">Cassolette de légumes printaniers</div>
-                                        <div class="price">entrée / plat : 12.- / 24.-</div>
-                                    </div>
-                                    <div class="icns_block">
-                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
-                                        <img src="/img/vegetarian_1.svg" alt="vegetarian">
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="title main_title">{{ trans('lang.name_menu_restaurant_9') }}</div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">{{ trans('lang.description_menu_restaurant_38') }}</div>
+                                        <div class="title">Pana cotta au citron vert et son coulis à la Mara des bois</div>
                                         <div class="price">13.-</div>
                                     </div>
                                     <div class="icns_block">
@@ -455,142 +302,333 @@
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Tiramisu façon « Bounty »</div>
+                                        <div class="title">Tiramisu façon « Bounty » </div>
                                         <div class="price">13.-</div>
                                     </div>
                                 </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">Palette de sorbets maison</div>
+                                        <div class="price">13.-</div>
+                                    </div>
+                                    <div class="icns_block">
+                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">Café gourmand au gré de la pâtissière</div>
+                                        <div class="price">15.-</div>
+                                    </div>
+                                </li>
+                                {{--<li>--}}
+                                    {{--<div class="menu_item">--}}
+                                        {{--<div class="title">Café gourmand</div>--}}
+                                        {{--<div class="price">13.-</div>--}}
+                                    {{--</div>--}}
+                                {{--</li>--}}
                             </ul>
-                            <p class="currency_explanation">{{ trans('lang.additional_description_menu_restaurant') }}</p>
+
+                            <p style="margin-top: 20px; text-align: center">Chers Clients,<br>Nous travaillons avec des produits frais et de saison issus du terroir, de ce fait, nos menus sont susceptibles de changer en fonction des arrivages.</p>
+                            <p style="text-align: center">Provenance de nos viandes</p>
+                            <p style="text-align: center">Bœuf  : Suisse</p>
+                            <p style="text-align: center">Canard : France</p>
+                            <p style="text-align: center">Agneau : Irlande</p>
+                            <p style="text-align: center">Pintade : France</p>
+                            <div class="icons_legend">
+                                <div>
+                                    <img src="/img/gluten_free_1.svg" alt="gluten free">
+                                    <span>Sans gluten</span>
+                                </div>
+                                <div>
+                                    <img src="/img/vegetarian_1.svg" alt="vegetarian">
+                                    <span>Vegetarien</span>
+                                </div>
+                            </div>
+                            <p class="currency_explanation">Nos prix sont en francs suisses avec TVA à 8%</p>
+                        </div>
+                    </div>
+                    <div class="tab-pane fadeInLeft clearfix" id="menu-2" data-img-name="/img/menu-tabs/1.jpg">
+                        <div class="menu-list col-xs-12">
+                            <ul>
+                                {{--<li class="menu_block">--}}
+                                    {{--<div class="title main_title">Menu TOUT FEU TOUT FLAMME</div>--}}
+                                    {{--<div class="price main_price">82.-</div>--}}
+                                    {{--<p>Cappuccino de butternut--}}
+                                        {{--<br><span>*</span><br>--}}
+                                        {{--Boeuf Voronoff--}}
+                                        {{--<br><span>*</span><br>--}}
+                                        {{--Crêpe Suzette flambée à la liqueur d’orange</p>--}}
+                                {{--</li>--}}
+                                <li>
+                                    <div class="title main_title">Entrées</div>
+                                    <div class="menu_item">
+                                        <div class="title"> Langoustines et noix de Saint-Jacques sautées sur lit de Pak Choï</div>
+                                        <div class="price">19.-</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title"> Poêlée d’asperges vertes aux morilles</div>
+                                        <div class="price">19.-</div>
+                                    </div>
+                                    <div class="icns_block">
+                                        <img src="/img/vegetarian_1.svg" alt="vegetarian">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title"> Filet de thon juste mariné à la niçoise et son sorbet poivron</div>
+                                        <div class="price">entrée / plat : 17.- / 28.-</div>
+                                    </div>
+                                    <div class="icns_block">
+                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">Cannelloni de saumon et crabe épicé au wasabi</div>
+                                        <div class="price">24.-</div>
+                                    </div>
+                                    <div class="icns_block">
+                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
+                                    </div>
+                                </li>
+                                {{--<li>--}}
+                                    {{--<div class="menu_item">--}}
+                                        {{--<div class="title"> Feuilleté aux escargots de Bourgogne en fricassée au pinot noir de Morges et 23.- sa tombée de poireaux légèrement crémée</div>--}}
+                                        {{--<div class="price">23.-</div>--}}
+                                    {{--</div>--}}
+                                {{--</li>--}}
+                                <li>
+                                    <div class="title main_title">Plats</div>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">Filet de Féra du Léman dorée sur peau, méli-mélo de légumes et pommes vapeur</div>
+                                        <div class="price">39.-</div>
+                                    </div>
+                                    <div class="icns_block">
+                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
+                                    </div>
+{{--                                    <p>Filet de bœuf grillé à la plancha et homard rôti</p>--}}
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">Hamburger « La Fleur du Lac », duo bœuf et gambas <br>
+                                            Au choix : frites maison natures ou au parmesan et aromatisées à l’huile de truffe
+                                        </div>
+                                        <div class="price">32.-</div>
+                                    </div>
+                                    {{--<p>Frites fraîches au parmesan et à la truffe + Chf 8.-</p>--}}
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">Filet de Saint-Pierre, jus de chorizo, riz vénéré aux légumes</div>
+                                        <div class="price">44.-</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">Tagliatelles aux gambas et pistou de tomates séchées</div>
+                                        <div class="price">29.-</div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="title main_title">Petits plats en plus</div>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">Frites fraîches au parmesan et aromatisées à l’huile de truffe</div>
+                                        <div class="price">10.-</div>
+                                    </div>
+                                    <div class="icns_block">
+                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
+                                        <img src="/img/vegetarian_1.svg" alt="vegetarian">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">Assiette de légumes printaniers agrémentée de morilles, asperges vertes et purée de pommes de terre aux olives</div>
+                                        <div class="price">entrée / plat : 12.- / 24.-</div>
+                                    </div>
+                                    <div class="icns_block">
+                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
+                                        <img src="/img/vegetarian_1.svg" alt="vegetarian">
+                                    </div>
+                                </li>
+                                {{--<li>--}}
+                                    {{--<div class="title main_title">Dessert</div>--}}
+                                {{--</li>--}}
+                                {{--<li>--}}
+                                    {{--<div class="menu_item">--}}
+                                        {{--<div class="title">Pana cotta au citron vert et son coulis à la Mara des bois</div>--}}
+                                        {{--<div class="price">13.-</div>--}}
+                                    {{--</div>--}}
+                                    {{--<div class="icns_block">--}}
+                                        {{--<img src="/img/gluten_free_1.svg" alt="gluten free">--}}
+                                    {{--</div>--}}
+                                {{--</li>--}}
+                                {{--<li>--}}
+                                    {{--<div class="menu_item">--}}
+                                        {{--<div class="title">Ile flottante à la banane caramélisée</div>--}}
+                                        {{--<div class="price">13.-</div>--}}
+                                    {{--</div>--}}
+                                    {{--<div class="icns_block">--}}
+                                        {{--<img src="/img/gluten_free_1.svg" alt="gluten free">--}}
+                                    {{--</div>--}}
+                                {{--</li>--}}
+                                {{--<li>--}}
+                                    {{--<div class="menu_item">--}}
+                                        {{--<div class="title">Tiramisu façon « Bounty »</div>--}}
+                                        {{--<div class="price">13.-</div>--}}
+                                    {{--</div>--}}
+                                {{--</li>--}}
+
+                                <div class="icons_legend">
+                                    <div>
+                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
+                                        <span>Sans gluten</span>
+                                    </div>
+                                    <div>
+                                        <img src="/img/vegetarian_1.svg" alt="vegetarian">
+                                        <span>Végétarien</span>
+                                    </div>
+                                </div>
+
+                            </ul>
+                            <p class="currency_explanation">Nos prix sont en francs suisses avec TVA à 8%</p>
                         </div>
                     </div>
                     <div class="tab-pane fadeInLeft clearfix" id="menu-3" data-img-name="/img/menu-tabs/1.jpg">
                         <div class="menu-list col-xs-12">
                             <ul>
                                 <li class="menu_block">
-                                    <div class="title main_title">{{ trans('lang.name_menu_restaurant_11') }}</div>
+                                    <div class="title main_title">Menu du Pêcheur</div>
                                     <div class="price main_price">68.-</div>
-                                    <p>{{ trans('lang.description_menu_restaurant_42') }}
-                                        <br><span><i>{{ trans('lang.ou') }}</i></span><br>
-                                        {{ trans('lang.description_menu_restaurant_43') }}
+                                    <p>Langoustines et noix de Saint-Jacques sur lit de Pak Choï
+                                        <br><span><i>ou</i></span><br>
+                                        Filets de perches meunière
                                         <br><span>*</span><br>
-                                        {{ trans('lang.description_menu_restaurant_44') }}
-                                        <br><span><i>{{ trans('lang.ou') }}</i></span><br>
-                                        {{ trans('lang.description_menu_restaurant_45') }}
+                                        Assiette du pêcheur aux saveurs gingembre - coco et riz vénéré et légumes de saison
+                                        <br><span><i>ou</i></span><br>
+                                        Pavé de sandre au beurre surprise et son écrasé de pommes de terre aux olives
                                         <br><span>*</span><br>
-                                        {{ trans('lang.description_menu_restaurant_46') }}
-                                        <br><span><i>{{ trans('lang.ou') }}</i></span><br>
-                                        {{ trans('lang.description_menu_restaurant_47') }}
+                                        Corolle exotique aux fruits frais et son sorbet maison
+                                        <br><span><i>ou</i></span><br>
+                                        Moelleux au chocolat et son sorbet maison
                                     </p>
                                 </li>
                                 <li class="menu_block">
-                                    <div class="title main_title">{{ trans('lang.name_menu_restaurant_12') }}</div>
+                                    <div class="title main_title">Menu Charlemagne</div>
                                     <div class="price main_price">54.-</div>
-                                    <p>{{ trans('lang.description_menu_restaurant_48') }}
+                                    <p>Bouquet de mesclun et légumes croquants
                                         <br><span>*</span><br>
-                                        {{ trans('lang.description_menu_restaurant_49') }}
+                                        Entrecôte de bœuf 200gr, frites maison et sauce au choix
                                         <br><span>*</span><br>
-                                        {{ trans('lang.description_menu_restaurant_50') }}</p>
+                                        Mille-feuille « La Fleur du Lac » aux fraises et son sorbet maison</p>
                                 </li>
                                 <li class="menu_block">
-                                    <div class="title main_title">{{ trans('lang.name_menu_restaurant_10') }}</div>
+                                    <div class="title main_title">Menu Enfant</div>
                                     <div class="price main_price">22.-</div>
-                                    <p>{{ trans('lang.description_menu_restaurant_39') }}
-                                        <br><span><i>{{ trans('lang.ou') }}</i></span><br>
-                                        {{ trans('lang.description_menu_restaurant_40') }}
+                                    <p>Tagliatelles à la bolognaise
+                                        <br><span><i>ou</i></span><br>
+                                        Nuggets maison et frites fraîches
                                         <br><span>*</span><br>
-                                        {{ trans('lang.description_menu_restaurant_41') }}</p>
+                                        Deux boules de glace</p>
                                 </li>
                                 <li class="menu_block">
-                                    <div class="title main_title">{{ trans('lang.name_menu_restaurant_13') }}</div>
-                                    <div class="title center_title">{{ trans('lang.description_menu_restaurant_51') }}</div>
+                                    <div class="title main_title">Menu Printanier du Chef</div>
+                                    <div class="title center_title">Dégustation de 6 mets</div>
                                     <div class="price main_price">98.-</div>
-                                    <div class="title center_title">{{ trans('lang.description_menu_restaurant_52') }}</div>
+                                    <div class="title center_title"> Dégustation avec un verre de vin par met</div>
                                     <div class="price main_price">132.-</div>
-                                    <p>{{ trans('lang.description_menu_restaurant_53') }}
+                                    <p>Poêlée d’asperges vertes
                                         <br><span>*</span><br>
-                                        {{ trans('lang.description_menu_restaurant_54') }}
+                                        Cannelloni de saumon et crabe épicé au wasabi
                                         <br><span>*</span><br>
-                                        {{ trans('lang.description_menu_restaurant_55') }}
+                                        Rougets barbet en croûte de sésame
                                         <br><span>*</span><br>
-                                        {!! trans('lang.description_menu_restaurant_56') !!}
+                                        Ballotine de pintade aux morilles, purée de pommes de terre aux olives
                                         <br><span>*</span><br>
-                                        {{ trans('lang.description_menu_restaurant_57') }}
+                                        Assiette de fromages
                                         <br><span>*</span><br>
-                                        {{ trans('lang.description_menu_restaurant_58') }}</p>
+                                        Pana cotta au citron vert et son coulis à la Mara des bois</p>
                                 </li>
                             </ul>
                             <p style="margin-top: 20px">Servi pour l’ensemble des convives à votre table </p>
-                            <p class="currency_explanation">{{ trans('lang.additional_description_menu_restaurant') }}</p>
+                            <p class="currency_explanation">Nos prix sont en francs suisses avec TVA à 8%</p>
                         </div>
                     </div>
                     <div class="tab-pane fadeInLeft clearfix" id="menu-4" data-img-name="/img/menu-tabs/1.jpg">
                         <div class="menu-list col-xs-12">
                             <ul>
                                 <li>
-                                    <div class="title main_title">{{ trans('lang.name_menu_restaurant_14') }}</div>
+                                    <div class="title main_title">Entrée de la semaine</div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">{{ trans('lang.description_menu_restaurant_59') }}</div>
+                                        <div class="title">Saladine aux croûtons et tomates cherry</div>
                                         <div class="price">6.-</div>
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="title main_title">{{ trans('lang.name_menu_restaurant_15') }}</div>
+                                    <div class="title main_title">Lundi 3 avril 2017</div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">{!! trans('lang.description_menu_restaurant_60') !!}</div>
+                                        <div class="title">Émincé de bœuf, sauce au poivre <br> Écrasée de pommes de terre <br> Légumes du jour</div>
                                         <div class="price">19.50</div>
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="title main_title">{{ trans('lang.name_menu_restaurant_16') }} </div>
+                                    <div class="title main_title">Mardi 4 avril 2017 </div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">{!! trans('lang.description_menu_restaurant_61') !!}</div>
+                                        <div class="title">Cou de porc rôti, sauce moutarde <br> Nouilles <br> Légumes au wok</div>
                                         <div class="price">19.50</div>
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="title main_title">{{ trans('lang.name_menu_restaurant_17') }}</div>
+                                    <div class="title main_title">Mercredi 5 avril 2017</div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">{!! trans('lang.description_menu_restaurant_62') !!}</div>
+                                        <div class="title">Cuisse de poulet, sauce à l’estragon <br> Riz pilaf <br> Pois mange tout étuvés</div>
                                         <div class="price">19.50</div>
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="title main_title">{{ trans('lang.name_menu_restaurant_18') }}</div>
+                                    <div class="title main_title">Jeudi 6 avril 2017</div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">{!! trans('lang.description_menu_restaurant_63') !!}</div>
+                                        <div class="title">Cuisse de canard rôtie <br> Pommes lyonnaises <br> Légumes du jour</div>
                                         <div class="price">19.50</div>
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="title main_title">{{ trans('lang.name_menu_restaurant_19') }}</div>
+                                    <div class="title main_title">Vendredi 7 avril 2017</div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">{!! trans('lang.description_menu_restaurant_64') !!}</div>
+                                        <div class="title">Cabillaud sauté à la sauce vierge <br> Risotto au vin rouge <br> Épinards étuvés</div>
                                         <div class="price">19.50</div>
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="title main_title">{{ trans('lang.name_menu_restaurant_20') }}</div>
+                                    <div class="title main_title">Dessert de la semaine</div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">{{ trans('lang.description_menu_restaurant_65') }}</div>
+                                        <div class="title">Crème brûlée au café et aux pépites de chocolat</div>
                                         <div class="price">7.50</div>
                                     </div>
                                 </li>
                             </ul>
-                            <p class="currency_explanation">{{ trans('lang.additional_description_menu_restaurant') }}</p>
+                            <p class="currency_explanation">Nos prix sont en francs suisses avec TVA à 8%</p>
                         </div>
                     </div>
                     <div class="tab-pane fadeInLeft clearfix" id="menu-5" data-img-name="/img/menu-tabs/1.jpg">
@@ -598,39 +636,39 @@
                             <ul>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">{{ trans('lang.description_menu_restaurant_66') }}</div>
+                                        <div class="title">Entrée de la semaine</div>
                                         <div class="price">6.-</div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">{{ trans('lang.description_menu_restaurant_67') }}</div>
+                                        <div class="title">Plats du jour</div>
                                         <div class="price">19.50</div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">{{ trans('lang.description_menu_restaurant_68') }}</div>
+                                        <div class="title">Entrecôte de bœuf</div>
                                         <div class="price">200g / 300g/ 400g : 42.- / 48.- / 54.-</div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">{{ trans('lang.description_menu_restaurant_69') }}</div>
+                                        <div class="title">Filet de bœuf</div>
                                         <div class="price">200g 47.-</div>
                                     </div>
-                                    <p class="sub_title">{{ trans('lang.additional_description_menu_restaurant_6') }}
+                                    <p class="sub_title">Sauce au choix :  Charlemagne, Moutarde, Morilles Saladine et frites maison
                                     </p>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">{{ trans('lang.description_menu_restaurant_70') }}</div>
+                                        <div class="title">Dessert de la semaine</div>
                                         <div class="price">7.50</div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">{{ trans('lang.description_menu_restaurant_71') }}</div>
+                                        <div class="title">Mille-feuille « Fleur du Lac », sorbet maison</div>
                                         <div class="price">14.-</div>
                                     </div>
                                 </li>
@@ -641,17 +679,17 @@
                                     </div>
                                 </li>
                                 <li class="menu_block">
-                                    <div class="title main_title">{{ trans('lang.name_menu_restaurant_21') }}</div>
+                                    <div class="title main_title">Menu Charlemagne</div>
                                     <div class="price main_price">54.-</div>
-                                    <p>{{ trans('lang.description_menu_restaurant_72') }}
+                                    <p>Bouquet de mesclun et légumes croquants
                                         <br><span>*</span><br>
-                                        {{ trans('lang.description_menu_restaurant_73') }}
+                                        Entrecôte de bœuf 200gr, frites maison et sauce au choix
                                         <br><span>*</span><br>
-                                        {{ trans('lang.description_menu_restaurant_74') }}
+                                        Mille-feuille « Fleur du Lac », sorbet maison
                                     </p>
                                 </li>
                             </ul>
-                            <p class="currency_explanation">{{ trans('lang.additional_description_menu_restaurant') }}</p>
+                            <p class="currency_explanation">Nos prix sont en francs suisses avec TVA à 8%</p>
                         </div>
                     </div>
                 </div>
