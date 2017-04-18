@@ -569,52 +569,52 @@
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Saladine aux croûtons et tomates cherry</div>
+                                        <div class="title">Saladine et ses pousses d’oignon</div>
                                         <div class="price">6.-</div>
                                     </div>
                                 </li>
+                                {{--<li>--}}
+                                    {{--<div class="title main_title">Lundi 3 avril 2017</div>--}}
+                                {{--</li>--}}
+                                {{--<li>--}}
+                                    {{--<div class="menu_item">--}}
+                                        {{--<div class="title">Émincé de bœuf, sauce au poivre <br> Écrasée de pommes de terre <br> Légumes du jour</div>--}}
+                                        {{--<div class="price">19.50</div>--}}
+                                    {{--</div>--}}
+                                {{--</li>--}}
                                 <li>
-                                    <div class="title main_title">Lundi 3 avril 2017</div>
+                                    <div class="title main_title">Mardi 18 avril 2017 </div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Émincé de bœuf, sauce au poivre <br> Écrasée de pommes de terre <br> Légumes du jour</div>
+                                        <div class="title">Côte d’agneau, jus au thym <br> Légumes et polenta crémeuse	</div>
                                         <div class="price">19.50</div>
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="title main_title">Mardi 4 avril 2017 </div>
+                                    <div class="title main_title">Mercredi 19 avril 2017</div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Cou de porc rôti, sauce moutarde <br> Nouilles <br> Légumes au wok</div>
+                                        <div class="title">Emincé de bœuf, sauce au poivre <br> Légumes et tagliatelles </div>
                                         <div class="price">19.50</div>
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="title main_title">Mercredi 5 avril 2017</div>
+                                    <div class="title main_title">Jeudi 20 avril 2017</div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Cuisse de poulet, sauce à l’estragon <br> Riz pilaf <br> Pois mange tout étuvés</div>
+                                        <div class="title">Brochette de poulet, sauce curry <br> Gratin dauphinois et légumes</div>
                                         <div class="price">19.50</div>
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="title main_title">Jeudi 6 avril 2017</div>
+                                    <div class="title main_title">Vendredi 21 avril 2017</div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Cuisse de canard rôtie <br> Pommes lyonnaises <br> Légumes du jour</div>
-                                        <div class="price">19.50</div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="title main_title">Vendredi 7 avril 2017</div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">Cabillaud sauté à la sauce vierge <br> Risotto au vin rouge <br> Épinards étuvés</div>
+                                        <div class="title">Cigales de mer poêlées, sauce vierge <br> Légumes et écrasé de pommes de terre</div>
                                         <div class="price">19.50</div>
                                     </div>
                                 </li>
@@ -623,7 +623,7 @@
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Crème brûlée au café et aux pépites de chocolat</div>
+                                        <div class="title">Le terrier du lapin (mousse pralinée)</div>
                                         <div class="price">7.50</div>
                                     </div>
                                 </li>
