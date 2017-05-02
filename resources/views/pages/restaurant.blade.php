@@ -569,52 +569,52 @@
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Saladine et son jambon cru</div>
+                                        <div class="title">Saladine Verte</div>
                                         <div class="price">6.-</div>
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="title main_title">Lundi 24 avril 2017</div>
+                                    <div class="title main_title">Lundi 1 mai 2017</div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Tartare de bœuf <br> Pommes frites maison</div>
+                                        <div class="title">Cuisse de poulet à l’estragon <br> Légumes et gnocchi de pomme de terre </div>
                                         <div class="price">19.50</div>
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="title main_title">Mardi 25 avril 2017 </div>
+                                    <div class="title main_title">Mardi 2 mai 2017 </div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Côte de porc, sauce charcutière <br> Légumes et pommes rissolées	</div>
+                                        <div class="title">Souris d’agneau <br> Semoule aux petits légumes</div>
                                         <div class="price">19.50</div>
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="title main_title">Mercredi 26 avril 2017</div>
+                                    <div class="title main_title">Mercredi 3 mai 2017</div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Tartare de saumon, crème citronnée <br> Pommes frites maison </div>
+                                        <div class="title">Emincé de soupion <br> Légumes et riz basmati	</div>
                                         <div class="price">19.50</div>
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="title main_title">Jeudi 27 avril 2017</div>
+                                    <div class="title main_title">Jeudi 4 mai 2017</div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Emincé de poulet, sauce soja et miel <br> Légumes et tagliatelles</div>
+                                        <div class="title">Escalope de dinde panée <br> Légumes et spaghetti</div>
                                         <div class="price">19.50</div>
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="title main_title">Vendredi 28 avril 2017</div>
+                                    <div class="title main_title">Vendredi 5 mai 2017</div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Filet d’espadon poêlé, sauce vierge <br> Légumes et risotto</div>
+                                        <div class="title">Filet de sébaste sauce vin blanc <br> Légumes et risotto d’orge perlé</div>
                                         <div class="price">19.50</div>
                                     </div>
                                 </li>
@@ -623,7 +623,7 @@
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Crumble pomme-pruneaux</div>
+                                        <div class="title">Dessert au gré de la pâtissière</div>
                                         <div class="price">7.50</div>
                                     </div>
                                 </li>

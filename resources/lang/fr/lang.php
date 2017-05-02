@@ -22,7 +22,7 @@ return [
     'room' => 'Chambres',
     'restaurant' => 'Restaurants',
     'bar_and_terrace' => 'Bar et Terrasses',
-    'event' => 'Evenements',
+    'event' => 'Evènements',
     'contact' => 'Contact',
     'reservation' => 'Réservation',
 //  HEADER END
@@ -77,7 +77,7 @@ return [
     'title_pdf_events_7' => 'Forfait Mariage (PDF)',
     'title_pdf_events_8' => 'CGV (PDF)',
     'title_events_2' => 'Mariage',
-    'description_events_4' => 'Vos rêves deviennent réalité pour un jour inoubliable.<br>Le cocktail du mariage débute dans nos jardins, pieds dans l’eau.<br>La réception se déroule dans une des salles ou salons de notre restaurant face au lac.<br>Et la fin de soirée dansantes se prolongent au bar privatisable.',
+    'description_events_4' => 'Vos rêves deviennent réalité pour un jour inoubliable.<br>Le cocktail du mariage débute dans nos jardins, pieds dans l’eau.<br>La réception se déroule dans une des salles ou salons de notre restaurant face au lac.<br>Et le bar, privatisable, accueille la fin de soirée dansante.',
     'title_events_3' => 'Evénements Professionnels',
     'description_events_5' => 'Un lieu propice à la création et à la réflexion.<br>La Fleur du Lac offre une ambiance parfaite pour le bon déroulement de vos séminaires et conférences.<br>Notre savoir-faire et expérience sont mis à votre disposition pour une organisation sans faute.',
     'free_wi_fi' => 'WIFI GRATUIT',
