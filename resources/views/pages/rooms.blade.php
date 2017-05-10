@@ -269,7 +269,7 @@
                                 <div class="title">{{ trans('lang.name_room_4') }}</div>
                                 <div class="price">
                                     <div class="title">{{ trans('lang.tariff_room') }}</div>
-                                    <div class="value">Chf 690.- / {{ trans('lang.tariff_value_room_3') }}</div>
+                                    <div class="value">Chf 175.- / {{ trans('lang.tariff_value_room_3') }}</div>
                                 </div>
                             </div>
                         </div>

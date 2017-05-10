@@ -565,68 +565,86 @@
                         <div class="menu-list col-xs-12">
                             <ul>
                                 <li>
-                                    <div class="title main_title">Entrée de la semaine</div>
-                                </li>
-                                <li>
                                     <div class="menu_item">
-                                        <div class="title">Saladine Verte</div>
+                                        <div class="title">Saladine</div>
                                         <div class="price">6.-</div>
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="title main_title">Lundi 1 mai 2017</div>
-                                </li>
-                                <li>
                                     <div class="menu_item">
-                                        <div class="title">Cuisse de poulet à l’estragon <br> Légumes et gnocchi de pomme de terre </div>
-                                        <div class="price">19.50</div>
+                                        <div class="title">Suggestion du Chef</div>
+                                        <div class="price">24.-</div>
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="title main_title">Mardi 2 mai 2017 </div>
-                                </li>
-                                <li>
                                     <div class="menu_item">
-                                        <div class="title">Souris d’agneau <br> Semoule aux petits légumes</div>
-                                        <div class="price">19.50</div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="title main_title">Mercredi 3 mai 2017</div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">Emincé de soupion <br> Légumes et riz basmati	</div>
-                                        <div class="price">19.50</div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="title main_title">Jeudi 4 mai 2017</div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">Escalope de dinde panée <br> Légumes et spaghetti</div>
-                                        <div class="price">19.50</div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="title main_title">Vendredi 5 mai 2017</div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">Filet de sébaste sauce vin blanc <br> Légumes et risotto d’orge perlé</div>
-                                        <div class="price">19.50</div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="title main_title">Dessert de la semaine</div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">Dessert au gré de la pâtissière</div>
+                                        <div class="title">Dessert au gré de la Pâtissière</div>
                                         <div class="price">7.50</div>
                                     </div>
                                 </li>
+                                {{--<li>--}}
+                                    {{--<div class="title main_title">Entrée de la semaine</div>--}}
+                                {{--</li>--}}
+                                {{--<li>--}}
+                                    {{--<div class="menu_item">--}}
+                                        {{--<div class="title">Saladine Verte</div>--}}
+                                        {{--<div class="price">6.-</div>--}}
+                                    {{--</div>--}}
+                                {{--</li>--}}
+                                {{--<li>--}}
+                                    {{--<div class="title main_title">Lundi 1 mai 2017</div>--}}
+                                {{--</li>--}}
+                                {{--<li>--}}
+                                    {{--<div class="menu_item">--}}
+                                        {{--<div class="title">Cuisse de poulet à l’estragon <br> Légumes et gnocchi de pomme de terre </div>--}}
+                                        {{--<div class="price">19.50</div>--}}
+                                    {{--</div>--}}
+                                {{--</li>--}}
+                                {{--<li>--}}
+                                    {{--<div class="title main_title">Mardi 2 mai 2017 </div>--}}
+                                {{--</li>--}}
+                                {{--<li>--}}
+                                    {{--<div class="menu_item">--}}
+                                        {{--<div class="title">Souris d’agneau <br> Semoule aux petits légumes</div>--}}
+                                        {{--<div class="price">19.50</div>--}}
+                                    {{--</div>--}}
+                                {{--</li>--}}
+                                {{--<li>--}}
+                                    {{--<div class="title main_title">Mercredi 3 mai 2017</div>--}}
+                                {{--</li>--}}
+                                {{--<li>--}}
+                                    {{--<div class="menu_item">--}}
+                                        {{--<div class="title">Emincé de soupion <br> Légumes et riz basmati	</div>--}}
+                                        {{--<div class="price">19.50</div>--}}
+                                    {{--</div>--}}
+                                {{--</li>--}}
+                                {{--<li>--}}
+                                    {{--<div class="title main_title">Jeudi 4 mai 2017</div>--}}
+                                {{--</li>--}}
+                                {{--<li>--}}
+                                    {{--<div class="menu_item">--}}
+                                        {{--<div class="title">Escalope de dinde panée <br> Légumes et spaghetti</div>--}}
+                                        {{--<div class="price">19.50</div>--}}
+                                    {{--</div>--}}
+                                {{--</li>--}}
+                                {{--<li>--}}
+                                    {{--<div class="title main_title">Vendredi 5 mai 2017</div>--}}
+                                {{--</li>--}}
+                                {{--<li>--}}
+                                    {{--<div class="menu_item">--}}
+                                        {{--<div class="title">Filet de sébaste sauce vin blanc <br> Légumes et risotto d’orge perlé</div>--}}
+                                        {{--<div class="price">19.50</div>--}}
+                                    {{--</div>--}}
+                                {{--</li>--}}
+                                {{--<li>--}}
+                                    {{--<div class="title main_title">Dessert de la semaine</div>--}}
+                                {{--</li>--}}
+                                {{--<li>--}}
+                                    {{--<div class="menu_item">--}}
+                                        {{--<div class="title">Dessert au gré de la pâtissière</div>--}}
+                                        {{--<div class="price">7.50</div>--}}
+                                    {{--</div>--}}
+                                {{--</li>--}}
                             </ul>
                             <p class="currency_explanation">Nos prix sont en francs suisses avec TVA à 8%</p>
                         </div>
