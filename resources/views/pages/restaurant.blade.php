@@ -660,8 +660,8 @@
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Plats du jour</div>
-                                        <div class="price">19.50</div>
+                                        <div class="title">Suggestion du Chef à</div>
+                                        <div class="price">24.-</div>
                                     </div>
                                 </li>
                                 <li>
