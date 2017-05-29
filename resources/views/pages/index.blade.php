@@ -73,7 +73,7 @@
                     <p>{{ trans('lang.description_index_1') }}</p>
                     <p>{{ trans('lang.description_index_2') }}</p>
                     <p>{!! trans('lang.description_index_3') !!}</p>
-                    <p style="font-size: 12px; opacity: 0.7">{{ trans('lang.description_index_4') }}</p>
+{{--                    <p style="font-size: 12px; opacity: 0.7">{{ trans('lang.description_index_4') }}</p>--}}
                 </div>
             </div>
             <div class="r-sec col-md-5">
