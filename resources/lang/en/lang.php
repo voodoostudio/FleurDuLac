@@ -142,6 +142,10 @@ return [
     'description_img_index_24' => 'Without ever leaving the shore of Lake Geneva',
     'description_img_index_25' => 'Passing by the friendly beach of Préverenges, Lake Geneva like a playground',
     'description_img_index_26' => 'At 15 mn from Morges, its history, its culture and its vineyards',
+    'description_img_index_27' => 'Veranda sur le Lac',
+    'description_img_index_28' => 'Pieds dans l’eau',
+    'description_img_index_29' => 'Terrasse chic',
+    'description_img_index_30' => 'Terrasse face au Mont-Blanc',
 //  INDEX END
 
 //  RESTAURANT START

@@ -174,6 +174,46 @@
                             </figcaption>
                         </figure>
                     </li>
+                    <li class="item col-xs-6 col-md-4 bars">
+                        <figure>
+                            <img src="/img/gallery/27.jpg" alt="image 27"/>
+                            <a href="/img/gallery/27.jpg" class="more-details"
+                               data-title="{{ trans('lang.description_img_index_27') }}">Enlarge</a>
+                            <figcaption>
+                                <h4>{{ trans('lang.description_img_index_27') }}</h4>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="item col-xs-6 col-md-4 bars">
+                        <figure>
+                            <img src="/img/gallery/28.jpg" alt="image 28"/>
+                            <a href="/img/gallery/28.jpg" class="more-details"
+                               data-title="{{ trans('lang.description_img_index_28') }}">Enlarge</a>
+                            <figcaption>
+                                <h4>{{ trans('lang.description_img_index_28') }}</h4>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="item col-xs-6 col-md-4 bars">
+                        <figure>
+                            <img src="/img/gallery/29.jpg" alt="image 29"/>
+                            <a href="/img/gallery/29.jpg" class="more-details"
+                               data-title="{{ trans('lang.description_img_index_29') }}">Enlarge</a>
+                            <figcaption>
+                                <h4>{{ trans('lang.description_img_index_29') }}</h4>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="item col-xs-6 col-md-4 bars">
+                        <figure>
+                            <img src="/img/gallery/30.jpg" alt="image 30"/>
+                            <a href="/img/gallery/30.jpg" class="more-details"
+                               data-title="{{ trans('lang.description_img_index_30') }}">Enlarge</a>
+                            <figcaption>
+                                <h4>{{ trans('lang.description_img_index_30') }}</h4>
+                            </figcaption>
+                        </figure>
+                    </li>
                     <li class="item col-xs-6 col-md-4 restaurant">
                         <figure>
                             <img src="/img/gallery/5.jpg" alt="image 5"/>

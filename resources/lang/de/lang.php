@@ -142,6 +142,10 @@ return [
     'description_img_index_24' => 'Sans jamais quitter les rives du Lac Léman',
     'description_img_index_25' => 'En passant par la conviviale plage de Préverenges, le Lac Léman comme terrain de jeu',
     'description_img_index_26' => 'A 15 minutes à pied de Morges, son histoire, sa culture et ses vignobles',
+    'description_img_index_27' => 'Veranda sur le Lac',
+    'description_img_index_28' => 'Pieds dans l’eau',
+    'description_img_index_29' => 'Terrasse chic',
+    'description_img_index_30' => 'Terrasse face au Mont-Blanc',
 //  INDEX END
 
 //  RESTAURANT START
