@@ -48,14 +48,21 @@
                         <div class="col-md-6 m-sec">
                             <div class="title-box">
                                 <div class="title">{{ trans('lang.name_room_1') }} (15-20 m<sup>2</sup>)</div>
-                                <div class="price">
-                                    <div class="title">{{ trans('lang.tariff_room') }}</div>
-                                    <div class="value">Chf 175.-/{{ trans('lang.tariff_value_room_1') }}</div>
-                                </div>
-                                <div class="price">
-                                    <div class="title">{{ trans('lang.tax_room') }}</div>
-                                    <div class="value">Chf 3.-/{{ trans('lang.tax_value_room') }}</div>
-                                </div>
+                                {{--<div class="price">--}}
+                                    {{--<div class="title">{{ trans('lang.tariff_room') }}</div>--}}
+                                    {{--<div class="value">Chf 175.-/{{ trans('lang.tariff_value_room_1') }}</div>--}}
+                                {{--</div>--}}
+                                {{--<div class="price">--}}
+                                    {{--<div class="title">{{ trans('lang.tax_room') }}</div>--}}
+                                    {{--<div class="value">Chf 3.-/{{ trans('lang.tax_value_room') }}</div>--}}
+                                {{--</div><div class="price">--}}
+                                    {{--<div class="title">{{ trans('lang.tariff_room') }}</div>--}}
+                                    {{--<div class="value">Chf 175.-/{{ trans('lang.tariff_value_room_1') }}</div>--}}
+                                {{--</div>--}}
+                                {{--<div class="price">--}}
+                                    {{--<div class="title">{{ trans('lang.tax_room') }}</div>--}}
+                                    {{--<div class="value">Chf 3.-/{{ trans('lang.tax_value_room') }}</div>--}}
+                                {{--</div>--}}
                             </div>
                         </div>
                         <div class="col-md-6 desc">
@@ -100,9 +107,9 @@
                             </div>
                             <div class="reservation_btn_container">
                                 <!-- DO NOT CHANGE THIS PART -->
-{{--                                @include('includes._ghix')--}}
-                                {{--<div class="book_room more-info">{{ trans('lang.reservation_button_room') }}</div>--}}
-                                <a class="book_room more-info" href="{{ route('contact.locale') }}">{{ trans('lang.reservation_button_room') }}</a>
+                                @include('includes._ghix')
+                                <div class="book_room more-info">{{ trans('lang.reservation_button_room') }}</div>
+                                {{--<a class="book_room more-info" href="{{ route('contact.locale') }}">{{ trans('lang.reservation_button_room') }}</a>--}}
                             </div>
                         </div>
                     </div>
@@ -122,15 +129,15 @@
                         <div class="col-md-6 m-sec">
                             <div class="title-box">
                                 <div class="title">{{ trans('lang.name_room_2') }} (20-30 m<sup>2</sup>)</div>
-                                <div class="price">
-                                    <div class="title">{{ trans('lang.tariff_room') }}</div>
-                                    <div class="value">Chf 225.-/{{ trans('lang.tariff_value_room_1') }}</div>
-                                    <div class="value">Chf 270.-/{{ trans('lang.tariff_value_room_2') }}</div>
-                                </div>
-                                <div class="price">
-                                    <div class="title">{{ trans('lang.tax_room') }}</div>
-                                    <div class="value">Chf 3.-/{{ trans('lang.tax_value_room') }}</div>
-                                </div>
+                                {{--<div class="price">--}}
+                                    {{--<div class="title">{{ trans('lang.tariff_room') }}</div>--}}
+                                    {{--<div class="value">Chf 225.-/{{ trans('lang.tariff_value_room_1') }}</div>--}}
+                                    {{--<div class="value">Chf 270.-/{{ trans('lang.tariff_value_room_2') }}</div>--}}
+                                {{--</div>--}}
+                                {{--<div class="price">--}}
+                                    {{--<div class="title">{{ trans('lang.tax_room') }}</div>--}}
+                                    {{--<div class="value">Chf 3.-/{{ trans('lang.tax_value_room') }}</div>--}}
+                                {{--</div>--}}
                             </div>
                         </div>
                         <div class="col-md-6 desc">
@@ -175,9 +182,9 @@
                             </div>
                             <div class="reservation_btn_container">
                                 <!-- DO NOT CHANGE THIS PART -->
-                                {{--@include('includes._ghix')--}}
-                                {{--<div class="book_room more-info">{{ trans('lang.reservation_button_room') }}</div>--}}
-                                <a class="book_room more-info" href="{{ route('contact.locale') }}">{{ trans('lang.reservation_button_room') }}</a>
+                                @include('includes._ghix')
+                                <div class="book_room more-info">{{ trans('lang.reservation_button_room') }}</div>
+                                {{--<a class="book_room more-info" href="{{ route('contact.locale') }}">{{ trans('lang.reservation_button_room') }}</a>--}}
                             </div>
                         </div>
                     </div>
@@ -197,15 +204,15 @@
                         <div class="col-md-6 m-sec">
                             <div class="title-box">
                                 <div class="title">{{ trans('lang.name_room_3') }} (30-40 m<sup>2</sup>)</div>
-                                <div class="price">
-                                    <div class="title">{{ trans('lang.tariff_room') }}</div>
-                                    <div class="value">Chf 295.-/{{ trans('lang.tariff_value_room_1') }}</div>
-                                    <div class="value">Chf 350.-/{{ trans('lang.tariff_value_room_2') }}</div>
-                                </div>
-                                <div class="price">
-                                    <div class="title">{{ trans('lang.tax_room') }}</div>
-                                    <div class="value">Chf 3.-/{{ trans('lang.tax_value_room') }}</div>
-                                </div>
+                                {{--<div class="price">--}}
+                                    {{--<div class="title">{{ trans('lang.tariff_room') }}</div>--}}
+                                    {{--<div class="value">Chf 295.-/{{ trans('lang.tariff_value_room_1') }}</div>--}}
+                                    {{--<div class="value">Chf 350.-/{{ trans('lang.tariff_value_room_2') }}</div>--}}
+                                {{--</div>--}}
+                                {{--<div class="price">--}}
+                                    {{--<div class="title">{{ trans('lang.tax_room') }}</div>--}}
+                                    {{--<div class="value">Chf 3.-/{{ trans('lang.tax_value_room') }}</div>--}}
+                                {{--</div>--}}
                             </div>
                         </div>
                         <div class="col-md-6 desc">
@@ -250,9 +257,9 @@
                             </div>
                             <div class="reservation_btn_container">
                                 <!-- DO NOT CHANGE THIS PART -->
-                                {{--@include('includes._ghix')--}}
-                                {{--<div class="book_room more-info">{{ trans('lang.reservation_button_room') }}</div>--}}
-                                <a class="book_room more-info" href="{{ route('contact.locale') }}">{{ trans('lang.reservation_button_room') }}</a>
+                                @include('includes._ghix')
+                                <div class="book_room more-info">{{ trans('lang.reservation_button_room') }}</div>
+                                {{--<a class="book_room more-info" href="{{ route('contact.locale') }}">{{ trans('lang.reservation_button_room') }}</a>--}}
                             </div>
                         </div>
                     </div>
@@ -297,9 +304,9 @@
                             </div>
                             <div class="reservation_btn_container">
                                 <!-- DO NOT CHANGE THIS PART -->
-                                {{--@include('includes._ghix')--}}
-                                {{--<div class="book_room more-info">{{ trans('lang.reservation_button_room') }}</div>--}}
-                                <a class="book_room more-info" href="{{ route('contact.locale') }}">{{ trans('lang.reservation_button_room') }}</a>
+                                @include('includes._ghix')
+                                <div class="book_room more-info">{{ trans('lang.reservation_button_room') }}</div>
+                                {{--<a class="book_room more-info" href="{{ route('contact.locale') }}">{{ trans('lang.reservation_button_room') }}</a>--}}
                             </div>
                         </div>
                     </div>
