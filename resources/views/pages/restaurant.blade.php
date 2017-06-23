@@ -295,11 +295,11 @@
                         <div class="menu-list col-xs-12">
                             <ul>
                                 <li>
-                                    <div class="title main_title">Pour commencer...</div>
+                                    <div class="title main_title">{{ trans('lang.summer_carte_title_1') }}</div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Salade de Mâche, roulés de jambon de Penthaz au chèvre frais</div>
+                                        <div class="title">{{ trans('lang.summer_carte_dish_name_1') }}</div>
                                         <div class="price">19.-</div>
                                     </div>
                                     <div class="icns_block">
@@ -308,8 +308,8 @@
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Carpaccio de Bœuf</div>
-                                        <div class="price">entrée / plat : 21.- / 42.-</div>
+                                        <div class="title">{{ trans('lang.summer_carte_dish_name_2') }}</div>
+                                        <div class="price">{{ trans('lang.summer_carte_portion') }} : 21.- / 42.-</div>
                                     </div>
                                     <div class="icns_block">
                                         <img src="/img/gluten_free_1.svg" alt="gluten free">
@@ -317,8 +317,8 @@
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Tartare de Saumon aux abricots du Valais</div>
-                                        <div class="price">entrée / plat : 22.- / 44.-</div>
+                                        <div class="title">{{ trans('lang.summer_carte_dish_name_3') }}</div>
+                                        <div class="price">{{ trans('lang.summer_carte_portion') }} : 22.- / 44.-</div>
                                     </div>
                                     <div class="icns_block">
                                         <img src="/img/gluten_free_1.svg" alt="gluten free">
@@ -326,7 +326,7 @@
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Gambas au combawa sur palet de Melon charentais rôti et granité</div>
+                                        <div class="title">{{ trans('lang.summer_carte_dish_name_4') }}</div>
                                         <div class="price">22.-</div>
                                     </div>
                                     <div class="icns_block">
@@ -335,7 +335,7 @@
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Langoustines à l’Orientale, taboulé de chou-fleur et pommes</div>
+                                        <div class="title">{{ trans('lang.summer_carte_dish_name_5') }}</div>
                                         <div class="price">23.-</div>
                                     </div>
                                     <div class="icns_block">
@@ -344,7 +344,7 @@
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Tarte fine aux Légumes d’été, lit de tapenade et chanterelles</div>
+                                        <div class="title">{{ trans('lang.summer_carte_dish_name_6') }}</div>
                                         <div class="price">18.-</div>
                                     </div>
                                     <div class="icns_block">
@@ -353,7 +353,7 @@
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Rosace de Tomate Mozzarella et Guacamole d’avocat</div>
+                                        <div class="title">{{ trans('lang.summer_carte_dish_name_7') }}</div>
                                         <div class="price">16.-</div>
                                     </div>
                                     <div class="icns_block">
@@ -362,7 +362,7 @@
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Petits farcis Niçois végétariens</div>
+                                        <div class="title">{{ trans('lang.summer_carte_dish_name_8') }}</div>
                                         <div class="price">17.-</div>
                                     </div>
                                     <div class="icns_block">
@@ -372,7 +372,7 @@
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Bouquet de Mesclun aux légumes croquants</div>
+                                        <div class="title">{{ trans('lang.summer_carte_dish_name_9') }}</div>
                                         <div class="price">12.-</div>
                                     </div>
                                     <div class="icns_block">
@@ -382,7 +382,7 @@
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Saladine</div>
+                                        <div class="title">{{ trans('lang.summer_carte_dish_name_10') }}</div>
                                         <div class="price">8.-</div>
                                     </div>
                                     <div class="icns_block">
@@ -391,23 +391,23 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="title main_title">Du Lac à la Mer...</div>
+                                    <div class="title main_title">{{ trans('lang.summer_carte_title_2') }}</div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Filets de Perches meunière du Léman, frites maison</div>
+                                        <div class="title">{{ trans('lang.summer_carte_dish_name_11') }}</div>
                                         <div class="price">110gr / 220gr : 24.- / 48.-</div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Filet d’Omble Chevalier du Léman, grenobloise de cocos et légumes</div>
+                                        <div class="title">{{ trans('lang.summer_carte_dish_name_12') }}</div>
                                         <div class="price">44.-</div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Goujonnettes de Sole au gingembre et combawa, huile de cacahuète grillée, écrasé de pommes de terre aux herbes</div>
+                                        <div class="title">{{ trans('lang.summer_carte_dish_name_13') }}</div>
                                         <div class="price">45.-</div>
                                     </div>
                                     <div class="icns_block">
@@ -416,7 +416,7 @@
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Assiette du Pêcheur : Gambas-Sole-Omble, polenta et légumes</div>
+                                        <div class="title">{{ trans('lang.summer_carte_dish_name_14') }}</div>
                                         <div class="price">43.-</div>
                                     </div>
                                     <div class="icns_block">
@@ -425,7 +425,7 @@
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Pavé de Daurade Royale, confit d’échalotte et pommes boulangères</div>
+                                        <div class="title">{{ trans('lang.summer_carte_dish_name_15') }}</div>
                                         <div class="price">46.-</div>
                                     </div>
                                     <div class="icns_block">
@@ -434,7 +434,7 @@
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Saltimbocca de Saint-Pierre et tagliatelles de navets au safran</div>
+                                        <div class="title">{{ trans('lang.summer_carte_dish_name_16') }}</div>
                                         <div class="price">45.-</div>
                                     </div>
                                     <div class="icns_block">
@@ -443,7 +443,7 @@
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Médaillons de Thon snackés au sésame, vinaigrette de poivre vert, fine ratatouille et pommes boulangères</div>
+                                        <div class="title">{{ trans('lang.summer_carte_dish_name_17') }}</div>
                                         <div class="price">39.-</div>
                                     </div>
                                     <div class="icns_block">
@@ -451,41 +451,41 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="title main_title">De la Terre...</div>
+                                    <div class="title main_title">{{ trans('lang.summer_carte_title_3') }}</div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Entrecôte de Bœuf sauce Charlemagne <br> Frites maison</div>
+                                        <div class="title">{{ trans('lang.summer_carte_dish_name_18') }}</div>
                                         <div class="price">200gr / 300gr/ 400gr : 42.- / 48.- / 54.-</div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Filet de Bœuf sauce Charlemagne <br> Frites maison</div>
+                                        <div class="title">{{ trans('lang.summer_carte_dish_name_19') }}</div>
                                         <div class="price">200gr : 47.-</div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Côte et Rognons de Veau aux oignons confits, colraves et pommes boulangères</div>
+                                        <div class="title">{{ trans('lang.summer_carte_dish_name_20') }}</div>
                                         <div class="price">46.-</div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Hamburger « La Fleur du Lac » duo Bœuf et Gambas</div>
+                                        <div class="title">{{ trans('lang.summer_carte_dish_name_21') }}</div>
                                         <div class="price">32.-</div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Suprême de Poulet à l’estragon, écrasé de pommes de terre aux herbes</div>
+                                        <div class="title">{{ trans('lang.summer_carte_dish_name_22') }}</div>
                                         <div class="price">38.-</div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Risotto d’Artichauts à la barigoule</div>
+                                        <div class="title">{{ trans('lang.summer_carte_dish_name_23') }}</div>
                                         <div class="price">28.-</div>
                                     </div>
                                     <div class="icns_block">
@@ -494,7 +494,7 @@
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Frites maison au parmesan et aromatisées à l’huile de truffe</div>
+                                        <div class="title">{{ trans('lang.summer_carte_dish_name_24') }}</div>
                                         <div class="price">10.-</div>
                                     </div>
                                     <div class="icns_block">
@@ -502,20 +502,20 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="title main_title">Fromages</div>
+                                    <div class="title main_title">{{ trans('lang.summer_carte_title_4') }}</div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Assiette du pays : Tomme vaudoise, Chèvre, Gruyère</div>
+                                        <div class="title">{{ trans('lang.summer_carte_dish_name_25') }}</div>
                                         <div class="price">12.-</div>
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="title main_title">Desserts</div>
+                                    <div class="title main_title">{{ trans('lang.summer_carte_title_5') }}</div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Moelleux au Chocolat et son sorbet maison</div>
+                                        <div class="title">{{ trans('lang.summer_carte_dish_name_26') }}</div>
                                         <div class="price">15.-</div>
                                     </div>
                                     <div class="icns_block">
@@ -524,7 +524,7 @@
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Mille-feuille « La Fleur du Lac » aux Fraises et son sorbet</div>
+                                        <div class="title">{{ trans('lang.summer_carte_dish_name_27') }}</div>
                                         <div class="price">14.-</div>
                                     </div>
                                     <div class="icns_block">
@@ -533,7 +533,7 @@
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Crumble aux Abricots du Valais et sa double crème de gruyère</div>
+                                        <div class="title">{{ trans('lang.summer_carte_dish_name_28') }}</div>
                                         <div class="price">15.-</div>
                                     </div>
                                     <div class="icns_block">
@@ -542,7 +542,7 @@
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Gaspacho de Melon, Fraise et Concombre</div>
+                                        <div class="title">{{ trans('lang.summer_carte_dish_name_29') }}</div>
                                         <div class="price">13.-</div>
                                     </div>
                                     <div class="icns_block">
@@ -552,7 +552,7 @@
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Carpaccio d’Ananas et son sorbet Menthe du potager</div>
+                                        <div class="title">{{ trans('lang.summer_carte_dish_name_30') }}</div>
                                         <div class="price">13.-</div>
                                     </div>
                                     <div class="icns_block">
@@ -562,7 +562,7 @@
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Palette de Sorbets maison</div>
+                                        <div class="title">{{ trans('lang.summer_carte_dish_name_31') }}</div>
                                         <div class="price">13.-</div>
                                     </div>
                                     <div class="icns_block">
@@ -572,7 +572,7 @@
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Café Gourmand au gré de la pâtissière</div>
+                                        <div class="title">{{ trans('lang.summer_carte_dish_name_32') }}</div>
                                         <div class="price">15.-</div>
                                     </div>
                                     <div class="icns_block">
@@ -581,18 +581,18 @@
                                 </li>
                             </ul>
 
-                            <p style="margin-top: 20px; text-align: center">Chers Clients,<br>nous travaillons avec des produits frais et de saison, de ce fait, nos menus sont susceptibles de changer en fonction des arrivages.</p>
-                            <p style="text-align: center">Provenance des viandes</p>
-                            <p style="text-align: center">Bœuf & Veau : Suisse</p>
-                            <p style="text-align: center">Poulet : France</p>
+                            <p style="margin-top: 20px; text-align: center">{{ trans('lang.summer_carte_add_info_1') }}</p>
+                            <p style="text-align: center">{{ trans('lang.summer_carte_add_info_2') }}</p>
+                            <p style="text-align: center">{{ trans('lang.summer_carte_add_info_3') }}</p>
+                            <p style="text-align: center">{{ trans('lang.summer_carte_add_info_4') }}</p>
                             <div class="icons_legend">
                                 <div>
                                     <img src="/img/gluten_free_1.svg" alt="gluten free">
-                                    <span>Sans gluten</span>
+                                    <span>{{ trans('lang.no_gluten') }}</span>
                                 </div>
                                 <div>
                                     <img src="/img/vegetarian_1.svg" alt="vegetarian">
-                                    <span>Vegetarien</span>
+                                    <span>{{ trans('lang.vegetarian') }}</span>
                                 </div>
                             </div>
                             <p class="currency_explanation">Nos prix sont en francs suisses avec TVA à 8%</p>
@@ -815,65 +815,65 @@
                         <div class="menu-list col-xs-12">
                             <ul>
                                 <li class="menu_block">
-                                    <div class="title main_title">Menu Estival du Chef</div>
-                                    <div class="title center_title">Dégustation de 6 mets</div>
+                                    <div class="title main_title">{{ trans('lang.summer_menu_title_1') }}</div>
+                                    <div class="title center_title">{{ trans('lang.summer_menu_price_option_1') }}</div>
                                     <div class="price main_price">98.-</div>
-                                    <div class="title center_title"> Dégustation avec un verre de vin par met</div>
+                                    <div class="title center_title">{{ trans('lang.summer_menu_price_option_1') }}</div>
                                     <div class="price main_price">142.-</div>
-                                    <p>Petits farcis Niçois
+                                    <p>{{ trans('lang.summer_menu_dish_name_1') }}
                                         <br><span>*</span><br>
-                                        Gambas au combawa sur palet de Melon charentais rôti
+                                        {{ trans('lang.summer_menu_dish_name_2') }}
                                         <br><span>*</span><br>
-                                        Médaillons de Thon snackés au sésame
+                                        {{ trans('lang.summer_menu_dish_name_3') }}
                                         <br><span>*</span><br>
-                                        Suprême de Poulet à l’estragon
+                                        {{ trans('lang.summer_menu_dish_name_4') }}
                                         <br><span>*</span><br>
-                                        Assiette de Fromages
+                                        {{ trans('lang.summer_menu_dish_name_5') }}
                                         <br><span>*</span><br>
-                                        Carpaccio d’Ananas
+                                        {{ trans('lang.summer_menu_dish_name_6') }}
                                     </p>
                                 </li>
                                 <li class="menu_block">
-                                    <div class="title main_title">Menu du Pêcheur</div>
+                                    <div class="title main_title">{{ trans('lang.summer_menu_title_2') }}</div>
                                     <div class="price main_price">68.-</div>
-                                    <p>Langoustines à l’Orientale
-                                        <br><span><i>ou</i></span><br>
-                                        Tartare de Saumon
+                                    <p>{{ trans('lang.summer_menu_dish_name_7') }}
+                                        <br><span><i>{{ trans('lang.or') }}</i></span><br>
+                                        {{ trans('lang.summer_menu_dish_name_8') }}
                                         <br><span>*</span><br>
-                                        Assiette du Pêcheur
-                                        <br><span><i>ou</i></span><br>
-                                        Filet d’Omble Chevalier du lac Léman
+                                        {{ trans('lang.summer_menu_dish_name_9') }}
+                                        <br><span><i>{{ trans('lang.or') }}</i></span><br>
+                                        {{ trans('lang.summer_menu_dish_name_10') }}
                                         <br><span>*</span><br>
-                                        Moelleux au Chocolat
+                                        {{ trans('lang.summer_menu_dish_name_11') }}
                                     </p>
                                 </li>
                                 <li class="menu_block">
-                                    <div class="title main_title">Menu Charlemagne</div>
+                                    <div class="title main_title">{{ trans('lang.summer_menu_title_3') }}</div>
                                     <div class="price main_price">58.-</div>
-                                    <p>Bouquet de Mesclun et légumes croquants
+                                    <p>{{ trans('lang.summer_menu_dish_name_12') }}
                                         <br><span>*</span><br>
-                                        Entrecôte de Bœuf 200gr sauce Charlemagne, frites maison
+                                        {{ trans('lang.summer_menu_dish_name_13') }}
                                         <br><span>*</span><br>
-                                        Mille-feuille « La Fleur du Lac » aux fraises et son sorbet maison</p>
+                                        {{ trans('lang.summer_menu_dish_name_14') }}</p>
                                 </li>
                                 <li class="menu_block">
-                                    <div class="title main_title">Menu Végétarien & Sans Gluten</div>
+                                    <div class="title main_title">{{ trans('lang.summer_menu_title_4') }}</div>
                                     <div class="price main_price">52.-</div>
-                                    <p>Petits farcis niçois
+                                    <p>{{ trans('lang.summer_menu_dish_name_15') }}
                                         <br><span>*</span><br>
-                                        Risotto d’Artichauts à la barigoule
+                                        {{ trans('lang.summer_menu_dish_name_16') }}
                                         <br><span>*</span><br>
-                                        Gaspacho de Melon, Fraise et Concombre
+                                        {{ trans('lang.summer_menu_dish_name_17') }}
                                     </p>
                                 </li>
                                 <li class="menu_block">
-                                    <div class="title main_title">Menu Enfant</div>
+                                    <div class="title main_title">{{ trans('lang.summer_menu_title_5') }}</div>
                                     <div class="price main_price">22.-</div>
-                                    <p>Steak haché et pâtes
-                                        <br><span><i>ou</i></span><br>
-                                        Nuggets maison et frites fraîches
+                                    <p>{{ trans('lang.summer_menu_dish_name_18') }}
+                                        <br><span><i>{{ trans('lang.or') }}</i></span><br>
+                                        {{ trans('lang.summer_menu_dish_name_19') }}
                                         <br><span>*</span><br>
-                                        Deux boules de glace au choix
+                                        {{ trans('lang.summer_menu_dish_name_20') }}
                                     </p>
                                 </li>
                             </ul>
