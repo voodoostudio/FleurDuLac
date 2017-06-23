@@ -59,7 +59,7 @@
             </div>
             <div class="b-sec clearfix">
                 <div class="col-md-4 tab-container">
-                    <a href="#menu-1" class="tab-box active">
+                    <a href="#summer_menu-1" class="tab-box active">
                         <span class="title">Carte</span>
                         <span class="sub-title">Sens en éveil</span>
                     </a>
@@ -67,7 +67,7 @@
                         <span class="title">Suggestions de Printemps</span>
                         <span class="sub-title">Tradition revisitée</span>
                     </a>
-                    <a href="#menu-3" class="tab-box">
+                    <a href="#summer_menu-3" class="tab-box">
                         <span class="title">Menus</span>
                         <span class="sub-title">Accords parfaits</span>
                     </a>
@@ -81,7 +81,7 @@
                     </a>
                 </div>
                 <div class="col-md-8 tab-content" data-bg-img="/img/menu-tabs/1.jpg">
-                    <div class="tab-pane fadeInLeft clearfix active" id="menu-1" data-img-name="/img/menu-tabs/1.jpg">
+                    <div style="display: none" class="tab-pane fadeInLeft clearfix active" id="menu-1" data-img-name="/img/menu-tabs/1.jpg">
                         <div class="menu-list col-xs-12">
                             <ul>
                                 <li>
@@ -102,15 +102,6 @@
                                         <img src="/img/gluten_free_1.svg" alt="gluten free">
                                     </div>
                                 </li>
-                                {{--<li>--}}
-                                    {{--<div class="menu_item">--}}
-                                        {{--<div class="title">Chaud- froid de langoustines aux saveurs Thaï</div>--}}
-                                        {{--<div class="price">19.-</div>--}}
-                                    {{--</div>--}}
-                                    {{--<div class="icns_block">--}}
-                                        {{--<img src="/img/gluten_free_1.svg" alt="gluten free">--}}
-                                    {{--</div>--}}
-                                {{--</li>--}}
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">Bouquet de mesclun aux légumes croquants</div>
@@ -131,38 +122,6 @@
                                         <img src="/img/vegetarian_1.svg" alt="vegetarian">
                                     </div>
                                 </li>
-                                {{--<li>--}}
-                                    {{--<div class="menu_item">--}}
-                                        {{--<div class="title">Tomme vaudoise croustillante au jambon Penthaz</div>--}}
-                                        {{--<div class="price">22.-</div>--}}
-                                    {{--</div>--}}
-                                {{--</li>--}}
-                                {{--<li>--}}
-                                    {{--<div class="menu_item">--}}
-                                        {{--<div class="title">Salade gourmande : foie gras, saumon fumé, œufs de caille, magret fumé</div>--}}
-                                        {{--<div class="price">27.-</div>--}}
-                                    {{--</div>--}}
-                                {{--</li>--}}
-                                {{--<li>--}}
-                                    {{--<div class="menu_item">--}}
-                                        {{--<div class="title">Bouquet de mesclun aux légumes croquants</div>--}}
-                                        {{--<div class="price">9.-</div>--}}
-                                    {{--</div>--}}
-                                    {{--<div class="icns_block">--}}
-                                        {{--<img src="/img/gluten_free_1.svg" alt="gluten free">--}}
-                                        {{--<img src="/img/vegetarian_1.svg" alt="vegetarian">--}}
-                                    {{--</div>--}}
-                                {{--</li>--}}
-                                {{--<li>--}}
-                                    {{--<div class="menu_item">--}}
-                                        {{--<div class="title">Saladine</div>--}}
-                                        {{--<div class="price">9.-</div>--}}
-                                    {{--</div>--}}
-                                    {{--<div class="icns_block">--}}
-                                        {{--<img src="/img/gluten_free_1.svg" alt="gluten free">--}}
-                                        {{--<img src="/img/vegetarian_1.svg" alt="vegetarian">--}}
-                                    {{--</div>--}}
-                                {{--</li>--}}
                                 <li>
                                     <div class="title main_title">Du lac à la mer...</div>
                                 </li>
@@ -205,12 +164,6 @@
                                         <img src="/img/gluten_free_1.svg" alt="gluten free">
                                     </div>
                                 </li>
-                                {{--<li>--}}
-                                    {{--<div class="menu_item">--}}
-                                        {{--<div class="title">Bar entier en croûte de sel pour 2 personnes, légumes de saison</div>--}}
-                                        {{--<div class="price">58.-/pers</div>--}}
-                                    {{--</div>--}}
-                                {{--</li>--}}
                                 <li>
                                     <div class="title main_title">De la terre...</div>
                                 </li>
@@ -226,7 +179,6 @@
                                         <div class="price">200gr : 47.-</div>
                                     </div>
                                     <p class="sub_title">Sauce au choix :  Charlemagne, Moutarde, Morilles, Pommes frites maison et légumes poêlés</p>
-                                    {{--<p class="sub_title">Frites fraîches au parmesan et à la truffe + Chf 8.-</p>--}}
                                 </li>
                                 <li>
                                     <div class="menu_item">
@@ -234,21 +186,12 @@
                                         <div class="price">42.-</div>
                                     </div>
                                 </li>
-                                {{--<li>--}}
-                                    {{--<div class="menu_item">--}}
-                                        {{--<div class="title">Carré d’agneau grillé aux herbes, jardinière de légumes et gratin dauphinois</div>--}}
-                                        {{--<div class="price">45.-</div>--}}
-                                    {{--</div>--}}
-                                {{--</li>--}}
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">Ballotine de pintade aux morilles, écrasé pommes de terre aux olives</div>
                                         <div class="price">39.-</div>
                                     </div>
                                 </li>
-                                {{--<li>--}}
-                                    {{--<p>Provenance de nos viandes : bœuf - Suisse/ veau - Suisse - Hollande / volaille - Suisse – France</p>--}}
-                                {{--</li>--}}
                                 <li>
                                     <div class="title main_title">Fromages</div>
                                 </li>
@@ -335,6 +278,313 @@
                             <p style="text-align: center">Canard : France</p>
                             <p style="text-align: center">Agneau : Irlande</p>
                             <p style="text-align: center">Pintade : France</p>
+                            <div class="icons_legend">
+                                <div>
+                                    <img src="/img/gluten_free_1.svg" alt="gluten free">
+                                    <span>Sans gluten</span>
+                                </div>
+                                <div>
+                                    <img src="/img/vegetarian_1.svg" alt="vegetarian">
+                                    <span>Vegetarien</span>
+                                </div>
+                            </div>
+                            <p class="currency_explanation">Nos prix sont en francs suisses avec TVA à 8%</p>
+                        </div>
+                    </div>
+                    <div name="summer_carte" class="tab-pane fadeInLeft clearfix active" id="summer_menu-1" data-img-name="/img/menu-tabs/1.jpg">
+                        <div class="menu-list col-xs-12">
+                            <ul>
+                                <li>
+                                    <div class="title main_title">Pour commencer...</div>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">Salade de Mâche, roulés de jambon de Penthaz au chèvre frais</div>
+                                        <div class="price">19.-</div>
+                                    </div>
+                                    <div class="icns_block">
+                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">Carpaccio de Bœuf</div>
+                                        <div class="price">entrée / plat : 21.- / 42.-</div>
+                                    </div>
+                                    <div class="icns_block">
+                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">Tartare de Saumon aux abricots du Valais</div>
+                                        <div class="price">entrée / plat : 22.- / 44.-</div>
+                                    </div>
+                                    <div class="icns_block">
+                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">Gambas au combawa sur palet de Melon charentais rôti et granité</div>
+                                        <div class="price">22.-</div>
+                                    </div>
+                                    <div class="icns_block">
+                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">Langoustines à l’Orientale, taboulé de chou-fleur et pommes</div>
+                                        <div class="price">23.-</div>
+                                    </div>
+                                    <div class="icns_block">
+                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">Tarte fine aux Légumes d’été, lit de tapenade et chanterelles</div>
+                                        <div class="price">18.-</div>
+                                    </div>
+                                    <div class="icns_block">
+                                        <img src="/img/vegetarian_1.svg" alt="vegetarian">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">Rosace de Tomate Mozzarella et Guacamole d’avocat</div>
+                                        <div class="price">16.-</div>
+                                    </div>
+                                    <div class="icns_block">
+                                        <img src="/img/vegetarian_1.svg" alt="vegetarian">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">Petits farcis Niçois végétariens</div>
+                                        <div class="price">17.-</div>
+                                    </div>
+                                    <div class="icns_block">
+                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
+                                        <img src="/img/vegetarian_1.svg" alt="vegetarian">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">Bouquet de Mesclun aux légumes croquants</div>
+                                        <div class="price">12.-</div>
+                                    </div>
+                                    <div class="icns_block">
+                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
+                                        <img src="/img/vegetarian_1.svg" alt="vegetarian">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">Saladine</div>
+                                        <div class="price">8.-</div>
+                                    </div>
+                                    <div class="icns_block">
+                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
+                                        <img src="/img/vegetarian_1.svg" alt="vegetarian">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="title main_title">Du Lac à la Mer...</div>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">Filets de Perches meunière du Léman, frites maison</div>
+                                        <div class="price">110gr / 220gr : 24.- / 48.-</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">Filet d’Omble Chevalier du Léman, grenobloise de cocos et légumes</div>
+                                        <div class="price">44.-</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">Goujonnettes de Sole au gingembre et combawa, huile de cacahuète grillée, écrasé de pommes de terre aux herbes</div>
+                                        <div class="price">45.-</div>
+                                    </div>
+                                    <div class="icns_block">
+                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">Assiette du Pêcheur : Gambas-Sole-Omble, polenta et légumes</div>
+                                        <div class="price">43.-</div>
+                                    </div>
+                                    <div class="icns_block">
+                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">Pavé de Daurade Royale, confit d’échalotte et pommes boulangères</div>
+                                        <div class="price">46.-</div>
+                                    </div>
+                                    <div class="icns_block">
+                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">Saltimbocca de Saint-Pierre et tagliatelles de navets au safran</div>
+                                        <div class="price">45.-</div>
+                                    </div>
+                                    <div class="icns_block">
+                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">Médaillons de Thon snackés au sésame, vinaigrette de poivre vert, fine ratatouille et pommes boulangères</div>
+                                        <div class="price">39.-</div>
+                                    </div>
+                                    <div class="icns_block">
+                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="title main_title">De la Terre...</div>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">Entrecôte de Bœuf sauce Charlemagne <br> Frites maison</div>
+                                        <div class="price">200gr / 300gr/ 400gr : 42.- / 48.- / 54.-</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">Filet de Bœuf sauce Charlemagne <br> Frites maison</div>
+                                        <div class="price">200gr : 47.-</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">Côte et Rognons de Veau aux oignons confits, colraves et pommes boulangères</div>
+                                        <div class="price">46.-</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">Hamburger « La Fleur du Lac » duo Bœuf et Gambas</div>
+                                        <div class="price">32.-</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">Suprême de Poulet à l’estragon, écrasé de pommes de terre aux herbes</div>
+                                        <div class="price">38.-</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">Risotto d’Artichauts à la barigoule</div>
+                                        <div class="price">28.-</div>
+                                    </div>
+                                    <div class="icns_block">
+                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">Frites maison au parmesan et aromatisées à l’huile de truffe</div>
+                                        <div class="price">10.-</div>
+                                    </div>
+                                    <div class="icns_block">
+                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="title main_title">Fromages</div>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">Assiette du pays : Tomme vaudoise, Chèvre, Gruyère</div>
+                                        <div class="price">12.-</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="title main_title">Desserts</div>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">Moelleux au Chocolat et son sorbet maison</div>
+                                        <div class="price">15.-</div>
+                                    </div>
+                                    <div class="icns_block">
+                                        <img src="/img/vegetarian_1.svg" alt="vegetarian">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">Mille-feuille « La Fleur du Lac » aux Fraises et son sorbet</div>
+                                        <div class="price">14.-</div>
+                                    </div>
+                                    <div class="icns_block">
+                                        <img src="/img/vegetarian_1.svg" alt="vegetarian">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">Crumble aux Abricots du Valais et sa double crème de gruyère</div>
+                                        <div class="price">15.-</div>
+                                    </div>
+                                    <div class="icns_block">
+                                        <img src="/img/vegetarian_1.svg" alt="vegetarian">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">Gaspacho de Melon, Fraise et Concombre</div>
+                                        <div class="price">13.-</div>
+                                    </div>
+                                    <div class="icns_block">
+                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
+                                        <img src="/img/vegetarian_1.svg" alt="vegetarian">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">Carpaccio d’Ananas et son sorbet Menthe du potager</div>
+                                        <div class="price">13.-</div>
+                                    </div>
+                                    <div class="icns_block">
+                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
+                                        <img src="/img/vegetarian_1.svg" alt="vegetarian">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">Palette de Sorbets maison</div>
+                                        <div class="price">13.-</div>
+                                    </div>
+                                    <div class="icns_block">
+                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
+                                        <img src="/img/vegetarian_1.svg" alt="vegetarian">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">Café Gourmand au gré de la pâtissière</div>
+                                        <div class="price">15.-</div>
+                                    </div>
+                                    <div class="icns_block">
+                                        <img src="/img/vegetarian_1.svg" alt="vegetarian">
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <p style="margin-top: 20px; text-align: center">Chers Clients,<br>nous travaillons avec des produits frais et de saison, de ce fait, nos menus sont susceptibles de changer en fonction des arrivages.</p>
+                            <p style="text-align: center">Provenance des viandes</p>
+                            <p style="text-align: center">Bœuf & Veau : Suisse</p>
+                            <p style="text-align: center">Poulet : France</p>
                             <div class="icons_legend">
                                 <div>
                                     <img src="/img/gluten_free_1.svg" alt="gluten free">
@@ -501,7 +751,7 @@
                             <p class="currency_explanation">Nos prix sont en francs suisses avec TVA à 8%</p>
                         </div>
                     </div>
-                    <div class="tab-pane fadeInLeft clearfix" id="menu-3" data-img-name="/img/menu-tabs/1.jpg">
+                    <div style="display: none" class="tab-pane fadeInLeft clearfix" id="menu-3" data-img-name="/img/menu-tabs/1.jpg">
                         <div class="menu-list col-xs-12">
                             <ul>
                                 <li class="menu_block">
@@ -555,6 +805,76 @@
                                         Assiette de fromages
                                         <br><span>*</span><br>
                                         Pana cotta au citron vert et son coulis à la Mara des bois</p>
+                                </li>
+                            </ul>
+                            <p style="margin-top: 20px">Servi pour l’ensemble des convives à votre table </p>
+                            <p class="currency_explanation">Nos prix sont en francs suisses avec TVA à 8%</p>
+                        </div>
+                    </div>
+                    <div name="summer_menu" class="tab-pane fadeInLeft clearfix" id="summer_menu-3" data-img-name="/img/menu-tabs/1.jpg">
+                        <div class="menu-list col-xs-12">
+                            <ul>
+                                <li class="menu_block">
+                                    <div class="title main_title">Menu Estival du Chef</div>
+                                    <div class="title center_title">Dégustation de 6 mets</div>
+                                    <div class="price main_price">98.-</div>
+                                    <div class="title center_title"> Dégustation avec un verre de vin par met</div>
+                                    <div class="price main_price">142.-</div>
+                                    <p>Petits farcis Niçois
+                                        <br><span>*</span><br>
+                                        Gambas au combawa sur palet de Melon charentais rôti
+                                        <br><span>*</span><br>
+                                        Médaillons de Thon snackés au sésame
+                                        <br><span>*</span><br>
+                                        Suprême de Poulet à l’estragon
+                                        <br><span>*</span><br>
+                                        Assiette de Fromages
+                                        <br><span>*</span><br>
+                                        Carpaccio d’Ananas
+                                    </p>
+                                </li>
+                                <li class="menu_block">
+                                    <div class="title main_title">Menu du Pêcheur</div>
+                                    <div class="price main_price">68.-</div>
+                                    <p>Langoustines à l’Orientale
+                                        <br><span><i>ou</i></span><br>
+                                        Tartare de Saumon
+                                        <br><span>*</span><br>
+                                        Assiette du Pêcheur
+                                        <br><span><i>ou</i></span><br>
+                                        Filet d’Omble Chevalier du lac Léman
+                                        <br><span>*</span><br>
+                                        Moelleux au Chocolat
+                                    </p>
+                                </li>
+                                <li class="menu_block">
+                                    <div class="title main_title">Menu Charlemagne</div>
+                                    <div class="price main_price">58.-</div>
+                                    <p>Bouquet de Mesclun et légumes croquants
+                                        <br><span>*</span><br>
+                                        Entrecôte de Bœuf 200gr sauce Charlemagne, frites maison
+                                        <br><span>*</span><br>
+                                        Mille-feuille « La Fleur du Lac » aux fraises et son sorbet maison</p>
+                                </li>
+                                <li class="menu_block">
+                                    <div class="title main_title">Menu Végétarien & Sans Gluten</div>
+                                    <div class="price main_price">52.-</div>
+                                    <p>Petits farcis niçois
+                                        <br><span>*</span><br>
+                                        Risotto d’Artichauts à la barigoule
+                                        <br><span>*</span><br>
+                                        Gaspacho de Melon, Fraise et Concombre
+                                    </p>
+                                </li>
+                                <li class="menu_block">
+                                    <div class="title main_title">Menu Enfant</div>
+                                    <div class="price main_price">22.-</div>
+                                    <p>Steak haché et pâtes
+                                        <br><span><i>ou</i></span><br>
+                                        Nuggets maison et frites fraîches
+                                        <br><span>*</span><br>
+                                        Deux boules de glace au choix
+                                    </p>
                                 </li>
                             </ul>
                             <p style="margin-top: 20px">Servi pour l’ensemble des convives à votre table </p>
