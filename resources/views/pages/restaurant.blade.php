@@ -455,13 +455,13 @@
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">{{ trans('lang.summer_carte_dish_name_18') }}</div>
+                                        <div class="title">{!! trans('lang.summer_carte_dish_name_18') !!}</div>
                                         <div class="price">200gr / 300gr/ 400gr : 42.- / 48.- / 54.-</div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">{{ trans('lang.summer_carte_dish_name_19') }}</div>
+                                        <div class="title">{!! trans('lang.summer_carte_dish_name_19') !!}</div>
                                         <div class="price">200gr : 47.-</div>
                                     </div>
                                 </li>
@@ -581,7 +581,7 @@
                                 </li>
                             </ul>
 
-                            <p style="margin-top: 20px; text-align: center">{{ trans('lang.summer_carte_add_info_1') }}</p>
+                            <p style="margin-top: 20px; text-align: center">{!! trans('lang.summer_carte_add_info_1') !!}</p>
                             <p style="text-align: center">{{ trans('lang.summer_carte_add_info_2') }}</p>
                             <p style="text-align: center">{{ trans('lang.summer_carte_add_info_3') }}</p>
                             <p style="text-align: center">{{ trans('lang.summer_carte_add_info_4') }}</p>
