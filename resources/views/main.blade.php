@@ -7,6 +7,7 @@
 @yield('current_page')
 
 <body class="home-page-1">
+    @include('includes._google_analytics')
 
     <div class="main-wrapper">
 
