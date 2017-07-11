@@ -14694,6 +14694,15 @@ body.post-details #blog-section {
               color: #d2bd7f;
               font: 14px Helvetica, sans-serif;
             }
+
+#restaurant-menus .b-sec .tab-content .tab-pane .menu-list ul li .price span {
+font-size: 12px;
+}
+#restaurant-menus .b-sec .tab-content .tab-pane .menu-list ul li .price span.year {
+font-size: 14px;
+  margin-right: 40px;
+  color: #969696;
+}
             #restaurant-menus .b-sec .tab-content .tab-pane .menu-list ul li .price.main_price {
               display: block;
             }
@@ -14709,6 +14718,14 @@ body.post-details #blog-section {
             #restaurant-menus .b-sec .tab-content .tab-pane .menu-list ul li:first-child .title.main_title {
               margin-top: 0;
             }
+
+
+#restaurant-menus .b-sec .tab-content .tab-pane .menu-list ul li .title.main_sub_title {
+  color: #d2bd7f;
+  font: 24px/30px "Great Vibes", Arial, Helvetica, sans-serif;
+}
+
+
 
             #restaurant-menus .b-sec .tab-content .tab-pane .menu-list ul li.menu_block .title,
             #restaurant-menus .b-sec .tab-content .tab-pane .menu-list ul li.menu_block p {
