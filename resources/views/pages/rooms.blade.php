@@ -38,10 +38,11 @@
 
             <div class="room-container clearfix">
                 <div class="room-box row animated-box" data-animation="fadeInUp">
-                    <div class="col-md-4 room-img" data-bg-img="/img/rooms/single_main.jpg">
+                    <div class="col-md-4 room-img" data-bg-img="/img/rooms/single_1.jpg">
                         <div class="gallery">
-                            <a href="/img/rooms/single_main.jpg" class="more-info-url"></a>
-                            <a href="/img/rooms/single_bath.jpg"></a>
+                            <a href="/img/rooms/single_1.jpg" class="more-info-url"></a>
+                            <a href="/img/rooms/single_2.jpg"></a>
+                            <a href="/img/rooms/single_3.jpg"></a>
                         </div>
                     </div>
                     <div class="r-sec col-md-8">
@@ -118,11 +119,16 @@
 
             <div class="room-container clearfix">
                 <div class="room-box row animated-box" data-animation="fadeInUp">
-                    <div class="col-md-4 room-img" data-bg-img="/img/rooms/standart_main.jpg">
+                    <div class="col-md-4 room-img" data-bg-img="/img/rooms/standart_1.jpg">
                         <div class="gallery">
-                            <a href="/img/rooms/standart_main.jpg" class="more-info-url"></a>
-                            <a href="/img/rooms/standart_main2.jpg"></a>
-                            <a href="/img/rooms/standart_bath.jpg"></a>
+                            <a href="/img/rooms/standart_1.jpg" class="more-info-url"></a>
+                            <a href="/img/rooms/standart_2.jpg"></a>
+                            <a href="/img/rooms/standart_3.jpg"></a>
+                            <a href="/img/rooms/standart_4.jpg"></a>
+                            <a href="/img/rooms/standart_5.jpg"></a>
+                            <a href="/img/rooms/standart_6.jpg"></a>
+                            <a href="/img/rooms/standart_7.jpg"></a>
+                            <a href="/img/rooms/standart_8.jpg"></a>
                         </div>
                     </div>
                     <div class="r-sec col-md-8">
@@ -193,11 +199,15 @@
 
             <div class="room-container clearfix">
                 <div class="room-box row animated-box" data-animation="fadeInUp">
-                    <div class="col-md-4 room-img" data-bg-img="/img/rooms/superior_main.jpg">
+                    <div class="col-md-4 room-img" data-bg-img="/img/rooms/superior_1.jpg">
                         <div class="gallery">
-                            <a href="/img/rooms/superior_main.jpg" class="more-info-url"></a>
-                            <a href="/img/rooms/superior_main2.jpg"></a>
-                            <a href="/img/rooms/superior_bath.jpg"></a>
+                            <a href="/img/rooms/superior_1.jpg" class="more-info-url"></a>
+                            <a href="/img/rooms/superior_2.jpg"></a>
+                            <a href="/img/rooms/superior_3.jpg"></a>
+                            <a href="/img/rooms/superior_4.jpg"></a>
+                            <a href="/img/rooms/superior_5.jpg"></a>
+                            <a href="/img/rooms/superior_6.jpg"></a>
+                            <a href="/img/rooms/superior_7.jpg"></a>
                         </div>
                     </div>
                     <div class="r-sec col-md-8">

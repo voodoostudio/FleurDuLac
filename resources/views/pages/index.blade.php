@@ -421,6 +421,116 @@
                             </figcaption>
                         </figure>
                     </li>
+                    <li class="item col-xs-6 col-md-4 pool">
+                        <figure>
+                            <img src="/img/gallery/31.jpg" alt="image 31"/>
+                            <a href="/img/gallery/31.jpg" class="more-details"
+                               data-title="">Enlarge</a>
+                            <figcaption>
+                                <h4></h4>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="item col-xs-6 col-md-4 pool">
+                        <figure>
+                            <img src="/img/gallery/32.jpg" alt="image 32"/>
+                            <a href="/img/gallery/32.jpg" class="more-details"
+                               data-title="">Enlarge</a>
+                            <figcaption>
+                                <h4></h4>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="item col-xs-6 col-md-4 pool">
+                        <figure>
+                            <img src="/img/gallery/33.jpg" alt="image 23"/>
+                            <a href="/img/gallery/33.jpg" class="more-details"
+                               data-title="">Enlarge</a>
+                            <figcaption>
+                                <h4></h4>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="item col-xs-6 col-md-4 pool">
+                        <figure>
+                            <img src="/img/gallery/34.jpg" alt="image 23"/>
+                            <a href="/img/gallery/34.jpg" class="more-details"
+                               data-title="">Enlarge</a>
+                            <figcaption>
+                                <h4></h4>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="item col-xs-6 col-md-4 pool">
+                        <figure>
+                            <img src="/img/gallery/35.jpg" alt="image 23"/>
+                            <a href="/img/gallery/35.jpg" class="more-details"
+                               data-title="">Enlarge</a>
+                            <figcaption>
+                                <h4></h4>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="item col-xs-6 col-md-4 pool">
+                        <figure>
+                            <img src="/img/gallery/36.jpg" alt="image 23"/>
+                            <a href="/img/gallery/36.jpg" class="more-details"
+                               data-title="">Enlarge</a>
+                            <figcaption>
+                                <h4></h4>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="item col-xs-6 col-md-4 pool">
+                        <figure>
+                            <img src="/img/gallery/37.jpg" alt="image 23"/>
+                            <a href="/img/gallery/37.jpg" class="more-details"
+                               data-title="">Enlarge</a>
+                            <figcaption>
+                                <h4></h4>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="item col-xs-6 col-md-4 pool">
+                        <figure>
+                            <img src="/img/gallery/38.jpg" alt="image 23"/>
+                            <a href="/img/gallery/38.jpg" class="more-details"
+                               data-title="">Enlarge</a>
+                            <figcaption>
+                                <h4></h4>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="item col-xs-6 col-md-4 pool">
+                        <figure>
+                            <img src="/img/gallery/39.jpg" alt="image 23"/>
+                            <a href="/img/gallery/39.jpg" class="more-details"
+                               data-title="">Enlarge</a>
+                            <figcaption>
+                                <h4></h4>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="item col-xs-6 col-md-4 pool">
+                        <figure>
+                            <img src="/img/gallery/40.jpg" alt="image 23"/>
+                            <a href="/img/gallery/40.jpg" class="more-details"
+                               data-title="">Enlarge</a>
+                            <figcaption>
+                                <h4></h4>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="item col-xs-6 col-md-4 pool">
+                        <figure>
+                            <img src="/img/gallery/41.jpg" alt="image 23"/>
+                            <a href="/img/gallery/41.jpg" class="more-details"
+                               data-title="">Enlarge</a>
+                            <figcaption>
+                                <h4></h4>
+                            </figcaption>
+                        </figure>
+                    </li>
                 </ul>
 
                 <!--<a href="pages/gallery-masonry.html" class="gallery-more-btn ravis-btn btn-type-2">More ...</a>-->
