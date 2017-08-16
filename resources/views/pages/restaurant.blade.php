@@ -1515,11 +1515,7 @@
                                     <div class="menu_set">
                                         <p>{{ trans('lang.summer_menu_dish_name_15') }}</p>
                                         <img src="/img/vegetarian_1.svg" alt="vegetarian">
-                                        <img src="/img/vegetarian_1.svg" alt="vegetarian">
-                                        <img src="/img/vegetarian_1.svg" alt="vegetarian">
                                         <p>{{ trans('lang.summer_menu_dish_name_16') }}</p>
-                                        <img src="/img/vegetarian_1.svg" alt="vegetarian">
-                                        <img src="/img/vegetarian_1.svg" alt="vegetarian">
                                         <img src="/img/vegetarian_1.svg" alt="vegetarian">
                                         <p>{{ trans('lang.summer_menu_dish_name_17') }}</p>
                                     </div>
