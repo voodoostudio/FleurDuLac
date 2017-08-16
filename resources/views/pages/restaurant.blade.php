@@ -407,6 +407,12 @@
                                 </li>
                                 <li>
                                     <div class="menu_item">
+                                        <div class="title">{{ trans('lang.summer_carte_dish_name_12_1') }}</div>
+                                        <div class="price">42.-</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
                                         <div class="title">{{ trans('lang.summer_carte_dish_name_13') }}</div>
                                         <div class="price">45.-</div>
                                     </div>
@@ -489,7 +495,7 @@
                                         <div class="price">28.-</div>
                                     </div>
                                     <div class="icns_block">
-                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
+                                        <img src="/img/vegetarian_1.svg" alt="vegeterian">
                                     </div>
                                 </li>
                                 <li>
@@ -498,7 +504,7 @@
                                         <div class="price">10.-</div>
                                     </div>
                                     <div class="icns_block">
-                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
+                                        <img src="/img/vegetarian_1.svg" alt="gluten free">
                                     </div>
                                 </li>
                                 <li>
@@ -520,6 +526,12 @@
                                     </div>
                                     <div class="icns_block">
                                         <img src="/img/vegetarian_1.svg" alt="vegetarian">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">{{ trans('lang.summer_carte_dish_name_26_1') }}</div>
+                                        <div class="price">15.-</div>
                                     </div>
                                 </li>
                                 <li>
@@ -1456,6 +1468,20 @@
                         <div class="menu-list col-xs-12">
                             <ul>
                                 <li class="menu_block">
+                                    <div class="title main_title">{{ trans('lang.summer_menu_title_2') }}</div>
+                                    <div class="price main_price">68.-</div>
+                                    <p>{{ trans('lang.summer_menu_dish_name_7') }}
+                                        <br><span><i>{{ trans('lang.or') }}</i></span><br>
+                                        {{ trans('lang.summer_menu_dish_name_8') }}
+                                        <br><span>*</span><br>
+                                        {{ trans('lang.summer_menu_dish_name_9') }}
+                                        <br><span><i>{{ trans('lang.or') }}</i></span><br>
+                                        {{ trans('lang.summer_menu_dish_name_10') }}
+                                        <br><span>*</span><br>
+                                        {{ trans('lang.summer_menu_dish_name_11') }}
+                                    </p>
+                                </li>
+                                <li class="menu_block">
                                     <div class="title main_title">{{ trans('lang.summer_menu_title_1') }}</div>
                                     <div class="title center_title">{{ trans('lang.summer_menu_price_option_1') }}</div>
                                     <div class="price main_price">98.-</div>
@@ -1475,20 +1501,6 @@
                                     </p>
                                 </li>
                                 <li class="menu_block">
-                                    <div class="title main_title">{{ trans('lang.summer_menu_title_2') }}</div>
-                                    <div class="price main_price">68.-</div>
-                                    <p>{{ trans('lang.summer_menu_dish_name_7') }}
-                                        <br><span><i>{{ trans('lang.or') }}</i></span><br>
-                                        {{ trans('lang.summer_menu_dish_name_8') }}
-                                        <br><span>*</span><br>
-                                        {{ trans('lang.summer_menu_dish_name_9') }}
-                                        <br><span><i>{{ trans('lang.or') }}</i></span><br>
-                                        {{ trans('lang.summer_menu_dish_name_10') }}
-                                        <br><span>*</span><br>
-                                        {{ trans('lang.summer_menu_dish_name_11') }}
-                                    </p>
-                                </li>
-                                <li class="menu_block">
                                     <div class="title main_title">{{ trans('lang.summer_menu_title_3') }}</div>
                                     <div class="price main_price">58.-</div>
                                     <p>{{ trans('lang.summer_menu_dish_name_12') }}
@@ -1500,12 +1512,17 @@
                                 <li class="menu_block">
                                     <div class="title main_title">{{ trans('lang.summer_menu_title_4') }}</div>
                                     <div class="price main_price">52.-</div>
-                                    <p>{{ trans('lang.summer_menu_dish_name_15') }}
-                                        <br><span>*</span><br>
-                                        {{ trans('lang.summer_menu_dish_name_16') }}
-                                        <br><span>*</span><br>
-                                        {{ trans('lang.summer_menu_dish_name_17') }}
-                                    </p>
+                                    <div class="menu_set">
+                                        <p>{{ trans('lang.summer_menu_dish_name_15') }}</p>
+                                        <img src="/img/vegetarian_1.svg" alt="vegetarian">
+                                        <img src="/img/vegetarian_1.svg" alt="vegetarian">
+                                        <img src="/img/vegetarian_1.svg" alt="vegetarian">
+                                        <p>{{ trans('lang.summer_menu_dish_name_16') }}</p>
+                                        <img src="/img/vegetarian_1.svg" alt="vegetarian">
+                                        <img src="/img/vegetarian_1.svg" alt="vegetarian">
+                                        <img src="/img/vegetarian_1.svg" alt="vegetarian">
+                                        <p>{{ trans('lang.summer_menu_dish_name_17') }}</p>
+                                    </div>
                                 </li>
                                 <li class="menu_block">
                                     <div class="title main_title">{{ trans('lang.summer_menu_title_5') }}</div>
@@ -1515,6 +1532,16 @@
                                         {{ trans('lang.summer_menu_dish_name_19') }}
                                         <br><span>*</span><br>
                                         {{ trans('lang.summer_menu_dish_name_20') }}
+                                    </p>
+                                </li>
+                                <li class="menu_block">
+                                    <div class="title main_title">{{ trans('lang.summer_menu_title_6') }}</div>
+                                    <div class="price main_price">72.-</div>
+                                    <p>{{ trans('lang.summer_menu_dish_name_21') }}
+                                        <br><span><i>{{ trans('lang.or') }}</i></span><br>
+                                        {{ trans('lang.summer_menu_dish_name_22') }}
+                                        <br><span>*</span><br>
+                                        {{ trans('lang.summer_menu_dish_name_23') }}
                                     </p>
                                 </li>
                             </ul>

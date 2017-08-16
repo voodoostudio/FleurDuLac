@@ -11089,10 +11089,42 @@ input[type="text"]:disabled, input[type="email"]:disabled, input[type="password"
     #main-slider-fullscreen .slide-caption .up-sec {
       color: #d2bd7f;
       font: 0.9em/1em "Great Vibes", Arial, Helvetica, sans-serif; }
+      @media (max-width: 1200px) {
+        #main-slider .owl-wrapper, #main-slider-fullscreen .owl-wrapper {
+          height: 780px !important;
+        }
+        #main-slider .slide-caption, #main-slider-fullscreen .slide-caption {
+          top: 60%
+        }
+        #main-slider .owl-controls, #main-slider-fullscreen .owl-controls {
+          bottom: 45%;
+        }
+      }
       @media (max-width: 992px) {
         #main-slider .slide-caption .up-sec,
         #main-slider-fullscreen .slide-caption .up-sec {
-          font-size: .6em; } }
+          font-size: .6em; }
+        #main-slider .owl-wrapper, #main-slider-fullscreen .owl-wrapper {
+          height: 580px !important;
+        }
+      }
+      @media (max-width: 768px) {
+        #main-slider .owl-wrapper, #main-slider-fullscreen .owl-wrapper {
+          height: 480px !important;
+        }
+
+        #main-slider .slide-caption, #main-slider-fullscreen .slide-caption {
+          top: 65%
+        }
+      }
+      @media (max-width: 600px) {
+        #main-slider .owl-wrapper, #main-slider-fullscreen .owl-wrapper {
+          height: 420px !important;
+        }
+        #main-slider .slide-caption, #main-slider-fullscreen .slide-caption {
+          top: 80%
+        }
+      }
     #main-slider .slide-caption .down-sec,
     #main-slider-fullscreen .slide-caption .down-sec {
       margin-bottom: 10px;
@@ -14627,6 +14659,17 @@ body.post-details #blog-section {
           #restaurant-menus .b-sec .tab-content .tab-pane .menu-list ul li {
             border-bottom: 1px solid #222222;
             position: relative;
+          }
+          #restaurant-menus .b-sec .tab-content .tab-pane .menu-list ul li .menu_set {
+            text-align: center;
+            padding: 10px 0;
+          }
+          #restaurant-menus .b-sec .tab-content .tab-pane .menu-list ul li .menu_set img {
+            width: 15px;
+            padding: 10px 0;
+          }
+          #restaurant-menus .b-sec .tab-content .tab-pane .menu-list ul li .menu_set p {
+            padding: 0;
           }
           #restaurant-menus .b-sec .tab-content .tab-pane .menu-list ul li .menu_item {
             display: table;

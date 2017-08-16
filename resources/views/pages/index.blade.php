@@ -511,26 +511,6 @@
                             </figcaption>
                         </figure>
                     </li>
-                    <li class="item col-xs-6 col-md-4 pool">
-                        <figure>
-                            <img src="/img/gallery/40.jpg" alt="image 23"/>
-                            <a href="/img/gallery/40.jpg" class="more-details"
-                               data-title="">Enlarge</a>
-                            <figcaption>
-                                <h4></h4>
-                            </figcaption>
-                        </figure>
-                    </li>
-                    <li class="item col-xs-6 col-md-4 pool">
-                        <figure>
-                            <img src="/img/gallery/41.jpg" alt="image 23"/>
-                            <a href="/img/gallery/41.jpg" class="more-details"
-                               data-title="">Enlarge</a>
-                            <figcaption>
-                                <h4></h4>
-                            </figcaption>
-                        </figure>
-                    </li>
                 </ul>
 
                 <!--<a href="pages/gallery-masonry.html" class="gallery-more-btn ravis-btn btn-type-2">More ...</a>-->
