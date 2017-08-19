@@ -14520,7 +14520,7 @@ body.post-details #blog-section {
   padding: 0 5px;
 }
   #restaurant-menus .b-sec {
-    margin: 100px 0 50px;
+    margin: 0 0 50px;
     background: #222222;
     border: 2px solid #222222;
     -webkit-box-shadow: 0 0 0 3px #d2bd7f, inset 0 0 0 1px #d2bd7f;
@@ -14531,7 +14531,7 @@ body.post-details #blog-section {
 
     #restaurant-menus .partners_list {
       display: table;
-      margin: 30px auto 0;
+      margin: 30px auto 30px;
     }
     #restaurant-menus .partners_list .partner {
       float: left;
