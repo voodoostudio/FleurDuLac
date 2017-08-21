@@ -418,7 +418,7 @@
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">{{ trans('lang.summer_carte_dish_name_11') }}</div>
-                                        <div class="price">110gr / 220gr : 24.- / 48.-</div>
+                                        <div class="price">48.-</div>
                                     </div>
                                 </li>
                                 <li>

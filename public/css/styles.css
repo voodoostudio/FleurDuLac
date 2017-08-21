@@ -10761,7 +10761,7 @@ input[type="text"]:disabled, input[type="email"]:disabled, input[type="password"
         line-height: 35px; }
 
     .languages a.ravis-btn {
-      padding: 0 10px;
+      padding: 0 8px;
     }
     #main-header #t-logo img {
       width: 100%;
