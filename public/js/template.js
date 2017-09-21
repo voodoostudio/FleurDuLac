@@ -17,7 +17,6 @@ jQuery(document).ready(function () {
 		});
 	}
 
-
 	jQuery('.animated-box').on('inview', function (event, isInView) {
 		if (isInView) {
 			var _this          = jQuery(this),

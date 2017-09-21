@@ -7,5 +7,5 @@
 
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic%7cPlayfair+Display:400,700%7cGreat+Vibes' rel='stylesheet' type='text/css'>
 <!-- Attach Google fonts -->
-<link rel="stylesheet" type="text/css" href="/css/styles.css">
+<link rel="stylesheet" type="text/css" href="/css/styles.min.css">
 <!-- Attach the main stylesheet file -->
