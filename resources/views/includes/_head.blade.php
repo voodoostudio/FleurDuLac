@@ -9,3 +9,4 @@
 <!-- Attach Google fonts -->
 <link rel="stylesheet" type="text/css" href="/css/styles.min.css">
 <!-- Attach the main stylesheet file -->
+<link rel="icon" href="{{ asset('img/favicon.ico') }}" sizes="32x32" />
