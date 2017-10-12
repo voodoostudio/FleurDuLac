@@ -103,216 +103,6 @@
                     </a>
                 </div>
                 <div class="col-md-8 tab-content" data-bg-img="/img/menu-tabs/1.jpg">
-                    <div style="display: none" class="tab-pane fadeInLeft clearfix active" id="menu-1" data-img-name="/img/menu-tabs/1.jpg">
-                        <div class="menu-list col-xs-12">
-                            <ul>
-                                <li>
-                                    <div class="title main_title">Entrées</div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">Salade de foies de volaille, déglacés au vinaigre de Xérès et pignons de pin grillés</div>
-                                        <div class="price">19.-</div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">Tartare de bœuf coupé au couteau</div>
-                                        <div class="price">entrée / plat : 21.- / 42.-</div>
-                                    </div>
-                                    <div class="icns_block">
-                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">Bouquet de mesclun aux légumes croquants</div>
-                                        <div class="price">9.-</div>
-                                    </div>
-                                    <div class="icns_block">
-                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
-                                        <img src="/img/vegetarian_1.svg" alt="vegetarian">
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">Saladine</div>
-                                        <div class="price">6.-</div>
-                                    </div>
-                                    <div class="icns_block">
-                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
-                                        <img src="/img/vegetarian_1.svg" alt="vegetarian">
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="title main_title">Du lac à la mer...</div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">Filets de perches meunière, pommes frites ou vapeur et légumes</div>
-                                        <div class="price">entrée / plat : 22.- / 42.-</div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">Assiette du pêcheur - féra, langoustine, rouget – aux saveurs gingembre et coco,légumes de saison et riz vénéré</div>
-                                        <div class="price">48.-</div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">Pavé de sandre au beurre surprise, écrasé de pommes de terre aux olives et légumes</div>
-                                        <div class="price">44.-</div>
-                                    </div>
-                                    <div class="icns_block">
-                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">Rougets barbet en croûte de sésame, méli-mélo de légumes et riz vénéré</div>
-                                        <div class="price">45.-</div>
-                                    </div>
-                                    <div class="icns_block">
-                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">Loup de mer sauvage en croûte de sel, beurre citronné et déclinaison de légumes de saison, pommes vapeur (à commander 24 heures à l’avance)</div>
-                                        <div class="price">52.-</div>
-                                    </div>
-                                    <div class="icns_block">
-                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="title main_title">De la terre...</div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">Entrecôte de bœuf</div>
-                                        <div class="price">200gr / 300gr/ 400gr : 42.- / 48.- / 54.-</div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">Filet de bœuf</div>
-                                        <div class="price">200gr : 47.-</div>
-                                    </div>
-                                    <p class="sub_title">Sauce au choix :  Charlemagne, Moutarde, Morilles, Pommes frites maison et légumes poêlés</p>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">Filet de canard laqué au miel et poivre de Sichuan, riz vénéré aux légumes</div>
-                                        <div class="price">42.-</div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">Ballotine de pintade aux morilles, écrasé pommes de terre aux olives</div>
-                                        <div class="price">39.-</div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="title main_title">Fromages</div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">Assiette de fromages du pays : tomme vaudoise, chèvre, gruyère</div>
-                                        <div class="price">10.-</div>
-                                    </div>
-                                    <div class="icns_block">
-                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="title main_title">Desserts</div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">Moelleux au chocolat et son sorbet maison</div>
-                                        <div class="price">15.-</div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">Mille-feuille « La Fleur du Lac » aux fraises et son sorbet maison</div>
-                                        <div class="price">14.-</div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">Corolle exotique aux fruits frais et son sorbet maison</div>
-                                        <div class="price">13.-</div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">Pana cotta au citron vert et son coulis à la Mara des bois</div>
-                                        <div class="price">13.-</div>
-                                    </div>
-                                    <div class="icns_block">
-                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">Ile flottante à la banane caramélisée</div>
-                                        <div class="price">13.-</div>
-                                    </div>
-                                    <div class="icns_block">
-                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">Tiramisu façon « Bounty » </div>
-                                        <div class="price">13.-</div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">Palette de sorbets maison</div>
-                                        <div class="price">13.-</div>
-                                    </div>
-                                    <div class="icns_block">
-                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">Café gourmand au gré de la pâtissière</div>
-                                        <div class="price">15.-</div>
-                                    </div>
-                                </li>
-                                {{--<li>--}}
-                                    {{--<div class="menu_item">--}}
-                                        {{--<div class="title">Café gourmand</div>--}}
-                                        {{--<div class="price">13.-</div>--}}
-                                    {{--</div>--}}
-                                {{--</li>--}}
-                            </ul>
-
-                            <p style="margin-top: 20px; text-align: center">Chers Clients,<br>Nous travaillons avec des produits frais et de saison issus du terroir, de ce fait, nos menus sont susceptibles de changer en fonction des arrivages.</p>
-                            <p style="text-align: center">Provenance de nos viandes</p>
-                            <p style="text-align: center">Bœuf  : Suisse</p>
-                            <p style="text-align: center">Canard : France</p>
-                            <p style="text-align: center">Agneau : Irlande</p>
-                            <p style="text-align: center">Pintade : France</p>
-                            <div class="icons_legend">
-                                <div>
-                                    <img src="/img/gluten_free_1.svg" alt="gluten free">
-                                    <span>Sans gluten</span>
-                                </div>
-                                <div>
-                                    <img src="/img/vegetarian_1.svg" alt="vegetarian">
-                                    <span>Vegetarien</span>
-                                </div>
-                            </div>
-                            <p class="currency_explanation">Nos prix sont en francs suisses avec TVA à 8%</p>
-                        </div>
-                    </div>
                     <div name="summer_carte" class="tab-pane fadeInLeft clearfix active" id="summer_menu-1" data-img-name="/img/menu-tabs/1.jpg">
                         <div class="menu-list col-xs-12">
                             <ul>
@@ -322,7 +112,7 @@
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">{{ trans('lang.summer_carte_dish_name_1') }}</div>
-                                        <div class="price">19.-</div>
+                                        <div class="price">28.-</div>
                                     </div>
                                     <div class="icns_block">
                                         <img src="/img/gluten_free_1.svg" alt="gluten free">
@@ -331,33 +121,51 @@
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">{{ trans('lang.summer_carte_dish_name_2') }}</div>
-                                        <div class="price">{{ trans('lang.summer_carte_portion') }} : 21.- / 42.-</div>
-                                    </div>
-                                    <div class="icns_block">
-                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
+                                        <div class="price">27.-</div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">{{ trans('lang.summer_carte_dish_name_3') }}</div>
-                                        <div class="price">{{ trans('lang.summer_carte_portion') }} : 22.- / 44.-</div>
+                                        <div class="price">18.-</div>
                                     </div>
                                     <div class="icns_block">
                                         <img src="/img/gluten_free_1.svg" alt="gluten free">
+                                        <img src="/img/vegetarian_1.svg" alt="vegetarian">
                                     </div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">{{ trans('lang.summer_carte_dish_name_4') }}</div>
-                                        <div class="price">22.-</div>
+                                        <div class="price">{{ trans('lang.summer_carte_portion') }} : 20.- / 38.-</div>
                                     </div>
                                     <div class="icns_block">
                                         <img src="/img/gluten_free_1.svg" alt="gluten free">
+                                        <img src="/img/vegetarian_1.svg" alt="vegetarian">
                                     </div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">{{ trans('lang.summer_carte_dish_name_5') }}</div>
+                                        <div class="price">17.-</div>
+                                    </div>
+                                    <p class="sub_title">{{ trans('lang.summer_carte_sub_name_5') }}</p>
+                                    <div class="icns_block">
+                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
+                                        <img src="/img/vegetarian_1.svg" alt="vegetarian">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">{{ trans('lang.summer_carte_dish_name_6') }}</div>
+                                        <div class="price">32.-</div>
+                                    </div>
+                                    <div class="icns_block">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">{{ trans('lang.summer_carte_dish_name_7') }}</div>
                                         <div class="price">23.-</div>
                                     </div>
                                     <div class="icns_block">
@@ -366,52 +174,19 @@
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">{{ trans('lang.summer_carte_dish_name_6') }}</div>
-                                        <div class="price">18.-</div>
-                                    </div>
-                                    <div class="icns_block">
-                                        <img src="/img/vegetarian_1.svg" alt="vegetarian">
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">{{ trans('lang.summer_carte_dish_name_7') }}</div>
-                                        <div class="price">16.-</div>
-                                    </div>
-                                    <div class="icns_block">
-                                        <img src="/img/vegetarian_1.svg" alt="vegetarian">
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
                                         <div class="title">{{ trans('lang.summer_carte_dish_name_8') }}</div>
-                                        <div class="price">17.-</div>
+                                        <div class="price">9.-</div>
                                     </div>
                                     <div class="icns_block">
                                         <img src="/img/gluten_free_1.svg" alt="gluten free">
                                         <img src="/img/vegetarian_1.svg" alt="vegetarian">
                                     </div>
                                 </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">{{ trans('lang.summer_carte_dish_name_9') }}</div>
-                                        <div class="price">12.-</div>
-                                    </div>
-                                    <div class="icns_block">
-                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
-                                        <img src="/img/vegetarian_1.svg" alt="vegetarian">
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">{{ trans('lang.summer_carte_dish_name_10') }}</div>
-                                        <div class="price">8.-</div>
-                                    </div>
-                                    <div class="icns_block">
-                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
-                                        <img src="/img/vegetarian_1.svg" alt="vegetarian">
-                                    </div>
-                                </li>
+
+
+
+
+
                                 <li>
                                     <div class="title main_title">{{ trans('lang.summer_carte_title_2') }}</div>
                                 </li>
@@ -430,25 +205,20 @@
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">{{ trans('lang.summer_carte_dish_name_12_1') }}</div>
-                                        <div class="price">42.-</div>
+                                        <div class="price">48.-</div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">{{ trans('lang.summer_carte_dish_name_13') }}</div>
-                                        <div class="price">45.-</div>
+                                        <div class="price">48.-</div>
                                     </div>
-                                    <div class="icns_block">
-                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
-                                    </div>
+                                    <p class="sub_title">{{ trans('lang.summer_carte_sub_name_13') }}</p>
                                 </li>
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">{{ trans('lang.summer_carte_dish_name_14') }}</div>
-                                        <div class="price">43.-</div>
-                                    </div>
-                                    <div class="icns_block">
-                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
+                                        <div class="price">42.-</div>
                                     </div>
                                 </li>
                                 <li>
@@ -460,75 +230,75 @@
                                         <img src="/img/gluten_free_1.svg" alt="gluten free">
                                     </div>
                                 </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">{{ trans('lang.summer_carte_dish_name_16') }}</div>
-                                        <div class="price">45.-</div>
-                                    </div>
-                                    <div class="icns_block">
-                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">{{ trans('lang.summer_carte_dish_name_17') }}</div>
-                                        <div class="price">39.-</div>
-                                    </div>
-                                    <div class="icns_block">
-                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
-                                    </div>
-                                </li>
+
+
+
+
+
+
                                 <li>
                                     <div class="title main_title">{{ trans('lang.summer_carte_title_3') }}</div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">{!! trans('lang.summer_carte_dish_name_18') !!}</div>
+                                        <div class="title">{{ trans('lang.summer_carte_dish_name_18') }}</div>
                                         <div class="price">200gr / 300gr/ 400gr : 42.- / 48.- / 54.-</div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">{!! trans('lang.summer_carte_dish_name_19') !!}</div>
-                                        <div class="price">200gr : 47.-</div>
+                                        <div class="title">{{ trans('lang.summer_carte_dish_name_19') }}</div>
+                                        <div class="price">200gr : 48.-</div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">{{ trans('lang.summer_carte_dish_name_20') }}</div>
-                                        <div class="price">46.-</div>
+                                        <div class="price">34.-</div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">{{ trans('lang.summer_carte_dish_name_21') }}</div>
-                                        <div class="price">32.-</div>
+                                        <div class="price">40.-</div>
                                     </div>
                                 </li>
+
+
+
+                                <li>
+                                    <div class="">
+                                        <div class="title main_sub_title">{{ trans('lang.summer_carte_sub_title_3') }}</div>
+                                        <p class="sub_title">{{ trans('lang.summer_carte_dish_sub_title_3') }}</p>
+                                    </div>
+                                </li>
+
+
+
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">{{ trans('lang.summer_carte_dish_name_22') }}</div>
-                                        <div class="price">38.-</div>
+                                        <div class="price">48.- / pers</div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">{{ trans('lang.summer_carte_dish_name_23') }}</div>
-                                        <div class="price">28.-</div>
-                                    </div>
-                                    <div class="icns_block">
-                                        <img src="/img/vegetarian_1.svg" alt="vegeterian">
+                                        <div class="price">44.-</div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">{{ trans('lang.summer_carte_dish_name_24') }}</div>
-                                        <div class="price">10.-</div>
-                                    </div>
-                                    <div class="icns_block">
-                                        <img src="/img/vegetarian_1.svg" alt="gluten free">
+                                        <div class="price">38.-</div>
                                     </div>
                                 </li>
+
+
+
+
+
+
                                 <li>
                                     <div class="title main_title">{{ trans('lang.summer_carte_title_4') }}</div>
                                 </li>
@@ -539,26 +309,29 @@
                                     </div>
                                 </li>
                                 <li>
+                                    <div class="menu_item">
+                                        <div class="title">{{ trans('lang.summer_carte_dish_name_25_1') }}</div>
+                                        <div class="price">24.-</div>
+                                    </div>
+                                </li>
+
+
+
+
+
+
+                                <li>
                                     <div class="title main_title">{{ trans('lang.summer_carte_title_5') }}</div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">{{ trans('lang.summer_carte_dish_name_26') }}</div>
-                                        <div class="price">15.-</div>
-                                    </div>
-                                    <div class="icns_block">
-                                        <img src="/img/vegetarian_1.svg" alt="vegetarian">
+                                        <div class="price">16.-</div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">{{ trans('lang.summer_carte_dish_name_26_1') }}</div>
-                                        <div class="price">15.-</div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">{{ trans('lang.summer_carte_dish_name_27') }}</div>
                                         <div class="price">14.-</div>
                                     </div>
                                     <div class="icns_block">
@@ -567,8 +340,14 @@
                                 </li>
                                 <li>
                                     <div class="menu_item">
+                                        <div class="title">{{ trans('lang.summer_carte_dish_name_27') }}</div>
+                                        <div class="price">14.-</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
                                         <div class="title">{{ trans('lang.summer_carte_dish_name_28') }}</div>
-                                        <div class="price">15.-</div>
+                                        <div class="price">17.-</div>
                                     </div>
                                     <div class="icns_block">
                                         <img src="/img/vegetarian_1.svg" alt="vegetarian">
@@ -577,36 +356,15 @@
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">{{ trans('lang.summer_carte_dish_name_29') }}</div>
-                                        <div class="price">13.-</div>
+                                        <div class="price">14.-</div>
                                     </div>
                                     <div class="icns_block">
-                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
                                         <img src="/img/vegetarian_1.svg" alt="vegetarian">
                                     </div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">{{ trans('lang.summer_carte_dish_name_30') }}</div>
-                                        <div class="price">13.-</div>
-                                    </div>
-                                    <div class="icns_block">
-                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
-                                        <img src="/img/vegetarian_1.svg" alt="vegetarian">
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">{{ trans('lang.summer_carte_dish_name_31') }}</div>
-                                        <div class="price">13.-</div>
-                                    </div>
-                                    <div class="icns_block">
-                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
-                                        <img src="/img/vegetarian_1.svg" alt="vegetarian">
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">{{ trans('lang.summer_carte_dish_name_32') }}</div>
                                         <div class="price">15.-</div>
                                     </div>
                                     <div class="icns_block">
@@ -619,6 +377,9 @@
                             <p style="text-align: center">{{ trans('lang.summer_carte_add_info_2') }}</p>
                             <p style="text-align: center">{{ trans('lang.summer_carte_add_info_3') }}</p>
                             <p style="text-align: center">{{ trans('lang.summer_carte_add_info_4') }}</p>
+                            <p style="text-align: center">{{ trans('lang.summer_carte_add_info_5') }}</p>
+                            <p style="text-align: center">{{ trans('lang.summer_carte_add_info_6') }}</p>
+                            <p style="text-align: center">{{ trans('lang.summer_carte_add_info_7') }}</p>
                             <div class="icons_legend">
                                 <div>
                                     <img src="/img/gluten_free_1.svg" alt="gluten free">
@@ -1426,89 +1187,15 @@
                             <p class="currency_explanation">Nos prix sont en francs suisses avec TVA à 8%</p>
                         </div>
                     </div>
-                    <div style="display: none" class="tab-pane fadeInLeft clearfix" id="menu-3" data-img-name="/img/menu-tabs/1.jpg">
-                        <div class="menu-list col-xs-12">
-                            <ul>
-                                <li class="menu_block">
-                                    <div class="title main_title">Menu du Pêcheur</div>
-                                    <div class="price main_price">68.-</div>
-                                    <p>Langoustines et noix de Saint-Jacques sur lit de Pak Choï
-                                        <br><span><i>ou</i></span><br>
-                                        Filets de perches meunière
-                                        <br><span>*</span><br>
-                                        Assiette du pêcheur aux saveurs gingembre - coco et riz vénéré et légumes de saison
-                                        <br><span><i>ou</i></span><br>
-                                        Pavé de sandre au beurre surprise et son écrasé de pommes de terre aux olives
-                                        <br><span>*</span><br>
-                                        Corolle exotique aux fruits frais et son sorbet maison
-                                        <br><span><i>ou</i></span><br>
-                                        Moelleux au chocolat et son sorbet maison
-                                    </p>
-                                </li>
-                                <li class="menu_block">
-                                    <div class="title main_title">Menu Charlemagne</div>
-                                    <div class="price main_price">54.-</div>
-                                    <p>Bouquet de mesclun et légumes croquants
-                                        <br><span>*</span><br>
-                                        Entrecôte de bœuf 200gr, frites maison et sauce au choix
-                                        <br><span>*</span><br>
-                                        Mille-feuille « La Fleur du Lac » aux fraises et son sorbet maison</p>
-                                </li>
-                                <li class="menu_block">
-                                    <div class="title main_title">Menu Enfant</div>
-                                    <div class="price main_price">22.-</div>
-                                    <p>Tagliatelles à la bolognaise
-                                        <br><span><i>ou</i></span><br>
-                                        Nuggets maison et frites fraîches
-                                        <br><span>*</span><br>
-                                        Deux boules de glace</p>
-                                </li>
-                                <li class="menu_block">
-                                    <div class="title main_title">Menu Printanier du Chef</div>
-                                    <div class="title center_title">Dégustation de 6 mets</div>
-                                    <div class="price main_price">98.-</div>
-                                    <div class="title center_title"> Dégustation avec un verre de vin par met</div>
-                                    <div class="price main_price">132.-</div>
-                                    <p>Poêlée d’asperges vertes
-                                        <br><span>*</span><br>
-                                        Cannelloni de saumon et crabe épicé au wasabi
-                                        <br><span>*</span><br>
-                                        Rougets barbet en croûte de sésame
-                                        <br><span>*</span><br>
-                                        Ballotine de pintade aux morilles, purée de pommes de terre aux olives
-                                        <br><span>*</span><br>
-                                        Assiette de fromages
-                                        <br><span>*</span><br>
-                                        Pana cotta au citron vert et son coulis à la Mara des bois</p>
-                                </li>
-                            </ul>
-                            <p style="margin-top: 20px">Servi pour l’ensemble des convives à votre table </p>
-                            <p class="currency_explanation">Nos prix sont en francs suisses avec TVA à 8%</p>
-                        </div>
-                    </div>
                     <div name="summer_menu" class="tab-pane fadeInLeft clearfix" id="summer_menu-3" data-img-name="/img/menu-tabs/1.jpg">
                         <div class="menu-list col-xs-12">
                             <ul>
                                 <li class="menu_block">
-                                    <div class="title main_title">{{ trans('lang.summer_menu_title_2') }}</div>
-                                    <div class="price main_price">68.-</div>
-                                    <p>{{ trans('lang.summer_menu_dish_name_7') }}
-                                        <br><span><i>{{ trans('lang.or') }}</i></span><br>
-                                        {{ trans('lang.summer_menu_dish_name_8') }}
-                                        <br><span>*</span><br>
-                                        {{ trans('lang.summer_menu_dish_name_9') }}
-                                        <br><span><i>{{ trans('lang.or') }}</i></span><br>
-                                        {{ trans('lang.summer_menu_dish_name_10') }}
-                                        <br><span>*</span><br>
-                                        {{ trans('lang.summer_menu_dish_name_11') }}
-                                    </p>
-                                </li>
-                                <li class="menu_block">
                                     <div class="title main_title">{{ trans('lang.summer_menu_title_1') }}</div>
                                     <div class="title center_title">{{ trans('lang.summer_menu_price_option_1') }}</div>
-                                    <div class="price main_price">98.-</div>
-                                    <div class="title center_title">{{ trans('lang.summer_menu_price_option_1') }}</div>
-                                    <div class="price main_price">142.-</div>
+                                    <div class="price main_price">112.-</div>
+                                    <div class="title center_title">{{ trans('lang.summer_menu_price_option_2') }}</div>
+                                    <div class="price main_price">156.-</div>
                                     <p>{{ trans('lang.summer_menu_dish_name_1') }}
                                         <br><span>*</span><br>
                                         {{ trans('lang.summer_menu_dish_name_2') }}
@@ -1523,6 +1210,38 @@
                                     </p>
                                 </li>
                                 <li class="menu_block">
+                                    <div class="title main_title">{{ trans('lang.summer_menu_title_2') }}</div>
+                                    <div class="price main_price">68.-</div>
+                                    <p>{{ trans('lang.summer_menu_dish_name_7') }}
+                                        <br><span>*</span><br>
+                                        {{ trans('lang.summer_menu_dish_name_8') }}
+                                        <br><span><i>{{ trans('lang.or') }}</i></span><br>
+                                        {{ trans('lang.summer_menu_dish_name_9') }}
+                                        <br><span>*</span><br>
+                                        {{ trans('lang.summer_menu_dish_name_10') }}
+                                    </p>
+                                </li>
+
+
+
+                                <li class="menu_block">
+                                    <div class="title main_title">{{ trans('lang.summer_menu_title_6') }}</div>
+                                    <div class="price main_price">72.-</div>
+                                    <p>{{ trans('lang.summer_menu_dish_name_21') }}
+                                        <br><span><i>{{ trans('lang.or') }}</i></span><br>
+                                        {{ trans('lang.summer_menu_dish_name_22') }}
+                                        <br><span>*</span><br>
+                                        {{ trans('lang.summer_menu_dish_name_23') }}
+                                        <br><span><i>{{ trans('lang.or') }}</i></span><br>
+                                        {{ trans('lang.summer_menu_dish_name_24') }}
+                                        <br><span>*</span><br>
+                                        {{ trans('lang.summer_menu_dish_name_25') }}
+                                    </p>
+                                </li>
+
+
+
+                                <li class="menu_block">
                                     <div class="title main_title">{{ trans('lang.summer_menu_title_3') }}</div>
                                     <div class="price main_price">58.-</div>
                                     <p>{{ trans('lang.summer_menu_dish_name_12') }}
@@ -1530,17 +1249,6 @@
                                         {{ trans('lang.summer_menu_dish_name_13') }}
                                         <br><span>*</span><br>
                                         {{ trans('lang.summer_menu_dish_name_14') }}</p>
-                                </li>
-                                <li class="menu_block">
-                                    <div class="title main_title">{{ trans('lang.summer_menu_title_4') }}</div>
-                                    <div class="price main_price">52.-</div>
-                                    <div class="menu_set">
-                                        <p>{{ trans('lang.summer_menu_dish_name_15') }}</p>
-                                        <img src="/img/vegetarian_1.svg" alt="vegetarian">
-                                        <p>{{ trans('lang.summer_menu_dish_name_16') }}</p>
-                                        <img src="/img/vegetarian_1.svg" alt="vegetarian">
-                                        <p>{{ trans('lang.summer_menu_dish_name_17') }}</p>
-                                    </div>
                                 </li>
                                 <li class="menu_block">
                                     <div class="title main_title">{{ trans('lang.summer_menu_title_5') }}</div>
@@ -1552,16 +1260,18 @@
                                         {{ trans('lang.summer_menu_dish_name_20') }}
                                     </p>
                                 </li>
-                                <li class="menu_block">
-                                    <div class="title main_title">{{ trans('lang.summer_menu_title_6') }}</div>
-                                    <div class="price main_price">72.-</div>
-                                    <p>{{ trans('lang.summer_menu_dish_name_21') }}
-                                        <br><span><i>{{ trans('lang.or') }}</i></span><br>
-                                        {{ trans('lang.summer_menu_dish_name_22') }}
-                                        <br><span>*</span><br>
-                                        {{ trans('lang.summer_menu_dish_name_23') }}
-                                    </p>
-                                </li>
+                                {{--<li class="menu_block">--}}
+                                {{--<div class="title main_title">{{ trans('lang.summer_menu_title_4') }}</div>--}}
+                                {{--<div class="price main_price">52.-</div>--}}
+                                {{--<div class="menu_set">--}}
+                                {{--<p>{{ trans('lang.summer_menu_dish_name_15') }}</p>--}}
+                                {{--<img src="/img/vegetarian_1.svg" alt="vegetarian">--}}
+                                {{--<p>{{ trans('lang.summer_menu_dish_name_16') }}</p>--}}
+                                {{--<img src="/img/vegetarian_1.svg" alt="vegetarian">--}}
+                                {{--<p>{{ trans('lang.summer_menu_dish_name_17') }}</p>--}}
+                                {{--</div>--}}
+                                {{--</li>--}}
+
                             </ul>
                             <p style="margin-top: 20px">Servi pour l’ensemble des convives à votre table </p>
                             <p class="currency_explanation">Nos prix sont en francs suisses avec TVA à 8%</p>
