@@ -198,7 +198,7 @@ return [
     'summer_carte_dish_name_29' => 'Crème Brûlée Carambar et sa tuile',
     'summer_carte_dish_name_30' => 'Café Gourmand au gré de la Pâtissière',
     'summer_carte_add_info_1' => 'Chers Clients,<br>nous travaillons avec des produits frais et de saison de ce fait, nos menus sont susceptibles de changer selon les arrivages.',
-    'summer_carte_add_info_2' => 'Provenance des viandes ',
+    'summer_carte_add_info_2' => 'Provenance des viandes',
     'summer_carte_add_info_3' => 'Bœuf & Veau : Suisse',
     'summer_carte_add_info_4' => 'Canard : France',
     'summer_carte_add_info_5' => 'Chevreuil : Autriche',
