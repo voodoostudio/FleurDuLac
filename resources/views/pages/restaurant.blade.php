@@ -57,23 +57,32 @@
                     </ul>
 
                     <div class="row">
+                        {{--<div class="col-xs-12 col-sm-4">--}}
+                            {{--<a href="/pdf/forfaits_boissons_apritif.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>{{ trans('lang.title_pdf_events_1') }}</a><br><br>--}}
+                        {{--</div>--}}
+                        {{--<div class="col-xs-12 col-sm-4">--}}
+                            {{--<a href="/pdf/forfaits_amuse_bouches.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>{{ trans('lang.title_pdf_events_2') }}</a><br><br>--}}
+                        {{--</div>--}}
+                        {{--<div class="col-xs-12 col-sm-4">--}}
+                            {{--<a href="/pdf/amuse_bouches.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>{{ trans('lang.title_pdf_events_3') }}</a><br><br>--}}
+                        {{--</div>--}}
+                        {{--<div class="col-xs-12 col-sm-4">--}}
+                            {{--<a href="/pdf/forfait_boissons.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>{{ trans('lang.title_pdf_events_4') }}</a><br><br>--}}
+                        {{--</div>--}}
+                        {{--<div class="col-xs-12 col-sm-4">--}}
+                            {{--<a href="/pdf/carte_banquets.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>{{ trans('lang.title_pdf_events_5') }}</a><br><br>--}}
+                        {{--</div>--}}
+                        {{--<div class="col-xs-12 col-sm-4">--}}
+                            {{--<a href="/pdf/menus_banquets.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>{{ trans('lang.title_pdf_events_6') }}</a><br><br>--}}
+                        {{--</div>--}}
                         <div class="col-xs-12 col-sm-4">
-                            <a href="/pdf/forfaits_boissons_apritif.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>{{ trans('lang.title_pdf_events_1') }}</a><br><br>
+                            <a href="/pdf/repas_noel.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>{{ trans('lang.title_pdf_events_9') }}</a><br><br>
                         </div>
                         <div class="col-xs-12 col-sm-4">
-                            <a href="/pdf/forfaits_amuse_bouches.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>{{ trans('lang.title_pdf_events_2') }}</a><br><br>
+                            <a href="/pdf/reveillon_noel.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>{{ trans('lang.title_pdf_events_10') }}</a><br><br>
                         </div>
                         <div class="col-xs-12 col-sm-4">
-                            <a href="/pdf/amuse_bouches.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>{{ trans('lang.title_pdf_events_3') }}</a><br><br>
-                        </div>
-                        <div class="col-xs-12 col-sm-4">
-                            <a href="/pdf/forfait_boissons.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>{{ trans('lang.title_pdf_events_4') }}</a><br><br>
-                        </div>
-                        <div class="col-xs-12 col-sm-4">
-                            <a href="/pdf/carte_banquets.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>{{ trans('lang.title_pdf_events_5') }}</a><br><br>
-                        </div>
-                        <div class="col-xs-12 col-sm-4">
-                            <a href="/pdf/menus_banquets.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>{{ trans('lang.title_pdf_events_6') }}</a><br><br>
+                            <a href="/pdf/revelion_du_jour_2018.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>{{ trans('lang.title_pdf_events_11') }}</a><br><br>
                         </div>
                     </div>
                 </div>
