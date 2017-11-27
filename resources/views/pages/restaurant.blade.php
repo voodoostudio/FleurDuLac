@@ -108,7 +108,7 @@
                     </a>
                     <a href="#menu-5" class="tab-box">
                         <span class="title">Café des amis</span>
-                        <span class="sub-title">Detente entre lac et montagne</span>
+                        <span class="sub-title">Burger bar</span>
                     </a>
                 </div>
                 <div class="col-md-8 tab-content" data-bg-img="/img/menu-tabs/1.jpg">
@@ -473,11 +473,6 @@
 
                                     <p style="margin-top: 20px; text-align: center;">N’hésitez pas à demander conseil à notre Maître d’hôtel.</p>
                                 </li>
-
-
-
-
-
                                 <li>
                                     <div class="title main_title">Vins en pot <span>(50cl)</span></div>
                                     <div class="title main_sub_title">Vins blancs</div>
@@ -533,12 +528,6 @@
                                     </div>
                                     <p class="sub_title">Bolle S.A (13.5% vol.) </p>
                                 </li>
-
-
-
-
-
-
                                 <li>
                                     <div class="title main_title">LES CHAMPAGNES <span>(75cl)</span></div>
                                     <div class="title main_sub_title">Les Champagnes blancs bruts</div>
@@ -584,10 +573,6 @@
                                     </div>
                                     <p class="sub_title">Epernay (12% vol.)</p>
                                 </li>
-
-
-
-
                                 <li>
                                     <div class="title main_title">VINS BLANCS SUISSES <span>(75cl)</span></div>
                                     <div class="title main_sub_title">La Côte</div>
@@ -643,10 +628,6 @@
                                     </div>
                                     <p class="sub_title">Famille Elisabeth, René et Marc Güntert <br> Propriétaires à Miège (13% vol.)</p>
                                 </li>
-
-
-
-
                                 <li>
                                     <div class="title main_title">VINS BLANCS FRANÇAIS <span>(75cl)</span></div>
                                     <div class="menu_item">
@@ -707,12 +688,6 @@
                                     </div>
                                     <p class="sub_title">Bolle S.A (13,5% vol.)</p>
                                 </li>
-
-
-
-
-
-
                                 <li>
                                     <div class="title main_title">VINS ROUGES SUISSES <span>(75cl)</span></div>
                                     <div class="title main_sub_title">La Côte</div>
@@ -1376,59 +1351,165 @@
                     </div>
                     <div class="tab-pane fadeInLeft clearfix" id="menu-5" data-img-name="/img/menu-tabs/1.jpg">
                         <div class="menu-list col-xs-12">
+                            <p style="margin-top: 20px; text-align: center;">Au Burger Bar du Café des Amis, tout est cuisiné maison.<br>
+                                NOS BUNS ARTISANAUX du boulanger<br>
+                                NOS VIANDES de 1ère qualité Suisse<br>
+                                NOS FRITES ET SAUCES maison<br>
+                                NOTRE FAMEUSE SAUCE CHARLEMAGNE</p>
                             <ul>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Entrée de la semaine</div>
+                                        <div class="title">Entrecôte CHARLEMAGNE</div>
+                                        <div class="price">200gr / 300gr/ 400gr : 36.- / 42.- / 48.-</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="title main_title">SIDES</div>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title"> Saladine</div>
+                                        <div class="price">4.-</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">Frites</div>
                                         <div class="price">6.-</div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Suggestion du Chef à</div>
+                                        <div class="title">Frites aromatisées à l'huile de truffe</div>
+                                        <div class="price">8.-</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="title main_title">BURGERS</div>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">CLASSIC</div>
+                                        <div class="price">19.-</div>
+                                    </div>
+                                    <p class="sub_title">Bœuf 140gr / Tranche cheddar/ Tomate / oignon iceberg Mayonnaise aux herbes</p>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">CHARLEMAGNE</div>
                                         <div class="price">24.-</div>
                                     </div>
+                                    <p class="sub_title">Bœuf 140gr / Roquette sauce Charlemagne</p>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Entrecôte de bœuf</div>
-                                        <div class="price">200gr / 300gr/ 400gr : 42.- / 48.- / 54.-</div>
+                                        <div class="title">FLEUR DU LAC</div>
+                                        <div class="price">28.-</div>
                                     </div>
+                                    <p class="sub_title">Bœuf 140gr / gambas / roquette sauce Crustacées</p>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Filet de bœuf</div>
-                                        <div class="price">200gr : 47.-</div>
+                                        <div class="title">SERVIN</div>
+                                        <div class="price">22.-</div>
                                     </div>
-                                    <p class="sub_title">Sauce au choix :  Charlemagne, Moutarde, Morilles Saladine et frites maison
-                                    </p>
+                                    <p class="sub_title">Bœuf 140gr /galette de pommes de terre/ Raclard Moutarde à l'ancienne</p>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Dessert de la semaine</div>
-                                        <div class="price">7.50</div>
+                                        <div class="title">NEW YORK</div>
+                                        <div class="price">22.-</div>
                                     </div>
+                                    <p class="sub_title">Bœuf 140gr / Lard fumé / Œuf sauce Barbecue</p>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Mille-feuille « Fleur du Lac », sorbet maison</div>
+                                        <div class="title">DEHLI</div>
+                                        <div class="price">19.-</div>
+                                    </div>
+                                    <p class="sub_title">Poulet /Tomate séchées/ Concombre iceberg / sauce Yaourt</p>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">TOKYO</div>
+                                        <div class="price">19.-</div>
+                                    </div>
+                                    <p class="sub_title">Saumon Laqué / légumes sautés au soja</p>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">CAPRI</div>
+                                        <div class="price">18.-</div>
+                                    </div>
+                                    <p class="sub_title">Poivron/aubergine/oignons grillés / tomate/ricotta pignon de pain/ bun betterave</p>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">KID'S BURGER</div>
                                         <div class="price">14.-</div>
                                     </div>
+                                    <p class="sub_title">(-12ans)</p>
+                                </li>
+                                <li>
+                                    <div class="title main_title">DESSERTS</div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Café gourmand</div>
-                                        <div class="price">15.-</div>
+                                        <div class="title">Cookies</div>
+                                        <div class="price">6.-</div>
                                     </div>
                                 </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">Cheescake</div>
+                                        <div class="price">6.-</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="title main_title">BOISSONS</div>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">Henniez bleu / verte</div>
+                                        <div class="price">5.-</div>
+                                    </div>
+                                    <p class="sub_title">50cl</p>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">Coca cola / Sprite / Fanta</div>
+                                        <div class="price">6.-</div>
+                                    </div>
+                                    <p class="sub_title">33cl</p>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">Ice tea / jus de fruits</div>
+                                        <div class="price">3.20</div>
+                                    </div>
+                                    <p class="sub_title">30cl</p>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">Bière pression</div>
+                                        <div class="price">25cl (5%)</div>
+                                    </div>
+                                    <p class="sub_title">50cl</p>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">Vin blanc ou rouge de Morges</div>
+                                        <div class="price">3.20</div>
+                                    </div>
+                                    <p class="sub_title">1dl (12%)</p>
+                                </li>
                                 <li class="menu_block">
-                                    <div class="title main_title">Menu Charlemagne</div>
-                                    <div class="price main_price">54.-</div>
-                                    <p>Bouquet de mesclun et légumes croquants
+                                    <div class="title main_title">Ouvert tous les jours de 12h à 15h et de 19h à 22h</div>
+                                    <p>LA FLEUR DU LAC - CAFE DES AMIS
                                         <br><span>*</span><br>
-                                        Entrecôte de bœuf 200gr, frites maison et sauce au choix
+                                        Rue de Lausanne 70 - 1110 Morges - SUISSE
                                         <br><span>*</span><br>
-                                        Mille-feuille « Fleur du Lac », sorbet maison
+                                        <a href="www.fleur-du-lac.ch">www.fleur-du-lac.ch</a>
                                     </p>
                                 </li>
                             </ul>
