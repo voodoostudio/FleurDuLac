@@ -1351,16 +1351,26 @@
                     </div>
                     <div class="tab-pane fadeInLeft clearfix" id="menu-5" data-img-name="/img/menu-tabs/1.jpg">
                         <div class="menu-list col-xs-12">
-                            <p style="margin-top: 20px; text-align: center;">Au Burger Bar du Café des Amis, tout est cuisiné maison.<br>
-                                NOS BUNS ARTISANAUX du boulanger<br>
-                                NOS VIANDES de 1ère qualité Suisse<br>
-                                NOS FRITES ET SAUCES maison<br>
-                                NOTRE FAMEUSE SAUCE CHARLEMAGNE</p>
+                            <p style="margin-top: 20px; text-align: center;">Au Burger Bar du Café des Amis,<br>
+                                tout est cuisiné maison.<br>
+                                NOS BUNS ARTISANAUX<br>
+                                NOS VIANDES de 1ère qualité Suisse NOS FRITES ET SAUCES maison<br>
+                                NOTRE SAUCE CHARLEMAGNE brevetée
+                            </p>
                             <ul>
                                 <li>
+                                    <div class="title main_title">CHARLEMAGNE</div>
+                                </li>
+                                <li>
                                     <div class="menu_item">
-                                        <div class="title">Entrecôte CHARLEMAGNE</div>
+                                        <div class="title">Entrecôte</div>
                                         <div class="price">200gr / 300gr/ 400gr : 36.- / 42.- / 48.-</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">Filet</div>
+                                        <div class="price">200gr : 42.-</div>
                                     </div>
                                 </li>
                                 <li>
@@ -1368,7 +1378,7 @@
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title"> Saladine</div>
+                                        <div class="title">Saladine</div>
                                         <div class="price">4.-</div>
                                     </div>
                                 </li>
@@ -1392,70 +1402,70 @@
                                         <div class="title">CLASSIC</div>
                                         <div class="price">19.-</div>
                                     </div>
-                                    <p class="sub_title">Bœuf 140gr / Tranche cheddar/ Tomate / oignon iceberg Mayonnaise aux herbes</p>
+                                    <p class="sub_title">Bœuf 140gr / Cheddar / Tomate / Oignon / Iceberg Mayonnaise aux Herbes</p>
                                 </li>
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">CHARLEMAGNE</div>
                                         <div class="price">24.-</div>
                                     </div>
-                                    <p class="sub_title">Bœuf 140gr / Roquette sauce Charlemagne</p>
+                                    <p class="sub_title">Bœuf 140gr / Roquette, sauce Charlemagne</p>
                                 </li>
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">FLEUR DU LAC</div>
                                         <div class="price">28.-</div>
                                     </div>
-                                    <p class="sub_title">Bœuf 140gr / gambas / roquette sauce Crustacées</p>
+                                    <p class="sub_title">Bœuf 140gr / Gambas / Roquette, sauce Crustacées</p>
                                 </li>
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">SERVIN</div>
                                         <div class="price">22.-</div>
                                     </div>
-                                    <p class="sub_title">Bœuf 140gr /galette de pommes de terre/ Raclard Moutarde à l'ancienne</p>
+                                    <p class="sub_title">Bœuf 140gr /galette de pommes de terre/ Raclette, Moutarde à l'Ancienne</p>
                                 </li>
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">NEW YORK</div>
-                                        <div class="price">22.-</div>
+                                        <div class="price">24.-</div>
                                     </div>
-                                    <p class="sub_title">Bœuf 140gr / Lard fumé / Œuf sauce Barbecue</p>
+                                    <p class="sub_title">Bœuf 140gr / Lard fumé / Œuf au plat, sauce Barbecue</p>
                                 </li>
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">DEHLI</div>
-                                        <div class="price">19.-</div>
+                                        <div class="price">20.-</div>
                                     </div>
-                                    <p class="sub_title">Poulet /Tomate séchées/ Concombre iceberg / sauce Yaourt</p>
+                                    <p class="sub_title">Poitrine de Poulet Tandoori / Iceberg sauce Yaourt Concombr</p>
                                 </li>
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">TOKYO</div>
-                                        <div class="price">19.-</div>
+                                        <div class="price">22.-</div>
                                     </div>
-                                    <p class="sub_title">Saumon Laqué / légumes sautés au soja</p>
+                                    <p class="sub_title">Saumon Laqué / Légumes Asiatiques sautés au Soja</p>
                                 </li>
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">CAPRI</div>
-                                        <div class="price">18.-</div>
+                                        <div class="price">19.-</div>
                                     </div>
-                                    <p class="sub_title">Poivron/aubergine/oignons grillés / tomate/ricotta pignon de pain/ bun betterave</p>
+                                    <p class="sub_title">Ricotta / Poivron / Aubergine / Oignon Tomate grillés / Pignons de pin</p>
                                 </li>
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">KID'S BURGER</div>
-                                        <div class="price">14.-</div>
+                                        <div class="price">12.-</div>
                                     </div>
-                                    <p class="sub_title">(-12ans)</p>
+                                    <p class="sub_title">Mini Classic (-12ans)</p>
                                 </li>
                                 <li>
                                     <div class="title main_title">DESSERTS</div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Cookies</div>
+                                        <div class="title">Brownie</div>
                                         <div class="price">6.-</div>
                                     </div>
                                 </li>
@@ -1478,13 +1488,20 @@
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">Coca cola / Sprite / Fanta</div>
-                                        <div class="price">6.-</div>
+                                        <div class="price">5.-</div>
                                     </div>
                                     <p class="sub_title">33cl</p>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Ice tea / jus de fruits</div>
+                                        <div class="title">Rivella bleu / rouge</div>
+                                        <div class="price">3.20</div>
+                                    </div>
+                                    <p class="sub_title">33cl</p>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">Thè froid / jus de fruits</div>
                                         <div class="price">3.20</div>
                                     </div>
                                     <p class="sub_title">30cl</p>
@@ -1492,19 +1509,20 @@
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">Bière pression</div>
-                                        <div class="price">25cl (5%)</div>
+                                        <div class="price">3.20</div>
                                     </div>
-                                    <p class="sub_title">50cl</p>
+                                    <p class="sub_title">25cl (5%)</p>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Vin blanc ou rouge de Morges</div>
-                                        <div class="price">3.20</div>
+                                        <div class="title">Vin blanc ou rouge de la Côte</div>
+                                        <div class="price">3.80</div>
                                     </div>
                                     <p class="sub_title">1dl (12%)</p>
                                 </li>
+
                                 <li class="menu_block">
-                                    <div class="title main_title">Ouvert tous les jours de 12h à 15h et de 19h à 22h</div>
+                                    <div class="title main_title">Ouvert tous les jours midi et soir</div>
                                     <p>LA FLEUR DU LAC - CAFE DES AMIS
                                         <br><span>*</span><br>
                                         Rue de Lausanne 70 - 1110 Morges - SUISSE
