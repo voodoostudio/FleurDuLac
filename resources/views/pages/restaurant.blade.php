@@ -1130,7 +1130,7 @@
                                 </li>
                                 <li class="menu_block">
                                     <div class="title main_title">{{ trans('lang.summer_menu_title_2') }}</div>
-                                    <div class="price main_price">68.-</div>
+                                    <div class="price main_price">72.-</div>
                                     <p>{{ trans('lang.summer_menu_dish_name_7') }}
                                         <br><span>*</span><br>
                                         {{ trans('lang.summer_menu_dish_name_8') }}
