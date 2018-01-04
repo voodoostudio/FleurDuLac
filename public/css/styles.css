@@ -14535,7 +14535,8 @@ body.post-details #blog-section {
     }
     #restaurant-menus .partners_list .partner {
       float: left;
-      width: 33.3333%;
+      width: 50%;
+      /*width: 33.3333%;*/
       padding: 0 5px;
     }
     #restaurant-menus .partners_list .partner img {

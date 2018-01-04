@@ -39,11 +39,11 @@
                     <p>{!! trans('lang.description_restaurant_3') !!}
                     </p>
                     <ul class="partners_list">
-                        <li class="partner">
-                            <a href="http://www.passeport-gourmand.ch/restaurants/detail.php?restaurant=7" target="_blank">
-                                <img src="/img/partners/passeport_gourmand.jpg" alt="Passeport Gourmand">
-                            </a>
-                        </li>
+                        {{--<li class="partner">--}}
+                            {{--<a href="http://www.passeport-gourmand.ch/restaurants/detail.php?restaurant=7" target="_blank">--}}
+                                {{--<img src="/img/partners/passeport_gourmand.jpg" alt="Passeport Gourmand">--}}
+                            {{--</a>--}}
+                        {{--</li>--}}
                         <li class="partner">
                             <a href="https://edenred.ch/fr" target="_blank">
                                 <img src="/img/partners/ticket_restaurant.jpg" alt="Ticket Restaurant">
