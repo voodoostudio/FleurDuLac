@@ -19,11 +19,14 @@
                 </ul>
             </nav>
             <div id="main-menu-handle" class="ravis-btn btn-type-2"><i class="fa fa-bars"></i><i class="fa fa-close"></i></div><!-- Mobile Menu handle -->
-
             <div class="reservation_btn_container">
                 <!-- DO NOT CHANGE THIS PART -->
-                @include('includes._ghix')
-                <div id="header-book-bow" class="ravis-btn btn-type-2 book_room"><span>{{ trans('lang.reservation') }}</span> <i class="fa fa-calendar"></i></div>
+                {{--@include('includes._ghix')--}}
+
+                {{-- WBE Boking --}}
+                <a href="{{ route('booking') }}" target="_blank">
+                    <div id="header-book-bow" class="ravis-btn btn-type-2 book_room"><span>{{ trans('lang.reservation') }}</span> <i class="fa fa-calendar"></i></div>
+                </a>
             </div>
 
             <div id="languages" class="languages">
@@ -35,6 +38,7 @@
             </div>
         </div>
     </div>
+
     <div id="mobile-menu-container"></div>
 </header>
 <!-- End of Header Section -->

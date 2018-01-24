@@ -29,6 +29,7 @@ Route::group(
     Route::get('/events', ['as' => 'events.locale', 'uses' => 'PagesController@getEvents']);
     Route::get('/contact', ['as' => 'contact.locale', 'uses' => 'PagesController@getContact']);
     Route::post('/contact', ['as' => 'contact.post','uses'=>'PagesController@postContact']);
+    Route::get('/booking', ['as' => 'booking','uses'=>'PagesController@booking']);
 
 });
 

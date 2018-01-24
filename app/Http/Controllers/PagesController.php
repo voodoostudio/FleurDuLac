@@ -59,4 +59,9 @@ class PagesController extends Controller
 
         return redirect()->route('contact.locale');
     }
+
+    public function booking ()
+    {
+        return view('booking-wbe');
+    }
 }
