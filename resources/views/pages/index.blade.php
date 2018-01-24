@@ -6,6 +6,10 @@
     <?php $current_page = 'home'?>
 @endsection
 
+@php
+    $lang = LaravelLocalization::getCurrentLocale();
+@endphp
+
 @section('content')
 
     <div class="slider-available-sec">
@@ -519,5 +523,9 @@
     </section>
     <!-- End of Gallery -->
 
+@endsection
+
+@section ('scripts')
+    <script src="https://privatedeal.com/slider-button/{{$lang}}/lafleurdulac" async></script>
 @endsection
 
