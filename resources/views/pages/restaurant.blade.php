@@ -1230,7 +1230,7 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="title main_title">SIDES À VALANTÉ</div>
+                                    <div class="title main_title">SIDES À VOLONTÉ</div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
