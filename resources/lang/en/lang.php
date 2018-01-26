@@ -79,6 +79,7 @@ return [
     'title_pdf_events_9' => 'Christmas dinner',
     'title_pdf_events_10' => 'Christmas Eve',
     'title_pdf_events_11' => '2018 New Year\'s Eve',
+    'title_pdf_events_12' => 'St-Valentin menu',
     'title_events_2' => 'Wedding',
     'description_events_4' => 'Your dreams become reality for an unforgettable day.<br>The wedding cocktail starts in our gardens, feets in the water.<br>The party takes place in one of our rooms or saloons of the restaurant facing lake.<br>The evening may be continued, dancing in our Bar reserved only for your party.',
     'title_events_3' => 'Professional events',

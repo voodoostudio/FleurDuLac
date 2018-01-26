@@ -27,11 +27,16 @@
     </section>
     <!--End of Breadcrumb Section-->
 
+
+
     <!--Restaurant Menu Section-->
     <section id="restaurant-menus">
         <div class="inner-container container">
             <div class="t-sec">
                 <div class="content">
+                    <video width="100%" height="auto" controls style="max-width: 600px; margin-bottom: 30px">
+                        <source src="/video/restaurant.mp4" type="video/mp4">
+                    </video>
                     <p>{!! trans('lang.description_restaurant_1') !!}</p>
                     <p style="color: #d2bd7f; font: 30px/70px 'Great Vibes', Arial, Helvetica, sans-serif;">{{ trans('lang.title_restaurant_1') }}</p>
                     <p>{!! trans('lang.description_restaurant_2') !!}</p>
@@ -75,14 +80,17 @@
                         {{--<div class="col-xs-12 col-sm-4">--}}
                             {{--<a href="/pdf/menus_banquets.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>{{ trans('lang.title_pdf_events_6') }}</a><br><br>--}}
                         {{--</div>--}}
-                        <div class="col-xs-12 col-sm-4">
-                            <a href="/pdf/repas_noel.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>{{ trans('lang.title_pdf_events_9') }}</a><br><br>
-                        </div>
-                        <div class="col-xs-12 col-sm-4">
-                            <a href="/pdf/reveillon_noel.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>{{ trans('lang.title_pdf_events_10') }}</a><br><br>
-                        </div>
-                        <div class="col-xs-12 col-sm-4">
-                            <a href="/pdf/revelion_du_jour_2018.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>{{ trans('lang.title_pdf_events_11') }}</a><br><br>
+                        {{--<div class="col-xs-12 col-sm-4">--}}
+                            {{--<a href="/pdf/repas_noel.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>{{ trans('lang.title_pdf_events_9') }}</a><br><br>--}}
+                        {{--</div>--}}
+                        {{--<div class="col-xs-12 col-sm-4">--}}
+                            {{--<a href="/pdf/reveillon_noel.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>{{ trans('lang.title_pdf_events_10') }}</a><br><br>--}}
+                        {{--</div>--}}
+                        {{--<div class="col-xs-12 col-sm-4">--}}
+                            {{--<a href="/pdf/revelion_du_jour_2018.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>{{ trans('lang.title_pdf_events_11') }}</a><br><br>--}}
+                        {{--</div>--}}
+                        <div class="col-xs-12">
+                            <a href="/pdf/saint_valentin_menu.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>{{ trans('lang.title_pdf_events_12') }}</a><br><br>
                         </div>
                     </div>
                 </div>
@@ -1222,7 +1230,7 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="title main_title">SIDES</div>
+                                    <div class="title main_title">SIDES À VALANTÉ</div>
                                 </li>
                                 <li>
                                     <div class="menu_item">

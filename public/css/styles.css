@@ -12266,6 +12266,7 @@ input[type="text"]:disabled, input[type="email"]:disabled, input[type="password"
   position: relative;
   z-index: 1;
   padding-top: 170px;
+  background-position-y: center;
   background-size: cover; }
   #breadcrumb-section:before {
     display: block;

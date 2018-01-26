@@ -79,6 +79,7 @@ return [
     'title_pdf_events_9' => 'Repas de Noël',
     'title_pdf_events_10' => 'Réveillon de Noël',
     'title_pdf_events_11' => 'Réveillon du Jour de l’An 2018',
+    'title_pdf_events_12' => 'Menu de la St-Valentin',
     'title_events_2' => 'Mariage',
     'description_events_4' => 'Vos rêves deviennent réalité pour un jour inoubliable.<br>Le cocktail du mariage débute dans nos jardins, pieds dans l’eau.<br>La réception se déroule dans une des salles ou salons de notre restaurant face au lac.<br>Et le bar, privatisable, accueille la fin de soirée dansante.',
     'title_events_3' => 'Evénements Professionnels',
