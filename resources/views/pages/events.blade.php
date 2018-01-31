@@ -64,10 +64,10 @@
                 </div>
             </div>
             <div class="row btn-box">
-                <!--<a href="http://www.youtube.com/watch?v=23BFVDEdi-0" class="play-btn video-url">-->
-                <!--<i class="fa fa-play"></i>-->
-                <!--</a>-->
-                <a href="/video/events.MOV" class="play-btn video-url">
+                {{--<a href="http://www.youtube.com/watch?v=23BFVDEdi-0" class="play-btn video-url">--}}
+                {{--<i class="fa fa-play"></i>--}}
+                {{--</a>--}}
+                <a href="/video/events.mov" class="play-btn video-url">
                     <i class="fa fa-play"></i>
                 </a>
             </div>
@@ -103,14 +103,20 @@
                     <div class="row">
                         <div class="col-xs-12">
                             <p style="color: #d2bd7f; font: 30px/70px 'Great Vibes', Arial, Helvetica, sans-serif; margin-top: 50px;">{{ trans('lang.title_events_2') }}</p>
-                            <div class="col-xs-12 col-sm-4 col-md-4 margin_bottom_15">
+                            <div class="col-xs-12 col-sm-4 margin_bottom_30">
                                 <img src="/img/events/1.jpg" alt="" style="width: 100%">
                             </div>
-                            <div class="col-xs-12 col-sm-4 col-md-4 margin_bottom_15">
+                            <div class="col-xs-12 col-sm-4 margin_bottom_30">
                                 <img src="/img/events/2.jpg" alt=""  style="width: 100%">
                             </div>
-                            <div class="col-xs-12 col-sm-4 col-md-4">
+                            <div class="col-xs-12 col-sm-4 margin_bottom_30">
                                 <img src="/img/events/3.jpg" alt=""  style="width: 100%">
+                            </div>
+                            <div class="col-xs-12 col-sm-4 margin_bottom_30">
+                                <img src="/img/events/4.jpg" alt=""  style="width: 100%">
+                            </div>
+                            <div class="col-xs-12 col-sm-4 margin_bottom_30">
+                                <img src="/img/events/5.jpg" alt=""  style="width: 100%">
                             </div>
                         </div>
                     </div>

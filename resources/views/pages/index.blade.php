@@ -317,10 +317,55 @@
                     </li>
                     <li class="item col-xs-6 col-md-4 pool">
                         <figure>
+                            <img src="/img/gallery/15_1.jpg" alt="image 15"/>
+                            <a href="/img/gallery/15_1.jpg" class="more-details" data-title="{{ trans('lang.description_img_index_15') }}">Enlarge</a>
+                            {{--<figcaption>--}}
+                                {{--<h4>{{ trans('lang.description_img_index_15') }}</h4>--}}
+                            {{--</figcaption>--}}
+                        </figure>
+                    </li>
+                    <li class="item col-xs-6 col-md-4 pool">
+                        <figure>
+                            <img src="/img/gallery/15_2.jpg" alt="image 15"/>
+                            <a href="/img/gallery/15_2.jpg" class="more-details" data-title="{{ trans('lang.description_img_index_15') }}">Enlarge</a>
+                            {{--<figcaption>--}}
+                                {{--<h4>{{ trans('lang.description_img_index_15') }}</h4>--}}
+                            {{--</figcaption>--}}
+                        </figure>
+                    </li>
+                    <li class="item col-xs-6 col-md-4 pool">
+                        <figure>
+                            <img src="/img/gallery/15_3.jpg" alt="image 15"/>
+                            <a href="/img/gallery/15_3.jpg" class="more-details" data-title="{{ trans('lang.description_img_index_15') }}">Enlarge</a>
+                            {{--<figcaption>--}}
+                                {{--<h4>{{ trans('lang.description_img_index_15') }}</h4>--}}
+                            {{--</figcaption>--}}
+                        </figure>
+                    </li>
+                    <li class="item col-xs-6 col-md-4 pool">
+                        <figure>
+                            <img src="/img/gallery/15_4.jpg" alt="image 15"/>
+                            <a href="/img/gallery/15_4.jpg" class="more-details" data-title="{{ trans('lang.description_img_index_15') }}">Enlarge</a>
+                            {{--<figcaption>--}}
+                                {{--<h4>{{ trans('lang.description_img_index_15') }}</h4>--}}
+                            {{--</figcaption>--}}
+                        </figure>
+                    </li>
+                    <li class="item col-xs-6 col-md-4 pool">
+                        <figure>
+                            <img src="/img/gallery/15_5.jpg" alt="image 15"/>
+                            <a href="/img/gallery/15_5.jpg" class="more-details" data-title="{{ trans('lang.description_img_index_15') }}">Enlarge</a>
+                            {{--<figcaption>--}}
+                                {{--<h4>{{ trans('lang.description_img_index_15') }}</h4>--}}
+                            {{--</figcaption>--}}
+                        </figure>
+                    </li>
+                    <li class="item col-xs-6 col-md-4 pool">
+                        <figure>
                             <img src="/img/gallery/15.jpg" alt="image 15"/>
                             <a href="/img/gallery/15.jpg" class="more-details" data-title="{{ trans('lang.description_img_index_15') }}">Enlarge</a>
                             {{--<figcaption>--}}
-                                {{--<h4>{{ trans('lang.description_img_index_15') }}</h4>--}}
+                            {{--<h4>{{ trans('lang.description_img_index_15') }}</h4>--}}
                             {{--</figcaption>--}}
                         </figure>
                     </li>
@@ -375,6 +420,15 @@
                             <a href="/img/gallery/21.jpg" class="more-details" data-title="{{ trans('lang.description_img_index_21') }}">Enlarge</a>
                             {{--<figcaption>--}}
                                 {{--<h4>{{ trans('lang.description_img_index_21') }}</h4>--}}
+                            {{--</figcaption>--}}
+                        </figure>
+                    </li>
+                    <li class="item col-xs-6 col-md-4 pool">
+                        <figure>
+                            <img src="/img/gallery/22_1.jpg" alt="image 22"/>
+                            <a href="/img/gallery/22_1.jpg" class="more-details" data-title="{{ trans('lang.description_img_index_22') }}">Enlarge</a>
+                            {{--<figcaption>--}}
+                                {{--<h4>{{ trans('lang.description_img_index_22') }}</h4>--}}
                             {{--</figcaption>--}}
                         </figure>
                     </li>
