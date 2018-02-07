@@ -262,7 +262,7 @@ return [
     'description_room_1' => 'Pour une étape au cœur de la riviera vaudoise. Tous les services et les équipements d’un hôtel 4 étoiles suisse pour votre confort.',
     'description_room_2' => 'Pour un séjour romantique ou familiale dans un cadre idyllique et avec un large choix d’activités sportives et culturelles.',
     'description_room_3' => 'Dans un cadre idyllique, calme et sérénité au programme de votre séjour. Toute notre équipe se met à votre disposition pour un service personnalisé.',
-    'description_room_4' => 'Valable jusqu\'au 18 Décembre 2017 (selon disponibilité)<br>Pour une arrivée vendredi, samedi ou dimanche',
+    'description_room_4' => 'Valable jusqu\'au 31 Avril 2018 (selon disponibilité)<br>Pour une arrivée vendredi, samedi ou dimanche',
     'description_equipment_room_1' => 'produits d’accueil, sèche-cheveux, minibar gratuit, coffre-fort, balcon vue lac 7 m<sup>2</sup>',
     'description_equipment_room_2' => 'Plateau de courtoisie (thé et café), produits d’accueil, sèche-cheveux, Pantoufle, peignoir, minibar gratuit, fer et planche à repasser, coffre-fort, balcon vue lac 7 m<sup>2</sup>',
     'description_equipment_room_3' => 'Plateau de courtoisie (thé et café), produits d’accueil, sèche-cheveux, pantoufle, peignoir, minibar gratuit, coffre-fort, fer et planche à repasser, terrasse vue lac 15 m<sup>2</sup>',
