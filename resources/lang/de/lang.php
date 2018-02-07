@@ -263,7 +263,7 @@ return [
     'description_room_1' => 'Ein Zwischenhalt an der Waadtländer Riviera. Alle Dienstleistungen und Austattungen eines schweizer 4 Sterne Hotel für Ihren Comfort.',
     'description_room_2' => 'Für einen romantischen Aufenthalt oder mit der Familie in idyllischer Umgebung und mit einer weiten Palette an sportlichen und kulturellen Tätigkeiten',
     'description_room_3' => 'In einer idyllischen Umgebung, ein Programm voller Ruhe und Ausgeglichenheit. Unsere Mannschaft steht zu Ihren Diensten für einen persönnlichen Service.',
-    'description_room_4' => 'Gültig bis zum 301 April 2018 (je nach Verfügbarkeit) <br>Bei Ankuft an einem Freitag oder an einem Samstag',
+    'description_room_4' => 'Gültig bis zum 30 April 2018 (je nach Verfügbarkeit) <br>Bei Ankuft an einem Freitag oder an einem Samstag',
     'description_equipment_room_1' => 'Hotel Kosmetik Produkte, Föhn, gratis Minibar, Safe, Balkon mit sicht zum See 7 M<sup>2</sup>',
     'description_equipment_room_2' => 'Gratis Tee und Kaffee, Hotel Kosmetik Produkte, Föhn, Finken (Pantoffeln), Bademantel, gratis Minibar, Bügeleisen und Brett, Safe, Balkon mit Sicht 7 M<sup>2</sup>',
     'description_equipment_room_3' => 'Gratis Tee und Kaffee, Hotel Kosmetik Produkte, Föhn, Finken (Pantoffeln), Bademantel, gratis Minibar, Safe, Bügeleisen und Brett, Terrasse mit Sicht 15 M<sup>2</sup>',
