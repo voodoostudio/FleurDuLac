@@ -108,8 +108,8 @@
                             </div>
                             <div class="reservation_btn_container">
                                 <!-- DO NOT CHANGE THIS PART -->
-                                @include('includes._ghix')
-                                <div class="book_room more-info">{{ trans('lang.reservation_button_room') }}</div>
+                                {{--@include('includes._ghix')--}}
+                                <div class="book_room more-info"><a style="color: #2d2b28;" href="{{ route('booking') }}">{{ trans('lang.reservation_button_room') }}</a></div>
                                 {{--<a class="book_room more-info" href="{{ route('contact.locale') }}">{{ trans('lang.reservation_button_room') }}</a>--}}
                             </div>
                         </div>
@@ -188,8 +188,8 @@
                             </div>
                             <div class="reservation_btn_container">
                                 <!-- DO NOT CHANGE THIS PART -->
-                                @include('includes._ghix')
-                                <div class="book_room more-info">{{ trans('lang.reservation_button_room') }}</div>
+                                {{--@include('includes._ghix')--}}
+                                <div class="book_room more-info"><a style="color: #2d2b28;" href="{{ route('booking') }}">{{ trans('lang.reservation_button_room') }}</a></div>
                                 {{--<a class="book_room more-info" href="{{ route('contact.locale') }}">{{ trans('lang.reservation_button_room') }}</a>--}}
                             </div>
                         </div>
@@ -267,8 +267,8 @@
                             </div>
                             <div class="reservation_btn_container">
                                 <!-- DO NOT CHANGE THIS PART -->
-                                @include('includes._ghix')
-                                <div class="book_room more-info">{{ trans('lang.reservation_button_room') }}</div>
+                                {{--@include('includes._ghix')--}}
+                                <div class="book_room more-info"><a style="color: #2d2b28;" href="{{ route('booking') }}">{{ trans('lang.reservation_button_room') }}</a></div>
                                 {{--<a class="book_room more-info" href="{{ route('contact.locale') }}">{{ trans('lang.reservation_button_room') }}</a>--}}
                             </div>
                         </div>
