@@ -13520,9 +13520,17 @@ body.post-details #blog-section {
         -webkit-transition: all 0.3s ease;
         -o-transition: all 0.3s ease;
         transition: all 0.3s ease; }
+
+      #rooms-section.row-view .room-container .room-box .m-sec .more-info a {
+        color: #222222;}
+      #rooms-section.row-view .room-container .room-box .m-sec .more-info a:hover {
+        color: #d2bd7f;}
+
         #rooms-section.row-view .room-container .room-box .m-sec .more-info:hover {
           color: #d2bd7f;
           background: #222222; }
+        #rooms-section.row-view .room-container .room-box .m-sec .more-info:hover a {
+          color: #d2bd7f;}
     #rooms-section.row-view .room-container .room-box .desc {
       padding: 40px;
       line-height: 30px; }
