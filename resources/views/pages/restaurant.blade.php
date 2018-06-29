@@ -129,47 +129,38 @@
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">{{ trans('lang.summer_carte_dish_name_1') }}</div>
-                                        <div class="price">3 huîtres / 6 huîtres / 9 huîtres <br> 15.- / 28.- / 38.-</div>
-                                    </div>
-                                    <div class="icns_block">
-                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
+                                        <div class="price">24.-</div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">{{ trans('lang.summer_carte_dish_name_2') }}</div>
-                                        <div class="price">24.-</div>
+                                        <div class="price">18.-</div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">{{ trans('lang.summer_carte_dish_name_3') }}</div>
-                                        <div class="price">28.-</div>
+                                        <div class="price">19.-</div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">{{ trans('lang.summer_carte_dish_name_4') }}</div>
-                                        <div class="price">24.-</div>
+                                        <div class="price">19.-</div>
                                         {{--<div class="price">{{ trans('lang.summer_carte_portion') }} : 20.- / 38.-</div>--}}
                                     </div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">{{ trans('lang.summer_carte_dish_name_5') }}</div>
-                                        <div class="price">22.-</div>
+                                        <div class="price">16.-</div>
                                     </div>
 {{--                                    <p class="sub_title">{{ trans('lang.summer_carte_sub_name_5') }}</p>--}}
                                 </li>
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">{{ trans('lang.summer_carte_dish_name_6') }}</div>
-                                        <div class="price">Entrée / Plat avec frites <br> 22.- / 44.-</div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">{{ trans('lang.summer_carte_dish_name_7') }}</div>
                                         <div class="price">11.-</div>
                                     </div>
                                     <div class="icns_block">
@@ -177,31 +168,41 @@
                                         <img src="/img/vegetarian_1.svg" alt="vegetarian">
                                     </div>
                                 </li>
+                                {{--<li>--}}
+                                    {{--<div class="menu_item">--}}
+                                        {{--<div class="title">{{ trans('lang.summer_carte_dish_name_7') }}</div>--}}
+                                        {{--<div class="price">11.-</div>--}}
+                                    {{--</div>--}}
+                                    {{--<div class="icns_block">--}}
+                                        {{--<img src="/img/gluten_free_1.svg" alt="gluten free">--}}
+                                        {{--<img src="/img/vegetarian_1.svg" alt="vegetarian">--}}
+                                    {{--</div>--}}
+                                {{--</li>--}}
                                 <li>
                                     <div class="title main_title">{{ trans('lang.summer_carte_title_2') }}</div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">{{ trans('lang.summer_carte_dish_name_11') }}</div>
-                                        <div class="price">44.-</div>
+                                        <div class="price">220gr : 44.-</div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">{{ trans('lang.summer_carte_dish_name_12') }}</div>
-                                        <div class="price">44.-</div>
+                                        <div class="price">220gr : 44.-</div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">{{ trans('lang.summer_carte_dish_name_13') }}</div>
-                                        <div class="price">48.-</div>
+                                        <div class="price">220gr : 48.-</div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">{{ trans('lang.summer_carte_dish_name_14') }}</div>
-                                        <div class="price">48.-</div>
+                                        <div class="price">300gr : 58.-</div>
                                     </div>
                                 </li>
                                 <li>
@@ -213,7 +214,19 @@
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">{{ trans('lang.summer_carte_dish_name_16') }}</div>
-                                        <div class="price">38.-</div>
+                                        <div class="price">49.-</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">{{ trans('lang.summer_carte_dish_name_17') }}</div>
+                                        <div class="price">39.-</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="menu_item">
+                                        <div class="title">{{ trans('lang.summer_carte_dish_name_17_1') }}</div>
+                                        <div class="price">Selon arrivage</div>
                                     </div>
                                 </li>
                                 <li>
@@ -228,13 +241,13 @@
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">{{ trans('lang.summer_carte_dish_name_19') }}</div>
-                                        <div class="price">46.-</div>
+                                        <div class="price">35.-</div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">{{ trans('lang.summer_carte_dish_name_20') }}</div>
-                                        <div class="price">200gr / 300gr/ 400gr : 42.- / 48.- / 54.-</div>
+                                        <div class="price">200gr / 300gr : 42.- / 48.-</div>
                                     </div>
                                 </li>
                                 <li>
@@ -252,15 +265,16 @@
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">{{ trans('lang.summer_carte_dish_name_22') }}</div>
-                                        <div class="price">36.-</div>
+                                        <div class="price">39.-</div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">{{ trans('lang.summer_carte_dish_name_23') }}</div>
-                                        <div class="price">28.-</div>
+                                        <div class="price">32.-</div>
                                     </div>
                                     <div class="icns_block">
+                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
                                         <img src="/img/vegetarian_1.svg" alt="vegetarian">
                                     </div>
                                 </li>
@@ -293,11 +307,18 @@
                                         <div class="title">{{ trans('lang.summer_carte_dish_name_26_1') }}</div>
                                         <div class="price">14.-</div>
                                     </div>
+                                    <div class="icns_block">
+                                        <img src="/img/vegetarian_1.svg" alt="vegetarian">
+                                    </div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">{{ trans('lang.summer_carte_dish_name_27') }}</div>
                                         <div class="price">12.-</div>
+                                    </div>
+                                    <div class="icns_block">
+                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
+                                        <img src="/img/vegetarian_1.svg" alt="vegetarian">
                                     </div>
                                 </li>
                                 <li>
@@ -328,18 +349,19 @@
                             </ul>
 
                             <p style="margin-top: 20px; text-align: center">{!! trans('lang.summer_carte_add_info_1') !!}</p>
-                            <p style="text-align: center">{{ trans('lang.summer_carte_add_info_2') }}</p>
+                            <p style="text-align: center; text-decoration: underline; margin-top: 20px;">{{ trans('lang.summer_carte_add_info_2') }}</p>
                             <p style="text-align: center">{{ trans('lang.summer_carte_add_info_3') }}</p>
                             <p style="text-align: center">{{ trans('lang.summer_carte_add_info_4') }}</p>
                             <p style="text-align: center">{{ trans('lang.summer_carte_add_info_5') }}</p>
-                            <p style="text-align: center">{{ trans('lang.summer_carte_add_info_6') }}</p>
-                            <p style="text-align: center">{{ trans('lang.summer_carte_add_info_7') }}</p>
+                            {{--<p style="text-align: center">{{ trans('lang.summer_carte_add_info_6') }}</p>--}}
+                            <p style="text-align: center; text-decoration: underline; margin-top: 20px;">{{ trans('lang.summer_carte_add_info_7') }}</p>
                             <p style="text-align: center">{{ trans('lang.summer_carte_add_info_8') }}</p>
                             <p style="text-align: center">{{ trans('lang.summer_carte_add_info_9') }}</p>
                             <p style="text-align: center">{{ trans('lang.summer_carte_add_info_10') }}</p>
                             <p style="text-align: center">{{ trans('lang.summer_carte_add_info_11') }}</p>
                             <p style="text-align: center">{{ trans('lang.summer_carte_add_info_12') }}</p>
                             <p style="text-align: center">{{ trans('lang.summer_carte_add_info_13') }}</p>
+                            <p style="text-align: center">{{ trans('lang.summer_carte_add_info_14') }}</p>
                             <div class="icons_legend">
                                 <div>
                                     <img src="/img/gluten_free_1.svg" alt="gluten free">
@@ -1113,10 +1135,10 @@
                             <ul>
                                 <li class="menu_block">
                                     <div class="title main_title">{{ trans('lang.summer_menu_title_1') }}</div>
-                                    <div class="title center_title">{{ trans('lang.summer_menu_price_option_1') }}</div>
-                                    <div class="price main_price">112.-</div>
-                                    <div class="title center_title">{{ trans('lang.summer_menu_price_option_2') }}</div>
-                                    <div class="price main_price">156.-</div>
+                                    {{--<div class="title center_title">{{ trans('lang.summer_menu_price_option_1') }}</div>--}}
+                                    {{--<div class="price main_price">112.-</div>--}}
+                                    {{--<div class="title center_title">{{ trans('lang.summer_menu_price_option_2') }}</div>--}}
+                                    <div class="price main_price">89.-</div>
                                     <p>{{ trans('lang.summer_menu_dish_name_1') }}
                                         <br><span>*</span><br>
                                         {{ trans('lang.summer_menu_dish_name_2') }}
@@ -1172,7 +1194,11 @@
                                     <div class="price main_price">22.-</div>
                                     <p>{{ trans('lang.summer_menu_dish_name_18') }}
                                         <br><span><i>{{ trans('lang.or') }}</i></span><br>
+                                        {{ trans('lang.summer_menu_dish_name_18_1') }}
+                                        <br><span>*</span><br>
                                         {{ trans('lang.summer_menu_dish_name_19') }}
+                                        <br><span>*</span><br>
+                                        {{ trans('lang.summer_menu_dish_name_20') }}
                                     </p>
                                 </li>
                             </ul>
@@ -1207,11 +1233,8 @@
                     </div>
                     <div class="tab-pane fadeInLeft clearfix" id="menu-5" data-img-name="/img/menu-tabs/1.jpg">
                         <div class="menu-list col-xs-12">
-                            <p style="margin-top: 20px; text-align: center;">Au Burger Bar du Café des Amis,<br>
-                                tout est cuisiné maison.<br>
-                                NOS BUNS ARTISANAUX<br>
-                                NOS VIANDES de 1ère qualité Suisse NOS FRITES ET SAUCES maison<br>
-                                NOTRE SAUCE CHARLEMAGNE brevetée
+                            <p style="margin-top: 20px; text-align: center;">VIANDES de 1ère qualité Suisse BUNS , FRITES maison SAUCE CHARLEMAGNE brevetée<br>
+                                TOUS NOS PLATS SONT SERVIS AVEC FRITES OU SALADINE
                             </p>
                             <ul>
                                 <li>
@@ -1220,34 +1243,43 @@
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">Entrecôte</div>
-                                        <div class="price">200gr / 300gr/ 400gr : 36.- / 42.- / 48.-</div>
+                                        <div class="price">200gr / 300gr/ 400gr : 42.- / 48.- / 54.-</div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">Filet</div>
-                                        <div class="price">200gr : 42.-</div>
+                                        <div class="price">200gr : 48.-</div>
                                     </div>
                                 </li>
+                                {{--<li>--}}
+                                    {{--<div class="title main_title">SIDES À VOLONTÉ</div>--}}
+                                {{--</li>--}}
+                                {{--<li>--}}
+                                    {{--<div class="menu_item">--}}
+                                        {{--<div class="title">Saladine</div>--}}
+                                        {{--<div class="price">4.-</div>--}}
+                                    {{--</div>--}}
+                                {{--</li>--}}
+                                {{--<li>--}}
+                                    {{--<div class="menu_item">--}}
+                                        {{--<div class="title">Frites</div>--}}
+                                        {{--<div class="price">6.-</div>--}}
+                                    {{--</div>--}}
+                                {{--</li>--}}
+                                {{--<li>--}}
+                                    {{--<div class="menu_item">--}}
+                                        {{--<div class="title">Frites aromatisées à l'huile de truffe</div>--}}
+                                        {{--<div class="price">8.-</div>--}}
+                                    {{--</div>--}}
+                                {{--</li>--}}
                                 <li>
-                                    <div class="title main_title">SIDES À VOLONTÉ</div>
+                                    <div class="title main_title">SUPPLÉMENT</div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Saladine</div>
+                                        <div class="title">Sauce Charlemagne</div>
                                         <div class="price">4.-</div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">Frites</div>
-                                        <div class="price">6.-</div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">Frites aromatisées à l'huile de truffe</div>
-                                        <div class="price">8.-</div>
                                     </div>
                                 </li>
                                 <li>
@@ -1256,44 +1288,23 @@
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">CLASSIC</div>
-                                        <div class="price">19.-</div>
+                                        <div class="price">20.-</div>
                                     </div>
-                                    <p class="sub_title">Bœuf 140gr / Cheddar / Tomate / Oignon / Iceberg Mayonnaise aux Herbes</p>
+                                    <p class="sub_title">Bœuf / Cheddar / Tomate / Oignon Iceberg, mayonnaise aux Herbes</p>
                                 </li>
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">CHARLEMAGNE</div>
                                         <div class="price">24.-</div>
                                     </div>
-                                    <p class="sub_title">Bœuf 140gr / Roquette, sauce Charlemagne</p>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">FLEUR DU LAC</div>
-                                        <div class="price">28.-</div>
-                                    </div>
-                                    <p class="sub_title">Bœuf 140gr / Gambas / Roquette, sauce Crustacées</p>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">SERVIN</div>
-                                        <div class="price">22.-</div>
-                                    </div>
-                                    <p class="sub_title">Bœuf 140gr /galette de pommes de terre/ Raclette, Moutarde à l'Ancienne</p>
+                                    <p class="sub_title">Bœuf / Roquette, sauce Charlemagne</p>
                                 </li>
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">NEW YORK</div>
                                         <div class="price">24.-</div>
                                     </div>
-                                    <p class="sub_title">Bœuf 140gr / Lard fumé / Œuf au plat, sauce Barbecue</p>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">DEHLI</div>
-                                        <div class="price">20.-</div>
-                                    </div>
-                                    <p class="sub_title">Poitrine de Poulet Tandoori / Iceberg sauce Yaourt Concombr</p>
+                                    <p class="sub_title">Bœuf / Lardfumé / Œufauplat, sauce Barbecue</p>
                                 </li>
                                 <li>
                                     <div class="menu_item">
@@ -1304,81 +1315,81 @@
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">CAPRI</div>
-                                        <div class="price">19.-</div>
+                                        <div class="title">DEHLI</div>
+                                        <div class="price">22.-</div>
                                     </div>
-                                    <p class="sub_title">Ricotta / Poivron / Aubergine / Oignon Tomate grillés / Pignons de pin</p>
+                                    <p class="sub_title">Poitrine de Poulet Tandoori / Iceberg, sauce Yaourt Concombre</p>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">KID'S BURGER</div>
-                                        <div class="price">12.-</div>
+                                        <div class="title">KID'S BURGER (-12 ans)</div>
+                                        <div class="price">14.-</div>
                                     </div>
-                                    <p class="sub_title">Mini Classic (-12ans)</p>
+                                    <p class="sub_title">Mini Classic</p>
                                 </li>
-                                <li>
-                                    <div class="title main_title">DESSERTS</div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">Brownie</div>
-                                        <div class="price">6.-</div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">Cheescake</div>
-                                        <div class="price">6.-</div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="title main_title">BOISSONS</div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">Henniez bleu / verte</div>
-                                        <div class="price">5.-</div>
-                                    </div>
-                                    <p class="sub_title">50cl</p>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">Coca cola / Sprite / Fanta</div>
-                                        <div class="price">5.-</div>
-                                    </div>
-                                    <p class="sub_title">33cl</p>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">Rivella bleu / rouge</div>
-                                        <div class="price">3.20</div>
-                                    </div>
-                                    <p class="sub_title">33cl</p>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">Thè froid / jus de fruits</div>
-                                        <div class="price">3.20</div>
-                                    </div>
-                                    <p class="sub_title">30cl</p>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">Bière pression</div>
-                                        <div class="price">3.20</div>
-                                    </div>
-                                    <p class="sub_title">25cl (5%)</p>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">Vin blanc ou rouge de la Côte</div>
-                                        <div class="price">3.80</div>
-                                    </div>
-                                    <p class="sub_title">1dl (12%)</p>
-                                </li>
+                                {{--<li>--}}
+                                    {{--<div class="title main_title">DESSERTS</div>--}}
+                                {{--</li>--}}
+                                {{--<li>--}}
+                                    {{--<div class="menu_item">--}}
+                                        {{--<div class="title">Brownie</div>--}}
+                                        {{--<div class="price">6.-</div>--}}
+                                    {{--</div>--}}
+                                {{--</li>--}}
+                                {{--<li>--}}
+                                    {{--<div class="menu_item">--}}
+                                        {{--<div class="title">Cheescake</div>--}}
+                                        {{--<div class="price">6.-</div>--}}
+                                    {{--</div>--}}
+                                {{--</li>--}}
+                                {{--<li>--}}
+                                    {{--<div class="title main_title">BOISSONS</div>--}}
+                                {{--</li>--}}
+                                {{--<li>--}}
+                                    {{--<div class="menu_item">--}}
+                                        {{--<div class="title">Henniez bleu / verte</div>--}}
+                                        {{--<div class="price">5.-</div>--}}
+                                    {{--</div>--}}
+                                    {{--<p class="sub_title">50cl</p>--}}
+                                {{--</li>--}}
+                                {{--<li>--}}
+                                    {{--<div class="menu_item">--}}
+                                        {{--<div class="title">Coca cola / Sprite / Fanta</div>--}}
+                                        {{--<div class="price">5.-</div>--}}
+                                    {{--</div>--}}
+                                    {{--<p class="sub_title">33cl</p>--}}
+                                {{--</li>--}}
+                                {{--<li>--}}
+                                    {{--<div class="menu_item">--}}
+                                        {{--<div class="title">Rivella bleu / rouge</div>--}}
+                                        {{--<div class="price">3.20</div>--}}
+                                    {{--</div>--}}
+                                    {{--<p class="sub_title">33cl</p>--}}
+                                {{--</li>--}}
+                                {{--<li>--}}
+                                    {{--<div class="menu_item">--}}
+                                        {{--<div class="title">Thè froid / jus de fruits</div>--}}
+                                        {{--<div class="price">3.20</div>--}}
+                                    {{--</div>--}}
+                                    {{--<p class="sub_title">30cl</p>--}}
+                                {{--</li>--}}
+                                {{--<li>--}}
+                                    {{--<div class="menu_item">--}}
+                                        {{--<div class="title">Bière pression</div>--}}
+                                        {{--<div class="price">3.20</div>--}}
+                                    {{--</div>--}}
+                                    {{--<p class="sub_title">25cl (5%)</p>--}}
+                                {{--</li>--}}
+                                {{--<li>--}}
+                                    {{--<div class="menu_item">--}}
+                                        {{--<div class="title">Vin blanc ou rouge de la Côte</div>--}}
+                                        {{--<div class="price">3.80</div>--}}
+                                    {{--</div>--}}
+                                    {{--<p class="sub_title">1dl (12%)</p>--}}
+                                {{--</li>--}}
 
                                 <li class="menu_block">
-                                    <div class="title main_title">Ouvert tous les jours midi et soir</div>
+                                    <div class="title main_title">Tous les jours de 12h à 14h et de 19h à 21h</div>
                                     <p>LA FLEUR DU LAC - CAFE DES AMIS
                                         <br><span>*</span><br>
                                         Rue de Lausanne 70 - 1110 Morges - SUISSE
