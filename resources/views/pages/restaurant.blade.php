@@ -1300,25 +1300,21 @@
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">Entrecôte</div>
-                                        <div class="price">200gr / 300gr/ 400gr : 42.- / 48.- / 54.-</div>
+                                        <div class="title">L'Onglet</div>
+                                        <div class="price">200gr / 300gr : 28.- / 34.-</div>
                                     </div>
                                 </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">Filet</div>
-                                        <div class="price">200gr : 48.-</div>
-                                    </div>
-                                </li>
+
                                 <li>
                                     <div class="title main_title">SUPPLÉMENT</div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">Sauce Charlemagne</div>
-                                        <div class="price">4.-</div>
+                                        <div class="price">5.-</div>
                                     </div>
                                 </li>
+
                                 <li>
                                     <div class="title main_title">BURGERS</div>
                                 </li>
@@ -1367,9 +1363,9 @@
                                 <li class="menu_block">
                                     <div class="title main_title">Tous les jours de 12h à 14h et de 19h à 21h</div>
                                     <p>LA FLEUR DU LAC - CAFE DES AMIS
-                                        <br><span>*</span><br>
+                                        <br><span>***</span><br>
                                         Rue de Lausanne 70 - 1110 Morges - SUISSE
-                                        <br><span>*</span><br>
+                                        <br><span>***</span><br>
                                         <a href="www.fleur-du-lac.ch">www.fleur-du-lac.ch</a>
                                     </p>
                                 </li>
