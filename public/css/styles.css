@@ -14670,6 +14670,18 @@ body.post-details #blog-section {
             border-bottom: 1px solid #222222;
             position: relative;
           }
+          #restaurant-menus .b-sec .tab-content .tab-pane .menu-list ul.menu_item_sublist{
+            margin-bottom: 5px;
+          }
+          #restaurant-menus .b-sec .tab-content .tab-pane .menu-list ul.menu_item_sublist li {
+            border-bottom: none;
+            position: relative;
+            padding-left: 15px;
+          }
+          #restaurant-menus .b-sec .tab-content .tab-pane .menu-list ul.menu_item_sublist li .title {
+            padding: 5px 0;
+            color: #bfbfbf;
+          }
           #restaurant-menus .b-sec .tab-content .tab-pane .menu-list ul li .menu_set {
             text-align: center;
             padding: 10px 0;
@@ -14743,6 +14755,7 @@ body.post-details #blog-section {
             #restaurant-menus .b-sec .tab-content .tab-pane .menu-list ul li .price {
               display: table-cell;
               text-align: right;
+              white-space: nowrap;
               right: 0;
               color: #d2bd7f;
               font: 14px Helvetica, sans-serif;
