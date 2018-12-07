@@ -269,6 +269,83 @@
                     </li>
                     <li class="item col-xs-6 col-md-4 restaurant">
                         <figure>
+                            <img src="/img/gallery/13_1.jpg" alt="image 13_1"/>
+                            <a href="/img/gallery/13_1.jpg" class="more-details"
+                               data-title="">Enlarge</a>
+                        </figure>
+                    </li>
+                    <li class="item col-xs-6 col-md-4 restaurant">
+                        <figure>
+                            <img src="/img/gallery/13_2.jpg" alt="image 13_2"/>
+                            <a href="/img/gallery/13_2.jpg" class="more-details"
+                               data-title="">Enlarge</a>
+                        </figure>
+                    </li>
+                    <li class="item col-xs-6 col-md-4 restaurant">
+                        <figure>
+                            <img src="/img/gallery/13_3.jpg" alt="image 13_3"/>
+                            <a href="/img/gallery/13_3.jpg" class="more-details"
+                               data-title="">Enlarge</a>
+                        </figure>
+                    </li>
+                    <li class="item col-xs-6 col-md-4 restaurant">
+                        <figure>
+                            <img src="/img/gallery/13_4.jpg" alt="image 13_4"/>
+                            <a href="/img/gallery/13_4.jpg" class="more-details"
+                               data-title="">Enlarge</a>
+                        </figure>
+                    </li>
+                    <li class="item col-xs-6 col-md-4 restaurant">
+                        <figure>
+                            <img src="/img/gallery/13_5.jpg" alt="image 13_5"/>
+                            <a href="/img/gallery/13_5.jpg" class="more-details"
+                               data-title="">Enlarge</a>
+                        </figure>
+                    </li>
+                    <li class="item col-xs-6 col-md-4 restaurant">
+                        <figure>
+                            <img src="/img/gallery/13_6.jpg" alt="image 13_6"/>
+                            <a href="/img/gallery/13_6.jpg" class="more-details"
+                               data-title="">Enlarge</a>
+                        </figure>
+                    </li>
+                    <li class="item col-xs-6 col-md-4 restaurant">
+                        <figure>
+                            <img src="/img/gallery/13_7.jpg" alt="image 13_7"/>
+                            <a href="/img/gallery/13_7.jpg" class="more-details"
+                               data-title="">Enlarge</a>
+                        </figure>
+                    </li>
+                    <li class="item col-xs-6 col-md-4 restaurant">
+                        <figure>
+                            <img src="/img/gallery/13_8.jpg" alt="image 13_8"/>
+                            <a href="/img/gallery/13_8.jpg" class="more-details"
+                               data-title="">Enlarge</a>
+                        </figure>
+                    </li>
+                    <li class="item col-xs-6 col-md-4 restaurant">
+                        <figure>
+                            <img src="/img/gallery/13_9.jpg" alt="image 13_9"/>
+                            <a href="/img/gallery/13_9.jpg" class="more-details"
+                               data-title="">Enlarge</a>
+                        </figure>
+                    </li>
+                    <li class="item col-xs-6 col-md-4 restaurant">
+                        <figure>
+                            <img src="/img/gallery/13_10.jpg" alt="image 13_10"/>
+                            <a href="/img/gallery/13_10.jpg" class="more-details"
+                               data-title="">Enlarge</a>
+                        </figure>
+                    </li>
+                    <li class="item col-xs-6 col-md-4 restaurant">
+                        <figure>
+                            <img src="/img/gallery/13_11.jpg" alt="image 13_11"/>
+                            <a href="/img/gallery/13_11.jpg" class="more-details"
+                               data-title="">Enlarge</a>
+                        </figure>
+                    </li>
+                    <li class="item col-xs-6 col-md-4 restaurant">
+                        <figure>
                             <img src="/img/gallery/14.jpg" alt="image 14"/>
                             <a href="/img/gallery/14.jpg" class="more-details"
                                data-title="{{ trans('lang.description_img_index_14') }}">Enlarge</a>

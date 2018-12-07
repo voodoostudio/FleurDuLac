@@ -89,8 +89,17 @@
                         {{--<div class="col-xs-12 col-sm-4">--}}
                             {{--<a href="/pdf/revelion_du_jour_2018.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>{{ trans('lang.title_pdf_events_11') }}</a><br><br>--}}
                         {{--</div>--}}
-                        <div class="col-xs-12">
-                            <a href="/pdf/saint_valentin_menu.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>{{ trans('lang.title_pdf_events_12') }}</a><br><br>
+                        {{--<div class="col-xs-12">--}}
+                            {{--<a href="/pdf/saint_valentin_menu.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>{{ trans('lang.title_pdf_events_12') }}</a><br><br>--}}
+                        {{--</div>--}}
+                        <div class="col-xs-12 col-sm-4">
+                            <a href="/pdf/menu_noel_25.12.2018.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>{{ trans('lang.title_pdf_events_13') }}</a><br><br>
+                        </div>
+                        <div class="col-xs-12 col-sm-4">
+                            <a href="/pdf/menu_réveillon_de_noel_24.12.2018.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>{{ trans('lang.title_pdf_events_14') }}</a><br><br>
+                        </div>
+                        <div class="col-xs-12 col-sm-4">
+                            <a href="/pdf/menu_saint_sylvestre_31.12.2018.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>{{ trans('lang.title_pdf_events_15') }}</a><br><br>
                         </div>
                     </div>
                 </div>
