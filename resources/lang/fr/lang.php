@@ -1,13 +1,9 @@
 <?php
 return [
 
-
-
-
-
-//    HANDLER START
+//  HANDLER START
     'unauthenticated' => 'Unauthenticated.',
-//    HANDLER END
+//  HANDLER END
 
 //  PAGES CONTROLLER START
     'your_email_was_send' => 'Your email was send!',
@@ -68,21 +64,11 @@ return [
     'description_events_3' => 'L’engagement qualité est de n’utiliser que des produits frais et de saison pour toutes vos manifestations.<br>Grâce à cette garantie fraîcheur, vos réceptions pourront bénéficier des produits les plus nobles du marché.',
     'title_video_events' => 'Vos évènements sur mesure',
     'sub_title_video_events' => 'Vos rêves deviennent réalité',
-    'title_pdf_events_1' => 'Forfait apéritif (PDF)',
-    'title_pdf_events_2' => 'Forfait Amuse-Bouches  (PDF)',
-    'title_pdf_events_3' => 'Carte amuse bouche  (PDF)',
-    'title_pdf_events_4' => 'Forfait boissons  (PDF)',
-    'title_pdf_events_5' => 'Carte banquet  (PDF)',
-    'title_pdf_events_6' => 'Menu banquet  (PDF)',
-    'title_pdf_events_7' => 'Forfait Mariage (PDF)',
-    'title_pdf_events_8' => 'CGV (PDF)',
-    'title_pdf_events_9' => 'Repas de Noël',
-    'title_pdf_events_10' => 'Réveillon de Noël',
-    'title_pdf_events_11' => 'Réveillon du Jour de l’An 2018',
-    'title_pdf_events_12' => 'Menu de la St-Valentin',
-    'title_pdf_events_13' => 'Menu Noël 25.12.2018',
-    'title_pdf_events_14' => 'Menu Réveillon de Noël 24.12.2018',
-    'title_pdf_events_15' => 'Menu Saint Sylvestre 31.12.2018',
+    'title_pdf_events_1' => 'Menus & Forfaits Banquet 2019',
+    'title_pdf_events_2' => 'Forfait Boissons 2019',
+    'title_pdf_events_3' => 'Forfait Amuse Bouches 2019',
+    'title_pdf_wedding_1' => 'Forfait Mariage 2019',
+    'title_pdf_wedding_2' => 'CGV',
     'title_events_2' => 'Mariage',
     'description_events_4' => 'Vos rêves deviennent réalité pour un jour inoubliable.<br>Le cocktail du mariage débute dans nos jardins, pieds dans l’eau.<br>La réception se déroule dans une des salles ou salons de notre restaurant face au lac.<br>Et le bar, privatisable, accueille la fin de soirée dansante.',
     'title_events_3' => 'Evénements Professionnels',
@@ -162,6 +148,9 @@ return [
     'description_restaurant_2' => 'Dans la grande salle retro au plafond boisé style art déco, la baie vitrée s’ouvre sur le Lac comme un tableau.<br>Un décor permanent, idyllique, qui aiguise les sens et met en appétit.<br>Spécialités de poissons lacustres et de mer grillé ou en croute de sel et la fameuse entrecôte sauce Charlemagne sauront vous mettre l’eau à la bouche.',
     'title_restaurant_2' => 'Un diner en amoureux, une réunion familiale, un repas d’entreprise',
     'description_restaurant_3' => 'Le Salon d’Or, pour une ambiance plus intime, privatisable pour les moments d’exception.<br>De l’apéritif dinatoire en petit comité, à la pièce montée des grandes réceptions.<br>Le professionnalisme de nos équipes rendra ces moments inoubliables.',
+    'title_pdf_restaurant_1' => 'Menu Noël 25.12.2018',
+    'title_pdf_restaurant_2' => 'Menu Réveillon de Noël 24.12.2018',
+    'title_pdf_restaurant_3' => 'Menu Saint Sylvestre 31.12.2018',
     'no_gluten' => 'Sans gluten (à préciser)',
     'vegetarian' => 'Vegetarien',
     'or' => 'ou',
@@ -309,4 +298,5 @@ return [
     'description_email_2' => 'Vous avez un nouveau message de <span style="color:#d1bc82;">:amount</span>, via le formulaire de contact du site Internet.',
     'description_email_3' => 'Envoyé depuis',
 //  E_MAIL END
+
 ];

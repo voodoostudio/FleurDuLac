@@ -81,22 +81,13 @@
                 <div class="content">
                     <div class="row">
                         <div class="col-xs-12 col-sm-4">
-                            <a href="/pdf/forfaits_boissons_apritif.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>{{ trans('lang.title_pdf_events_1') }}</a><br><br>
+                            <a href="/pdf/menus&forfaits_banquets_2019.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>{{ trans('lang.title_pdf_events_1') }}</a><br><br>
                         </div>
                         <div class="col-xs-12 col-sm-4">
-                            <a href="/pdf/forfaits_amuse_bouches.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>{{ trans('lang.title_pdf_events_2') }}</a><br><br>
+                            <a href="/pdf/forfaits_boissons_2019.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>{{ trans('lang.title_pdf_events_2') }}</a><br><br>
                         </div>
                         <div class="col-xs-12 col-sm-4">
-                            <a href="/pdf/amuse_bouches.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>{{ trans('lang.title_pdf_events_3') }}</a><br><br>
-                        </div>
-                        <div class="col-xs-12 col-sm-4">
-                            <a href="/pdf/forfait_boissons.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>{{ trans('lang.title_pdf_events_4') }}</a><br><br>
-                        </div>
-                        <div class="col-xs-12 col-sm-4">
-                            <a href="/pdf/carte_banquets.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>{{ trans('lang.title_pdf_events_5') }}</a><br><br>
-                        </div>
-                        <div class="col-xs-12 col-sm-4">
-                            <a href="/pdf/menus_banquets.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>{{ trans('lang.title_pdf_events_6') }}</a><br><br>
+                            <a href="/pdf/forfaits_amuse_bouches_2019.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>{{ trans('lang.title_pdf_events_3') }}</a><br><br>
                         </div>
                     </div>
 
@@ -104,19 +95,22 @@
                         <div class="col-xs-12">
                             <p style="color: #d2bd7f; font: 30px/70px 'Great Vibes', Arial, Helvetica, sans-serif; margin-top: 50px;">{{ trans('lang.title_events_2') }}</p>
                             <div class="col-xs-12 col-sm-4 margin_bottom_30">
-                                <img src="/img/events/1.jpg" alt="" style="width: 100%">
+                                <img src="/img/events/1.jpg" alt="Wedding img 1" style="width: 100%">
                             </div>
                             <div class="col-xs-12 col-sm-4 margin_bottom_30">
-                                <img src="/img/events/2.jpg" alt=""  style="width: 100%">
+                                <img src="/img/events/2.jpg" alt="Wedding img 2"  style="width: 100%">
                             </div>
                             <div class="col-xs-12 col-sm-4 margin_bottom_30">
-                                <img src="/img/events/3.jpg" alt=""  style="width: 100%">
+                                <img src="/img/events/3.jpg" alt="Wedding img 3"  style="width: 100%">
                             </div>
                             <div class="col-xs-12 col-sm-4 margin_bottom_30">
-                                <img src="/img/events/4.jpg" alt=""  style="width: 100%">
+                                <img src="/img/events/4.jpg" alt="Wedding img 4"  style="width: 100%">
                             </div>
                             <div class="col-xs-12 col-sm-4 margin_bottom_30">
-                                <img src="/img/events/5.jpg" alt=""  style="width: 100%">
+                                <img src="/img/events/5.jpg" alt="Wedding img 5"  style="width: 100%">
+                            </div>
+                            <div class="col-xs-12 col-sm-4 margin_bottom_30">
+                                <img src="/img/events/6.jpg" alt="Wedding img 6"  style="width: 100%">
                             </div>
                         </div>
                     </div>
@@ -128,10 +122,10 @@
                         <div class="col-xs-12 col-sm-6 col-sm-offset-3">
                             <div class="row">
                                 <div class="col-xs-12 col-sm-6">
-                                    <a href="/pdf/forfait_mariage.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>{{ trans('lang.title_pdf_events_7') }}</a><br><br>
+                                    <a href="/pdf/forfait_mariage_2019.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>{{ trans('lang.title_pdf_wedding_1') }}</a><br><br>
                                 </div>
                                 <div class="col-xs-12 col-sm-6">
-                                    <a href="/pdf/cgv_mariage.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>{{ trans('lang.title_pdf_events_8') }}</a>
+                                    <a href="/pdf/cgv_fdl_2019.pdf" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i><br>{{ trans('lang.title_pdf_wedding_2') }}</a>
                                 </div>
                             </div>
                         </div>

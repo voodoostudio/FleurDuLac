@@ -1,13 +1,9 @@
 <?php
 return [
 
-
-
-
-
-//    HANDLER START
+//  HANDLER START
     'unauthenticated' => 'Unauthenticated.',
-//    HANDLER END
+//  HANDLER END
 
 //  PAGES CONTROLLER START
     'your_email_was_send' => 'Your email was send!',
@@ -68,21 +64,11 @@ return [
     'description_events_3' => 'Our quality goal is to use only fresh and seasonal products for all your events.<br>This garantees that your parties profit from the most noble products on the market.',
     'title_video_events' => 'Your custom-made events',
     'sub_title_video_events' => 'Your dreams become reality',
-    'title_pdf_events_1' => 'Aperitif package',
-    'title_pdf_events_2' => 'Appetizer package',
-    'title_pdf_events_3' => 'Appetizer "à la carte"',
-    'title_pdf_events_4' => 'Beverage package',
-    'title_pdf_events_5' => '"à la carte" for receptions',
-    'title_pdf_events_6' => 'Menu for receptions',
-    'title_pdf_events_7' => 'Wedding package',
-    'title_pdf_events_8' => 'General terms of sale',
-    'title_pdf_events_9' => 'Christmas dinner',
-    'title_pdf_events_10' => 'Christmas Eve',
-    'title_pdf_events_11' => '2018 New Year\'s Eve',
-    'title_pdf_events_12' => 'St-Valentin menu',
-    'title_pdf_events_13' => 'Christmas Menu 25.12.2018',
-    'title_pdf_events_14' => 'Christmas Eve Menu 24.12.2018',
-    'title_pdf_events_15' => 'New Year\'s Eve menu 31.12.2018',
+    'title_pdf_events_1' => 'Menus & Banquet Packages 2019',
+    'title_pdf_events_2' => 'Beverage Package 2019',
+    'title_pdf_events_3' => 'Amuse Bouches Package 2019',
+    'title_pdf_wedding_1' => 'Wedding Package 2019',
+    'title_pdf_wedding_2' => 'Terms of Sales',
     'title_events_2' => 'Wedding',
     'description_events_4' => 'Your dreams become reality for an unforgettable day.<br>The wedding cocktail starts in our gardens, feets in the water.<br>The party takes place in one of our rooms or saloons of the restaurant facing lake.<br>The evening may be continued, dancing in our Bar reserved only for your party.',
     'title_events_3' => 'Professional events',
@@ -162,6 +148,9 @@ return [
     'description_restaurant_2' => 'In the main “retro” dining room, art deco styled with wooden ceiling, the huge windows open directly over the lake like a painting.<br> A never ending scenery, Idyllic, which enhances the senses and whets your appetite.<br>Fish specialties from our lake and from the ocean grilled or in a salt crust. And our famous rib steak “Charlemagne” sauce, make your mouth water.',
     'title_restaurant_2' => 'A romantic diner, a family gathering or a meal with your colleagues.',
     'description_restaurant_3' => 'Our “Salon d’or”, for an intimate atmosphere, can be hired for your own for an exceptional time.<br>A pre-meal drink in a small group or a wedding cake for a great party.<br>Our professional team will make these moments unforgettable.',
+    'title_pdf_restaurant_1' => 'Christmas Menu 25.12.2018',
+    'title_pdf_restaurant_2' => 'Christmas Eve Menu 24.12.2018',
+    'title_pdf_restaurant_3' => 'New Year\'s Eve menu 31.12.2018',
     'no_gluten' => 'Gluten free (has to be specified)',
     'vegetarian' => 'Vegetarian',
     'or' => 'or',
@@ -308,4 +297,5 @@ return [
     'description_email_2' => 'You have got a new message from <span style="color:#d1bc82;">:amount</span>, trough the contact form of the internet page.',
     'description_email_3' => 'Send from',
 //  E_MAIL END
+
 ];
