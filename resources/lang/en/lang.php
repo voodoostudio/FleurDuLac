@@ -280,7 +280,7 @@ return [
     'description_room_1' => 'A stop over by the shores of our Vaud country. All services and facilities of a Swiss 4-star hotel for your comfort',
     'description_room_2' => 'A romantic or family overnight in an idyllic setting and a large choice of sport and culture activities.',
     'description_room_3' => 'In an idyllic setting, calm and serenity are the programme of your stay. All of our team is at your disposal for a personalized service.',
-    'description_room_4' => 'Valid till April 30th 2018 (according to availability) <br>for an arrival on Friday, Saturday or Sunday',
+    'description_room_4' => 'Valid till April 30th 2019 (according to availability) <br>for an arrival on Friday, Saturday or Sunday',
     'description_equipment_room_1' => 'Amenities, hair dryer, free drinks in the minibar, safe, balcony with lake view 7 square meters',
     'description_equipment_room_2' => 'Free coffee and tea, amenities, hair dryer, slipper, bathrobe, free drinks in the minibar, iron and ironing board, safe, balcon with view 7 square meters',
     'description_equipment_room_3' => 'Free coffee and tea, amenities, hair dryer, slipper, bathrobe, free drinks in the minibar, safe, iron and ironing board, terrace with view 15 square meters',
