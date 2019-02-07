@@ -19,8 +19,7 @@
 
         @include('includes._footer')
 
-
-    <div>
+    </div>
 
     @include('includes._javascript')
 
