@@ -111,25 +111,25 @@
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">{{ trans('lang.carte_starter_1') }}</div>
-                                        <div class="price">26.-</div>
+                                        <div class="price">3 {{ trans('lang.oysters') }} / 6 {{ trans('lang.oysters') }} / 9 {{ trans('lang.oysters') }} : <br> 15.- / 28.- / 38.-</div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">{{ trans('lang.carte_starter_2') }}</div>
-                                        <div class="price">20.-</div>
+                                        <div class="price">26.-</div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">{{ trans('lang.carte_starter_3') }}</div>
-                                        <div class="price">22.-</div>
+                                        <div class="price">20.-</div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">{{ trans('lang.carte_starter_4') }}</div>
-                                        <div class="price">18.-</div>
+                                        <div class="price">22.-</div>
                                         <div class="price hidden">{{ trans('lang.carte_portion') }} : 20.- / 38.-</div>
                                     </div>
                                 </li>
@@ -143,16 +143,6 @@
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">{{ trans('lang.carte_starter_6') }}</div>
-                                        <div class="price">16.-</div>
-                                    </div>
-                                    <div class="icns_block">
-                                        <img src="/img/gluten_free_1.svg" alt="gluten free">
-                                        <img src="/img/vegetarian_1.svg" alt="vegetarian">
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">{{ trans('lang.carte_starter_7') }}</div>
                                         <div class="price">12.-</div>
                                     </div>
                                     <div class="icns_block">
@@ -168,7 +158,7 @@
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">{{ trans('lang.carte_sea_1') }}</div>
-                                        <div class="price">220gr / 300gr : 44.- / 52.-</div>
+                                        <div class="price">220gr / 300gr : 44.- / 58.-</div>
                                     </div>
                                 </li>
                                 <li>
@@ -183,25 +173,13 @@
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">{{ trans('lang.carte_sea_3') }}</div>
-                                        <div class="price">42.-</div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">{{ trans('lang.carte_sea_4') }}</div>
                                         <div class="price">28.-</div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">{{ trans('lang.carte_sea_5') }}</div>
+                                        <div class="title">{{ trans('lang.carte_sea_4') }}</div>
                                         <div class="price">32.-</div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">{{ trans('lang.carte_sea_6') }}</div>
-                                        <div class="price">30.-</div>
                                     </div>
                                 </li>
 
@@ -235,52 +213,36 @@
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">{{ trans('lang.carte_land_1') }}</div>
-                                        <div class="price">200gr / 300gr : 54.- / 60.-</div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">{{ trans('lang.carte_land_2') }}</div>
                                         <div class="price">200gr / 300gr</div>
                                     </div>
                                     <ul class="menu_item_sublist">
                                         <li>
                                             <div class="menu_item">
+                                                <div class="title">{{ trans('lang.carte_land_2') }}</div>
+                                                <div class="price">44.- / 58.-</div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="menu_item">
                                                 <div class="title">{{ trans('lang.carte_land_3') }}</div>
-                                                <div class="price">38.- / 42.-</div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="menu_item">
-                                                <div class="title">{{ trans('lang.carte_land_4') }}</div>
-                                                <div class="price">42.- / 48.-</div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="menu_item">
-                                                <div class="title">{{ trans('lang.carte_land_5') }}</div>
-                                                <div class="price">48.- / 54.-</div>
+                                                <div class="price">50.- / 64.-</div>
                                             </div>
                                         </li>
                                     </ul>
-                                    <p>BEURRE CAFÉ DE PARIS OU SAUCE CHARLEMAGNE</p>
-                                    <p>Spécialité de la maison et recette tenue secrète depuis plus de 40 ans,<br> Faites confiance à vos papilles pour deviner les 33 épices qui la composent !</p>
+                                    <p>SAUCE CHARLEMAGNE<br>
+                                    Spécialité de la maison et recette tenue secrète depuis plus de 40 ans,<br> Faites confiance à vos papilles pour deviner les 33 épices qui la composent !</>
+                                    <p>OU</p>
+                                    <p>BŒUF VORONOFF/ FLAMBÉ À VOTRE TABLE + CHF 10.-/pers</p>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">{{ trans('lang.carte_land_6') }}</div>
+                                        <div class="title">{{ trans('lang.carte_land_4') }}</div>
                                         <div class="price">32.-</div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">{{ trans('lang.carte_land_7') }}</div>
-                                        <div class="price">26.-</div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">{{ trans('lang.carte_land_8') }}</div>
+                                        <div class="title">{{ trans('lang.carte_land_5') }}</div>
                                         <div class="price">30.-</div>
                                     </div>
                                     <div class="icns_block">
@@ -289,7 +251,7 @@
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">{{ trans('lang.carte_land_9') }}</div>
+                                        <div class="title">{{ trans('lang.carte_land_6') }}</div>
                                         <div class="price">16.-</div>
                                     </div>
                                 </li>
@@ -348,30 +310,24 @@
                                 <li>
                                     <div class="menu_item">
                                         <div class="title">{{ trans('lang.carte_desserts_2') }}</div>
-                                        <div class="price">16.-</div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="menu_item">
-                                        <div class="title">{{ trans('lang.carte_desserts_3') }}</div>
                                         <div class="price">13.-</div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">{{ trans('lang.carte_desserts_4') }}</div>
+                                        <div class="title">{{ trans('lang.carte_desserts_3') }}</div>
                                         <div class="price">14.-</div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">{{ trans('lang.carte_desserts_5') }}</div>
+                                        <div class="title">{{ trans('lang.carte_desserts_4') }}</div>
                                         <div class="price">15.-</div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="menu_item">
-                                        <div class="title">{{ trans('lang.carte_desserts_6') }}</div>
+                                        <div class="title">{{ trans('lang.carte_desserts_5') }}</div>
                                         <div class="price">15.-</div>
                                     </div>
                                 </li>
@@ -1171,7 +1127,7 @@
                     <div name="summer_menu" class="tab-pane fadeInLeft clearfix" id="summer_menu-3" data-img-name="/img/menu-tabs/1.jpg">
                         <div class="menu-list col-xs-12">
                             <ul>
-                                <li class="menu_block">
+                                <li class="menu_block hidden">
                                     <div class="title main_title">{{ trans('lang.menu_starter_title') }}</div>
                                     <div class="title center_title hidden">{{ trans('lang.summer_menu_price_option_1') }}</div>
                                     <div class="price main_price hidden">112.-</div>
@@ -1204,24 +1160,22 @@
                                     </p>
                                 </li>
 
-                                <li class="menu_block hidden">
+                                <li class="menu_block">
                                     <div class="title main_title">{{ trans('lang.menu_fisher_title') }}</div>
-                                    <div class="price main_price">72.-</div>
+                                    <div class="price main_price">66.-</div>
                                     <p>{{ trans('lang.menu_fisher_1') }}
-                                        <br><span><i>{{ trans('lang.or') }}</i></span><br>
+                                        <br><span>***</span><br>
                                         {{ trans('lang.menu_fisher_2') }}
-                                        <br><span>***</span><br>
-                                        {{ trans('lang.menu_fisher_3') }}
                                         <br><span><i>{{ trans('lang.or') }}</i></span><br>
-                                        {{ trans('lang.menu_fisher_4') }}
+                                        {{ trans('lang.menu_fisher_3') }}
                                         <br><span>***</span><br>
-                                        {{ trans('lang.menu_fisher_5') }}
+                                        {{ trans('lang.menu_fisher_4') }}
                                     </p>
                                 </li>
 
-                                <li class="menu_block hidden">
+                                <li class="menu_block">
                                     <div class="title main_title">{{ trans('lang.menu_charlemagne_title') }}</div>
-                                    <div class="price main_price">58.-</div>
+                                    <div class="price main_price">62.-</div>
                                     <p>{{ trans('lang.menu_charlemagne_1') }}
                                         <br><span>***</span><br>
                                         {{ trans('lang.menu_charlemagne_2') }}

@@ -14756,6 +14756,7 @@ body.post-details #blog-section {
               display: table-cell;
               text-align: right;
               white-space: nowrap;
+              padding-left: 10px;
               right: 0;
               color: #d2bd7f;
               font: 14px Helvetica, sans-serif;
