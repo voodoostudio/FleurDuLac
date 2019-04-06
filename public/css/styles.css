@@ -14697,6 +14697,14 @@ body.post-details #blog-section {
             display: table;
             width: 100%;
           }
+          #restaurant-menus .b-sec .tab-content .tab-pane .menu-list .add_info p {
+            text-align: center;
+          }
+          #restaurant-menus .b-sec .tab-content .tab-pane .menu-list .add_info p.title {
+            text-decoration: underline;
+            margin-top: 20px;
+            font-weight: bold;
+          }
             #restaurant-menus .b-sec .tab-content .tab-pane .menu-list ul li:before, #restaurant-menus .b-sec .tab-content .tab-pane .menu-list ul li:after {
               content: " ";
               display: table; }
