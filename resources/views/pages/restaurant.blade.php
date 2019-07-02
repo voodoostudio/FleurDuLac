@@ -121,16 +121,31 @@
                                                 <div class="title">{{ trans('lang.carte_starter_2') }}</div>
                                                 <div class="price">24.-</div>
                                             </div>
+                                            <div class="icns_block">
+                                                <img src="/img/gluten_free_1.svg" alt="gluten free">
+                                            </div>
                                         </li>
                                         <li>
                                             <div class="menu_item">
                                                 <div class="title">{{ trans('lang.carte_starter_3') }}</div>
-                                                <div class="price">22.-</div>
+                                                <div class="price">24.-</div>
+                                            </div>
+                                            <div class="icns_block">
+                                                <img src="/img/gluten_free_1.svg" alt="gluten free">
                                             </div>
                                         </li>
                                         <li>
                                             <div class="menu_item">
                                                 <div class="title">{{ trans('lang.carte_starter_4') }}</div>
+                                                <div class="price">22.-</div>
+                                            </div>
+                                            <div class="icns_block">
+                                                <img src="/img/gluten_free_1.svg" alt="gluten free">
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="menu_item">
+                                                <div class="title">{{ trans('lang.carte_starter_5') }}</div>
                                                 <div class="price">{{ trans('lang.carte_portion') }} : 16.- / 24.-</div>
                                             </div>
                                             <div class="icns_block">
@@ -140,14 +155,8 @@
                                         </li>
                                         <li>
                                             <div class="menu_item">
-                                                <div class="title">{{ trans('lang.carte_starter_5') }}</div>
-                                                <div class="price">22.-</div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="menu_item">
                                                 <div class="title">{{ trans('lang.carte_starter_6') }}</div>
-                                                <div class="price">12.-</div>
+                                                <div class="price">14.-</div>
                                             </div>
                                             <div class="icns_block">
                                                 <img src="/img/gluten_free_1.svg" alt="gluten free">
@@ -157,7 +166,7 @@
                                         <li>
                                             <div class="menu_item">
                                                 <div class="title">{{ trans('lang.carte_starter_7') }}</div>
-                                                <div class="price">8.-</div>
+                                                <div class="price">10.-</div>
                                             </div>
                                             <div class="icns_block">
                                                 <img src="/img/gluten_free_1.svg" alt="gluten free">
@@ -252,6 +261,14 @@
                                                 <img src="/img/gluten_free_1.svg" alt="gluten free">
                                             </div>
                                         </li>
+                                        <li>
+                                            <div class="menu_item">
+                                                <div class="title">{{ trans('lang.carte_water_3') }}</div>
+                                            </div>
+                                            <div class="icns_block">
+                                                <img src="/img/gluten_free_1.svg" alt="gluten free">
+                                            </div>
+                                        </li>
                                     </ul>
                                 </li>
 
@@ -274,18 +291,21 @@
                                                 <div class="title">{{ trans('lang.carte_land_3') }}</div>
                                                 <div class="price">50.- / 64.-</div>
                                             </div>
-                                            <p>SAUCE CHARLEMAGNE / frites maison<br>
+                                            <p>Sauce CHARLEMAGNE / frites maison<br>
                                                 Spécialité de la maison et recette tenue secrète depuis plus de 40 ans,<br>
                                                 Faites confiance à vos papilles pour deviner les 33 épices qui la composent !</p>
                                         </li>
                                         <li>
                                             <div class="menu_item">
                                                 <div class="title">{{ trans('lang.carte_land_4') }}</div>
+                                                <div class="price">28.-</div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="menu_item">
+                                                <div class="title">{!! trans('lang.carte_land_5') !!}</div>
                                                 <div class="price">16.-</div>
                                             </div>
-                                            <p>Mini burger / frites </br>
-                                                ou </br>
-                                                Filets de perches</p>
                                         </li>
                                     </ul>
                                 </li>
@@ -354,6 +374,9 @@
                                                 <div class="title">{{ trans('lang.carte_desserts_1') }}</div>
                                                 <div class="price">14.-</div>
                                             </div>
+                                            <div class="icns_block">
+                                                <img src="/img/vegetarian_1.svg" alt="vegetarian">
+                                            </div>
                                         </li>
                                         <li>
                                             <div class="menu_item">
@@ -363,8 +386,12 @@
                                         </li>
                                         <li>
                                             <div class="menu_item">
-                                                <div class="title">{{ trans('lang.carte_desserts_3') }}</div>
+                                                <div class="title">{!! trans('lang.carte_desserts_3') !!}</div>
                                                 <div class="price">14.-</div>
+                                            </div>
+                                            <div class="icns_block">
+                                                <img src="/img/gluten_free_1.svg" alt="gluten free">
+                                                <img src="/img/vegetarian_1.svg" alt="vegetarian">
                                             </div>
                                         </li>
                                         <li>
@@ -373,6 +400,7 @@
                                                 <div class="price">14.-</div>
                                             </div>
                                             <div class="icns_block">
+                                                <img src="/img/gluten_free_1.svg" alt="gluten free">
                                                 <img src="/img/vegetarian_1.svg" alt="vegetarian">
                                             </div>
                                         </li>
@@ -1284,7 +1312,8 @@
 
                     {{--Cafe des Amis--}}
                     <div class="tab-pane fadeInLeft clearfix" id="menu-5" data-img-name="/img/menu-tabs/1.jpg">
-                        <div class="menu-list col-xs-12">
+                        <div style="font-size: 1.5em; color: #d2bd7f">{{ trans('lang.definitely_closed') }}</div>
+                        <div class="menu-list col-xs-12 hidden">
                             <p style="margin-top: 20px; text-align: center;">VIANDES de 1ère qualité Suisse BUNS , FRITES maison SAUCE CHARLEMAGNE brevetée<br>
                                 TOUS NOS PLATS SONT SERVIS AVEC FRITES OU SALADINE
                             </p>

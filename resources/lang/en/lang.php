@@ -160,10 +160,10 @@ return [
     'carte_starter_title' => 'To start...',
     'carte_starter_1' => 'Home made Foie Gras / apple marmelade',
     'carte_starter_2' => 'Micuit red Tuna / wakame / fish eggs / spicy mayonnaise',
-    'carte_starter_3' => 'Spicy crab tartar / asparagus / yuzu / truffle oil',
-    'carte_starter_4' => 'Quinoa salade / goat cheese / avocado / iceberg salad/ pomegranates',
-    'carte_starter_5' => 'Home made spicy beef tartar',
-    'carte_starter_6' => 'Mixed salad : lettuce/fennel/cucumber/tomatoes/capers/olives',
+    'carte_starter_3' => 'Gilthead seabream ceviche/lemon / thym',
+    'carte_starter_4' => 'Spicy shrimps/feta cheese/tomatoes/garlic',
+    'carte_starter_5' => 'Quinoa salade / goat cheese / avocado / iceberg salad/ pomegranates',
+    'carte_starter_6' => 'Artichoke salad / lettuce/ pomegranates / parmesan',
     'carte_starter_7' => 'Green salad',
 
     'carte_sea_title' => 'De la Mer...',
@@ -176,12 +176,14 @@ return [
     'carte_water_title' => 'From the Water...',
     'carte_water_1' => 'Pan fried Fillets of Perch : lemon butter or tartare dressing / baked potatoes',
     'carte_water_2' => 'Basilic sea bass on green vegetables',
+    'carte_water_3' => 'Fish from the lake depending arrival',
 
     'carte_land_title' => 'From the Land...',
     'carte_land_1' => '',
     'carte_land_2' => 'Entrecote',
     'carte_land_3' => 'Filet',
-    'carte_land_4' => 'For kids (-12 years old)',
+    'carte_land_4' => 'Charlemagne Hamburger / salad / home fries',
+    'carte_land_5' => 'For kids (-12 years old): <br> Mini-burger or pan fried filets of Perch/home fries or vegetable',
 
     'carte_hunt_title' => 'De la Chasse',
     'carte_hunt_1' => '',
@@ -193,9 +195,9 @@ return [
     'carte_cheese_1' => '',
 
     'carte_desserts_title' => 'From our pastry chef',
-    'carte_desserts_1' => '«La Fleur du Lac» Mille-Feuille with Strawberry, home sherbet',
-    'carte_desserts_2' => 'Chocolate fondant, home sherbet',
-    'carte_desserts_3' => 'Vanilla Creme Brulée with caramelized Pecan nuts',
+    'carte_desserts_1' => '«La Fleur du Lac» Mille-Feuille with Strawberry / home sherbet',
+    'carte_desserts_2' => 'Chocolate fondant / home sherbet',
+    'carte_desserts_3' => 'Exotics fruits carpaccio / mango sherbet',
     'carte_desserts_4' => 'Homemade sherbet',
     'carte_desserts_5' => 'Café Gourmand',
 
@@ -243,6 +245,8 @@ return [
     'menu_hunt_3' => 'Ballotines de Faisan farcies et accompagnées de Chanterelles et Cornes d’abondance, spaetzli',
     'menu_hunt_4' => 'Civet de Cerf, garniture chasse',
     'menu_hunt_5' => 'Figues rôties à l’Anis orangé sur lit de crumble et son sorbet maison enrobé de sésame grillé',
+
+    'definitely_closed' => 'Definitely closed',
 //  RESTAURANT END
 
 //  ROOMS START

@@ -160,10 +160,10 @@ return [
     'carte_starter_title' => 'Pour commencer...',
     'carte_starter_1' => 'Compression de Foie gras maison / chutney pomme',
     'carte_starter_2' => 'Thon rouge mi-cuit / wakamé / tobbiko / mayonnaise épicée',
-    'carte_starter_3' => 'Tartare de Crabe épicé / asperges / yuzu / huile parfumée à la truffe',
-    'carte_starter_4' => 'Salade quinoa / fromage de chèvre / avocat / iceberg / grenade',
-    'carte_starter_5' => 'Tartare de filet de Bœuf épicé / coupé au couteau',
-    'carte_starter_6' => 'Salade mêlée : sucrine / fenouil / concombre/ tomates / olives/ câpres',
+    'carte_starter_3' => 'Ceviche de Dorade marinée / citron / thym',
+    'carte_starter_4' => 'Crevettes pili pili / feta / tomates / ail',
+    'carte_starter_5' => 'Salade quinoa / fromage de chèvre / avocat / iceberg / grenade',
+    'carte_starter_6' => 'Salade d’artichaud/ sucrine / grenade/ parmesan',
     'carte_starter_7' => 'Salade verte',
 
     'carte_sea_title' => 'De la Mer...',
@@ -176,12 +176,14 @@ return [
     'carte_water_title' => 'De l\'eau...',
     'carte_water_1' => 'Filets de Perches Meunière / beurre citronné ou sauce tartare / pommes au four',
     'carte_water_2' => 'Loup de mer au basilic / légumes verts',
+    'carte_water_3' => 'Poisson du lac selon arrivage',
 
     'carte_land_title' => 'De la Terre...',
     'carte_land_1' => '',
     'carte_land_2' => 'Entrecôte',
     'carte_land_3' => 'Cœur de Filet',
-    'carte_land_4' => 'Pour les enfants (-12 ans)',
+    'carte_land_4' => 'Burger Charlemagne / roquette / frites maison',
+    'carte_land_5' => 'Pour les enfants (-12 ans) : <br> Mini burger ou Filets de perches / frites ou légumes',
 
     'carte_hunt_title' => 'De la Chasse',
     'carte_hunt_1' => '',
@@ -193,9 +195,9 @@ return [
     'carte_cheese_1' => '',
 
     'carte_desserts_title' => 'De notre Pâtissière',
-    'carte_desserts_1' => 'Mille-feuille « La Fleur du Lac » aux Fraises et son sorbet maison',
-    'carte_desserts_2' => 'Moelleux au Chocolat et son sorbet maison',
-    'carte_desserts_3' => 'Crème Brûlée Vanille aux noix de Pécan caramélisées',
+    'carte_desserts_1' => 'Mille-feuille « La Fleur du Lac » aux Fraises / sorbet maison',
+    'carte_desserts_2' => 'Moelleux au Chocolat / sorbet maison',
+    'carte_desserts_3' => 'Carpaccio de fruits exotiques <br> Ananas / kiwi / fruits de passion / sorbet mangue',
     'carte_desserts_4' => 'Palette de sorbets maison',
     'carte_desserts_5' => 'Café Gourmand',
 
@@ -243,6 +245,8 @@ return [
     'menu_hunt_3' => '',
     'menu_hunt_4' => '',
     'menu_hunt_5' => '',
+
+    'definitely_closed' => 'Fermé définitivement',
 //  RESTAURANT END
 
 //  ROOMS START
