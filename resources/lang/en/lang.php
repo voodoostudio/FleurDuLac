@@ -247,6 +247,7 @@ return [
     'menu_hunt_5' => 'Figues rôties à l’Anis orangé sur lit de crumble et son sorbet maison enrobé de sésame grillé',
 
     'definitely_closed' => 'Definitely closed',
+    'on_demand' => 'On demand',
 //  RESTAURANT END
 
 //  ROOMS START

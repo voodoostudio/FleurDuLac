@@ -1199,7 +1199,8 @@
 
                     {{--Menus--}}
                     <div name="summer_menu" class="tab-pane fadeInLeft clearfix" id="summer_menu-3" data-img-name="/img/menu-tabs/1.jpg">
-                        <div class="menu-list col-xs-12">
+                        <div style="font-size: 1.5em; color: #d2bd7f; text-align: center; text-transform: uppercase;">{{ trans('lang.on_demand') }}</div>
+                        <div class="menu-list col-xs-12 hidden">
                             <ul>
                                 <li class="menu_block hidden">
                                     <div class="title main_title">{{ trans('lang.menu_starter_title') }}</div>
@@ -1312,7 +1313,7 @@
 
                     {{--Cafe des Amis--}}
                     <div class="tab-pane fadeInLeft clearfix" id="menu-5" data-img-name="/img/menu-tabs/1.jpg">
-                        <div style="font-size: 1.5em; color: #d2bd7f">{{ trans('lang.definitely_closed') }}</div>
+                        <div style="font-size: 1.5em; color: #d2bd7f; text-align: center;">{{ trans('lang.definitely_closed') }}</div>
                         <div class="menu-list col-xs-12 hidden">
                             <p style="margin-top: 20px; text-align: center;">VIANDES de 1ère qualité Suisse BUNS , FRITES maison SAUCE CHARLEMAGNE brevetée<br>
                                 TOUS NOS PLATS SONT SERVIS AVEC FRITES OU SALADINE

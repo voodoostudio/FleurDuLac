@@ -247,6 +247,7 @@ return [
     'menu_hunt_5' => '',
 
     'definitely_closed' => 'Fermé définitivement',
+    'on_demand' => 'Sur demande',
 //  RESTAURANT END
 
 //  ROOMS START
