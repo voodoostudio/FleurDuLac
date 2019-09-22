@@ -158,13 +158,10 @@ return [
     'carte_portion' => 'entrée / plat',
 
     'carte_starter_title' => 'To start...',
-    'carte_starter_1' => 'Home made Foie Gras / apple marmelade',
-    'carte_starter_2' => 'Micuit red Tuna / wakame / fish eggs / spicy mayonnaise',
-    'carte_starter_3' => 'Gilthead seabream ceviche/lemon / thym',
-    'carte_starter_4' => 'Spicy shrimps/feta cheese/tomatoes/garlic',
-    'carte_starter_5' => 'Quinoa salade / goat cheese / avocado / iceberg salad/ pomegranates',
-    'carte_starter_6' => 'Artichoke salad / lettuce/ pomegranates / parmesan',
-    'carte_starter_7' => 'Green salad',
+    'carte_starter_1' => 'Pumpkin Soup with glaced Chestnuts and its Mushrooms duxelles',
+    'carte_starter_2' => 'Home made Foie Gras / apple marmelade',
+    'carte_starter_3' => 'Micuit red Tuna / wakame / fish eggs / spicy mayonnaise',
+    'carte_starter_4' => 'Green salad',
 
     'carte_sea_title' => 'De la Mer...',
     'carte_sea_1' => '',
@@ -172,21 +169,21 @@ return [
     'carte_lake_title' => 'Du Lac...',
     'carte_lake_1' => '',
 
-
     'carte_water_title' => 'From the Water...',
-    'carte_water_1' => 'Pan fried Fillets of Perch : lemon butter or tartare dressing / baked potatoes',
+    'carte_water_1' => 'Pan fried Fillets of Perch : lemon butter dressing / baked potatoes',
     'carte_water_2' => 'Basilic sea bass on green vegetables',
-    'carte_water_3' => 'Fish from the lake depending arrival',
 
     'carte_land_title' => 'From the Land...',
     'carte_land_1' => '',
     'carte_land_2' => 'Entrecote',
     'carte_land_3' => 'Filet',
     'carte_land_4' => 'Charlemagne Hamburger / salad / home fries',
-    'carte_land_5' => 'For kids (-12 years old): <br> Mini-burger or pan fried filets of Perch/home fries or vegetable',
+    'carte_land_5' => ' Mushrooms Risotto : Chanterelles, Ceps',
+    'carte_land_6' => 'For kids (-12 years old): <br> Mini-burger or pan fried filets of Perch/home fries or vegetable',
 
-    'carte_hunt_title' => 'De la Chasse',
-    'carte_hunt_1' => '',
+    'carte_hunt_title' => 'From the Hunter',
+    'carte_hunt_1' => 'Selle de Chevreuil sauce Grand Veneur',
+    'carte_hunt_1_desc' => 'Game season Side dish : Spaetzle, braised red Cabbage, glaced Chestnuts and “Botzi” Pear in wine',
 
     'carte_butcher_title' => 'Du Boucher',
     'carte_butcher_1' => '',
@@ -195,11 +192,9 @@ return [
     'carte_cheese_1' => '',
 
     'carte_desserts_title' => 'From our pastry chef',
-    'carte_desserts_1' => '«La Fleur du Lac» Mille-Feuille with Strawberry / home sherbet',
-    'carte_desserts_2' => 'Chocolate fondant / home sherbet',
-    'carte_desserts_3' => 'Exotics fruits carpaccio / mango sherbet',
-    'carte_desserts_4' => 'Homemade sherbet',
-    'carte_desserts_5' => 'Café Gourmand',
+    'carte_desserts_1' => '«La Fleur du Lac» Mille-Feuille with pears',
+    'carte_desserts_2' => 'Chocolate fondant',
+    'carte_desserts_3' => 'Café Gourmand',
 
     'carte_add_info_1' => 'Chères Clientes, Chers Clients,<br>Nous travaillons avec des produits frais et de saison de ce fait, nos menus sont susceptibles de changer selon les arrivages.',
     'carte_add_info_2' => 'Meat origin',

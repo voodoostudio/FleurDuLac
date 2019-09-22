@@ -113,16 +113,16 @@
                                         <li>
                                             <div class="menu_item">
                                                 <div class="title">{{ trans('lang.carte_starter_1') }}</div>
-                                                <div class="price"> 26.-</div>
+                                                <div class="price"> 20.-</div>
+                                            </div>
+                                            <div class="icns_block">
+                                                <img src="/img/vegetarian_1.svg" alt="vegetarian">
                                             </div>
                                         </li>
                                         <li>
                                             <div class="menu_item">
                                                 <div class="title">{{ trans('lang.carte_starter_2') }}</div>
-                                                <div class="price">24.-</div>
-                                            </div>
-                                            <div class="icns_block">
-                                                <img src="/img/gluten_free_1.svg" alt="gluten free">
+                                                <div class="price">26.-</div>
                                             </div>
                                         </li>
                                         <li>
@@ -137,40 +137,11 @@
                                         <li>
                                             <div class="menu_item">
                                                 <div class="title">{{ trans('lang.carte_starter_4') }}</div>
-                                                <div class="price">22.-</div>
-                                            </div>
-                                            <div class="icns_block">
-                                                <img src="/img/gluten_free_1.svg" alt="gluten free">
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="menu_item">
-                                                <div class="title">{{ trans('lang.carte_starter_5') }}</div>
-                                                <div class="price">{{ trans('lang.carte_portion') }} : 16.- / 24.-</div>
-                                            </div>
-                                            <div class="icns_block">
-                                                <img src="/img/gluten_free_1.svg" alt="gluten free">
-                                                <img src="/img/vegetarian_1.svg" alt="vegetarian">
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="menu_item">
-                                                <div class="title">{{ trans('lang.carte_starter_6') }}</div>
-                                                <div class="price">14.-</div>
-                                            </div>
-                                            <div class="icns_block">
-                                                <img src="/img/gluten_free_1.svg" alt="gluten free">
-                                                <img src="/img/vegetarian_1.svg" alt="vegetarian">
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="menu_item">
-                                                <div class="title">{{ trans('lang.carte_starter_7') }}</div>
                                                 <div class="price">10.-</div>
                                             </div>
                                             <div class="icns_block">
-                                                <img src="/img/gluten_free_1.svg" alt="gluten free">
                                                 <img src="/img/vegetarian_1.svg" alt="vegetarian">
+                                                <img src="/img/gluten_free_1.svg" alt="gluten free">
                                             </div>
                                         </li>
                                     </ul>
@@ -261,14 +232,6 @@
                                                 <img src="/img/gluten_free_1.svg" alt="gluten free">
                                             </div>
                                         </li>
-                                        <li>
-                                            <div class="menu_item">
-                                                <div class="title">{{ trans('lang.carte_water_3') }}</div>
-                                            </div>
-                                            <div class="icns_block">
-                                                <img src="/img/gluten_free_1.svg" alt="gluten free">
-                                            </div>
-                                        </li>
                                     </ul>
                                 </li>
 
@@ -291,19 +254,27 @@
                                                 <div class="title">{{ trans('lang.carte_land_3') }}</div>
                                                 <div class="price">50.- / 64.-</div>
                                             </div>
-                                            <p>Sauce CHARLEMAGNE / frites maison<br>
-                                                Spécialité de la maison et recette tenue secrète depuis plus de 40 ans,<br>
-                                                Faites confiance à vos papilles pour deviner les 33 épices qui la composent !</p>
+                                            <p>Sauce CHARLEMAGNE / frites maison</p>
                                         </li>
                                         <li>
                                             <div class="menu_item">
                                                 <div class="title">{{ trans('lang.carte_land_4') }}</div>
-                                                <div class="price">28.-</div>
+                                                <div class="price">32.-</div>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="menu_item">
                                                 <div class="title">{!! trans('lang.carte_land_5') !!}</div>
+                                                <div class="price">30.-</div>
+                                            </div>
+                                            <div class="icns_block">
+                                                <img src="/img/gluten_free_1.svg" alt="gluten free">
+                                                <img src="/img/vegetarian_1.svg" alt="vegetarian">
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="menu_item">
+                                                <div class="title">{!! trans('lang.carte_land_6') !!}</div>
                                                 <div class="price">16.-</div>
                                             </div>
                                         </li>
@@ -311,7 +282,7 @@
                                 </li>
 
                                 {{--HUNT--}}
-                                <li class="hidden">
+                                <li>
                                     <ul>
                                         <li>
                                             <div>
@@ -322,13 +293,10 @@
                                         </li>
                                         <li>
                                             <div class="menu_item">
-                                                <div class="title">{{ trans('lang.carte_hunt_5') }}</div>
-                                                <div class="price">38.-</div>
+                                                <div class="title">{{ trans('lang.carte_hunt_1') }}</div>
+                                                <div class="price">Min 2 pers : 58.- pp</div>
                                             </div>
-                                            <div class="icns_block">
-                                                <img src="/img/gluten_free_1.svg" alt="gluten free">
-                                                <img src="/img/vegetarian_1.svg" alt="vegetarian">
-                                            </div>
+                                            <p>{{ trans('lang.carte_hunt_1_desc') }}</p>
                                         </li>
                                     </ul>
                                 </li>
@@ -387,26 +355,6 @@
                                         <li>
                                             <div class="menu_item">
                                                 <div class="title">{!! trans('lang.carte_desserts_3') !!}</div>
-                                                <div class="price">14.-</div>
-                                            </div>
-                                            <div class="icns_block">
-                                                <img src="/img/gluten_free_1.svg" alt="gluten free">
-                                                <img src="/img/vegetarian_1.svg" alt="vegetarian">
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="menu_item">
-                                                <div class="title">{{ trans('lang.carte_desserts_4') }}</div>
-                                                <div class="price">14.-</div>
-                                            </div>
-                                            <div class="icns_block">
-                                                <img src="/img/gluten_free_1.svg" alt="gluten free">
-                                                <img src="/img/vegetarian_1.svg" alt="vegetarian">
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="menu_item">
-                                                <div class="title">{{ trans('lang.carte_desserts_5') }}</div>
                                                 <div class="price">15.-</div>
                                             </div>
                                         </li>

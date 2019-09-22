@@ -158,13 +158,10 @@ return [
     'carte_portion' => 'entrée / plat',
 
     'carte_starter_title' => 'Pour commencer...',
-    'carte_starter_1' => 'Compression de Foie gras maison / chutney pomme',
-    'carte_starter_2' => 'Thon rouge mi-cuit / wakamé / tobbiko / mayonnaise épicée',
-    'carte_starter_3' => 'Ceviche de Dorade marinée / citron / thym',
-    'carte_starter_4' => 'Crevettes pili pili / feta / tomates / ail',
-    'carte_starter_5' => 'Salade quinoa / fromage de chèvre / avocat / iceberg / grenade',
-    'carte_starter_6' => 'Salade d’artichaud/ sucrine / grenade/ parmesan',
-    'carte_starter_7' => 'Salade verte',
+    'carte_starter_1' => 'Velouté de Potiron aux marrons glacés et sa tuile de Duxelle de Champignons',
+    'carte_starter_2' => 'Compression de Foie gras maison / chutney pomme',
+    'carte_starter_3' => 'Thon rouge mi-cuit / wakamé / tobbiko / mayonnaise épicée',
+    'carte_starter_4' => 'Salade verte',
 
     'carte_sea_title' => 'De la Mer...',
     'carte_sea_1' => '',
@@ -172,21 +169,21 @@ return [
     'carte_lake_title' => 'Du Lac...',
     'carte_lake_1' => '',
 
-
     'carte_water_title' => 'De l\'eau...',
-    'carte_water_1' => 'Filets de Perches Meunière / beurre citronné ou sauce tartare / pommes au four',
+    'carte_water_1' => 'Filets de Perches Meunière / beurre citronné / pommes au four',
     'carte_water_2' => 'Loup de mer au basilic / légumes verts',
-    'carte_water_3' => 'Poisson du lac selon arrivage',
 
     'carte_land_title' => 'De la Terre...',
     'carte_land_1' => '',
     'carte_land_2' => 'Entrecôte',
     'carte_land_3' => 'Cœur de Filet',
     'carte_land_4' => 'Burger Charlemagne / roquette / frites maison',
-    'carte_land_5' => 'Pour les enfants (-12 ans) : <br> Mini burger ou Filets de perches / frites ou légumes',
+    'carte_land_5' => 'Risotto aux Champignons : Chanterelles, Cèpes',
+    'carte_land_6' => 'Pour les enfants (-12 ans) : <br> Mini burger ou Filets de perches / frites ou légumes',
 
     'carte_hunt_title' => 'De la Chasse',
-    'carte_hunt_1' => '',
+    'carte_hunt_1' => 'Selle de Chevreuil sauce Grand Veneur',
+    'carte_hunt_1_desc' => 'Garniture Chasse :  Spaetzli, Choux rouge braisé, Marrons glacés et Poire à Botzi au vin Venison Saddle, Grand Veneur dressing',
 
     'carte_butcher_title' => 'Du Boucher',
     'carte_butcher_1' => '',
@@ -195,11 +192,9 @@ return [
     'carte_cheese_1' => '',
 
     'carte_desserts_title' => 'De notre Pâtissière',
-    'carte_desserts_1' => 'Mille-feuille « La Fleur du Lac » aux Fraises / sorbet maison',
-    'carte_desserts_2' => 'Moelleux au Chocolat / sorbet maison',
-    'carte_desserts_3' => 'Carpaccio de fruits exotiques <br> Ananas / kiwi / fruits de passion / sorbet mangue',
-    'carte_desserts_4' => 'Palette de sorbets maison',
-    'carte_desserts_5' => 'Café Gourmand',
+    'carte_desserts_1' => 'Mille-feuille « La Fleur du Lac » aux Poires',
+    'carte_desserts_2' => 'Moelleux au Chocolat',
+    'carte_desserts_3' => 'Café Gourmand',
 
     'carte_add_info_1' => 'Chères Clientes, Chers Clients,<br>Nous travaillons avec des produits frais et de saison de ce fait, nos menus sont susceptibles de changer selon les arrivages.',
     'carte_add_info_2' => 'Provenance des Viandes',
