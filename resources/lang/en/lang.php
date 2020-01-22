@@ -100,7 +100,7 @@ return [
     'sub_title_index_4' => 'A gastronomy which arouses your senses',
     'sub_title_index_5' => 'Relax in front of the Mont Blanc',
     'title_index_1' => 'Hotel La Fleur du Lac',
-    'sub_title_index_6' => 'A charming 4-stars hotel, between lake and mountains.',
+    'sub_title_index_6' => 'A charming hotel, between lake and mountains.',
     'description_index_1' => 'Located in Morges, at the shores of Lake Geneva, the hotel and restaurant La Fleur du Lac enjoys an idyllic setting and presents an unequalled panorama on the Alps and the majestic Mont-Blanc.',
     'description_index_2' => 'A Hotel for the business traveler in the heart of the coast of West Switzerland ideal for your professional trip, at only 15 mn from Lausanne and 30 mn from Geneva and Montreux.',
     'description_index_3' => 'Also a family hotel with connecting rooms. A wide choice of sport, relaxation and culture activities.<br>On the lake side : sailing, pedal boats, swimming, steamboat or galley (a Galley replica from the 17th century) cruses.<br>On the mountain side : hiking in the vineyards, bike or mountain bike rides.',

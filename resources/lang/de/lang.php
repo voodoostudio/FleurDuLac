@@ -100,7 +100,7 @@ return [
     'sub_title_index_4' => 'Une gastronomie qui éveille les sens',
     'sub_title_index_5' => 'Détendez-vous face au Mont Blanc',
     'title_index_1' => 'Hôtel La Fleur du Lac',
-    'sub_title_index_6' => 'Hôtel 4 étoiles de Charme, entre lac et montagne.',
+    'sub_title_index_6' => 'Hôtel de Charme, entre lac et montagne.',
     'description_index_1' => 'Situé à Morges, sur les rives du Lac Léman L’Hotel & Restaurant La Fleur du Lac, bénéficie d’ un cadre idyllique et vous offre un panorama sans pareil sur les Alpes et le majestueux Mont-Blanc.',
     'description_index_2' => 'Hotel d’affaire au centre de la cote vaudoise, idéal pour vos séjours professionnels à seulement 15 min. de Lausanne et 30 min. de Genève et Montreux.',
     'description_index_3' => 'Hotel familial également , avec chambres communicantes et large choix d’activités sportives, culturelles et détente.<br>Côté lac : voile, pédalos, baignades, croisières en bateaux à vapeur ou sur la galère.<br>Côté montagne : randonnées pédestres dans le vignoble, balades à bicyclette ou en VTT.',
