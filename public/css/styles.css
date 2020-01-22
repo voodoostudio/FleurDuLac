@@ -1435,6 +1435,11 @@ dt {
 dd {
   margin-left: 0; }
 
+.main-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
 .dl-horizontal dd:before, .dl-horizontal dd:after {
   content: " ";
   display: table; }

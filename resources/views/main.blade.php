@@ -22,7 +22,9 @@
     </div>
 
     @include('includes._javascript')
-
+    <!-- Mews Distributor -->
+    <script>(function(m,e,w,s){c=m.createElement(e);c.onload=function(){ Mews.D.apply(null,s)};c.async=1;c.src=w;t=m.getElementsByTagName(e)[0];t.parentNode.insertBefore(c,t);}) (document,'script','https://www.mews.li/distributor/distributor.min.js',[['6f7ff57f-0253-4081-805d-ab4900e53af4']]);</script>
+    <!-- End Mews Distributor -->
     @yield('scripts')
 
 </body>

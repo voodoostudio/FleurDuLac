@@ -21,6 +21,10 @@ class PagesController extends Controller
         return view('pages.restaurant');
     }
 
+    public function getRestaurantClosed(){
+        return view('pages.restaurant-closed');
+    }
+
     public function getBarAndTerrace(){
         return view('pages.bar_and_terrace');
     }

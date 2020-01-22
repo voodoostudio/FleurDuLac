@@ -142,6 +142,7 @@ return [
 //  INDEX END
 
 //  RESTAURANT START
+    'restaurant_closed' => 'Restaurant is closed',
     'sub_title_restaurant' => 'A unique panorama for an unforgettable meal',
     'description_restaurant_1' => 'In winter, the restaurant “La Fleur du Lac” welcomes you in various surroundings. <br> 100 persons may be seated in the main dining room and 40 in the “Salon d’or”. <br> For the sunny days, 60 persons may be seated in the veranda and 40 at the terrace at the edge of the lake.',
     'title_restaurant_1' => 'Would you like to taste a classic, refined, rearranged dish or a forgotten flavor ?',

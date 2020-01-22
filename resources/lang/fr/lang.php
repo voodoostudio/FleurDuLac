@@ -142,6 +142,7 @@ return [
 //  INDEX END
 
 //  RESTAURANT START
+    'restaurant_closed' => 'Restaurant fermé',
     'sub_title_restaurant' => 'Un panorama unique pour un repas memorable',
     'description_restaurant_1' => 'L’hiver, le restaurant La Fleur du Lac vous accueille dans différentes ambiances.<br>La salle principale de 100 places, le Salon d’Or de 40 places.<br>Aux beaux jours, la véranda de 60 places et la terrasse de 40 places à fleur d’eau.',
     'title_restaurant_1' => 'Envie de plats raffinés classiques revisités et de saveurs oubliées',

@@ -718,7 +718,8 @@
 
 @endsection
 
-@section ('scripts')
-    <script src="https://privatedeal.com/slider-button/{{$lang}}/lafleurdulac" async></script>
-@endsection
+{{--This is a service for best price deals. According client requirements it was removed. But decided to keep in order we will need it later--}}
+{{--@section ('scripts')--}}
+    {{--<script src="https://privatedeal.com/slider-button/{{$lang}}/lafleurdulac" async></script>--}}
+{{--@endsection--}}
 

@@ -11,7 +11,7 @@
                 <ul class="list-inline">
                     <li class="<?php if($current_page == 'home') {echo 'active';} ?>"><a href="{{ route('home.locale') }}">{{ trans('lang.home') }}</a></li>
                     <li class="<?php if($current_page == 'rooms') {echo 'active';} ?>"><a href="{{ route('rooms.locale') }}">{{ trans('lang.room') }}</a></li>
-                    <li class="<?php if($current_page == 'restaurant') {echo 'active';} ?>"><a href="{{ route('restaurant.locale') }}">{{ trans('lang.restaurant') }}</a></li>
+                    <li class="<?php if($current_page == 'restaurant') {echo 'active';} ?>"><a href="{{ route('restaurant_closed.locale') }}">{{ trans('lang.restaurant') }}</a></li>
                     <li class="<?php if($current_page == 'bar_and_terrace') {echo 'active';} ?>"><a href="{{ route('bar_and_terrace.locale') }}">{{ trans('lang.bar_and_terrace') }}</a></li>
 <!--                    <li class="--><?php //if($current_page == 'offres') {echo 'active';} ?><!--"><a href="#">Offres</a></li>-->
                     <li class="<?php if($current_page == 'events') {echo 'active';} ?>"><a href="{{ route('events.locale') }}">{{ trans('lang.event') }}</a></li>
@@ -23,12 +23,13 @@
                 <!-- DO NOT CHANGE THIS PART -->
                 {{--@include('includes._ghix')--}}
 
+                <button id="header-book-bow" class="distributor ravis-btn btn-type-2 book_room">Book Now</button>
                 {{-- WBE Boking --}}
-                <a href="{{ route('booking') }}" target="_blank">
-                    <div id="header-book-bow" class="ravis-btn btn-type-2 book_room"><span>{{ trans('lang.reservation') }}</span> <i class="fa fa-calendar"></i></div>
-                </a>
+                {{--Changed this way of booking to www.mews.li/distributor But decided to keep it in order will need later--}}
+                {{--<a href="{{ route('booking') }}" target="_blank">--}}
+                    {{--<div id="header-book-bow" class="ravis-btn btn-type-2 book_room"><span>{{ trans('lang.reservation') }}</span> <i class="fa fa-calendar"></i></div>--}}
+                {{--</a>--}}
             </div>
-
             <div id="languages" class="languages">
                 @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
                         <a class="ravis-btn btn-type-2 {{ ($localeCode == App::getLocale()) ? 'active' : '' }}" rel="alternate" hreflang="{{$localeCode}}" href="{{ LaravelLocalization::getLocalizedURL($localeCode) }}">
