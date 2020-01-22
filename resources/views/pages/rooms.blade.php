@@ -109,7 +109,9 @@
                             <div class="reservation_btn_container">
                                 <!-- DO NOT CHANGE THIS PART -->
                                 {{--@include('includes._ghix')--}}
-                                <div class="book_room more-info"><a href="{{ route('booking') }}" target="_blank">{{ trans('lang.reservation_button_room') }}</a></div>
+                                {{--Changed this way of booking to www.mews.li/distributor But decided to keep it in order will need later--}}
+                                {{--<div class="book_room more-info"><a href="{{ route('booking') }}" target="_blank">{{ trans('lang.reservation_button_room') }}</a></div>--}}
+                                <div class="book_room more-info distributor">{{ trans('lang.reservation_button_room') }}</div>
                                 {{--<a class="book_room more-info" href="{{ route('contact.locale') }}">{{ trans('lang.reservation_button_room') }}</a>--}}
                             </div>
                         </div>
@@ -189,7 +191,9 @@
                             <div class="reservation_btn_container">
                                 <!-- DO NOT CHANGE THIS PART -->
                                 {{--@include('includes._ghix')--}}
-                                <div class="book_room more-info"><a href="{{ route('booking') }}" target="_blank">{{ trans('lang.reservation_button_room') }}</a></div>
+                                {{--Changed this way of booking to www.mews.li/distributor But decided to keep it in order will need later--}}
+                                {{--<div class="book_room more-info"><a href="{{ route('booking') }}" target="_blank">{{ trans('lang.reservation_button_room') }}</a></div>--}}
+                                <div class="book_room more-info distributor">{{ trans('lang.reservation_button_room') }}</div>
                                 {{--<a class="book_room more-info" href="{{ route('contact.locale') }}">{{ trans('lang.reservation_button_room') }}</a>--}}
                             </div>
                         </div>
@@ -268,7 +272,9 @@
                             <div class="reservation_btn_container">
                                 <!-- DO NOT CHANGE THIS PART -->
                                 {{--@include('includes._ghix')--}}
-                                <div class="book_room more-info"><a href="{{ route('booking') }}" target="_blank">{{ trans('lang.reservation_button_room') }}</a></div>
+                                {{--Changed this way of booking to www.mews.li/distributor But decided to keep it in order will need later--}}
+                                {{--<div class="book_room more-info"><a href="{{ route('booking') }}" target="_blank">{{ trans('lang.reservation_button_room') }}</a></div>--}}
+                                <div class="book_room more-info distributor">{{ trans('lang.reservation_button_room') }}</div>
                                 {{--<a class="book_room more-info" href="{{ route('contact.locale') }}">{{ trans('lang.reservation_button_room') }}</a>--}}
                             </div>
                         </div>
