@@ -19,7 +19,7 @@
             <div class="breadcrumb">
                 <ul class="list-inline">
                     <li><a href="{{ route('home.locale') }}">{{ trans('lang.home') }}</a></li>
-                    <li class="current"><a href="{{ route('restaurant.locale') }}">{{ trans('lang.restaurant') }}</a></li>
+                    <li class="current"><a href="{{ route('restaurant_closed.locale') }}">{{ trans('lang.restaurant') }}</a></li>
                 </ul>
             </div>
         </div>
