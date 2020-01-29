@@ -14,7 +14,7 @@
                     <li class="<?php if($current_page == 'restaurant') {echo 'active';} ?>"><a href="{{ route('restaurant_closed.locale') }}">{{ trans('lang.restaurant') }}</a></li>
                     <li class="<?php if($current_page == 'bar_and_terrace') {echo 'active';} ?>"><a href="{{ route('bar_and_terrace.locale') }}">{{ trans('lang.bar_and_terrace') }}</a></li>
 <!--                    <li class="--><?php //if($current_page == 'offres') {echo 'active';} ?><!--"><a href="#">Offres</a></li>-->
-                    <li class="<?php if($current_page == 'events') {echo 'active';} ?>"><a href="{{ route('events.locale') }}">{{ trans('lang.event') }}</a></li>
+                    <li class="<?php if($current_page == 'events') {echo 'active';} ?>"><a href="{{ route('events_closed.locale') }}">{{ trans('lang.event') }}</a></li>
                     <li class="<?php if($current_page == 'contact') {echo 'active';} ?>"><a href="{{ route('contact.locale') }}">{{ trans('lang.contact') }}</a></li>
                 </ul>
             </nav>

@@ -57,6 +57,7 @@ return [
 //  CONTACT END
 
 //  EVENTS START
+    'closed' => 'Closed',
     'sub_title_events' => 'Infrastructure and a professional team to serve you.',
     'description_events_1' => 'From breakfast to a gastronomic menu, from a professional meeting to a wedding<br>Or a business buffet or a coffee break, all custom-made events.',
     'description_events_2' => 'Our professional team is at your disposal to assist you,<br>to advise and propose a custom-made offer.',

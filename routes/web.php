@@ -27,7 +27,8 @@ Route::group(
 //    Route::get('/restaurant', ['as' => 'restaurant.locale', 'uses' => 'PagesController@getRestaurant']);
     Route::get('/restaurant_closed', ['as' => 'restaurant_closed.locale', 'uses' => 'PagesController@getRestaurantClosed']);
     Route::get('/bar_and_terrace', ['as' => 'bar_and_terrace.locale', 'uses' => 'PagesController@getBarAndTerrace']);
-    Route::get('/events', ['as' => 'events.locale', 'uses' => 'PagesController@getEvents']);
+//    Route::get('/events', ['as' => 'events.locale', 'uses' => 'PagesController@getEvents']);
+    Route::get('/events_closed', ['as' => 'events_closed.locale', 'uses' => 'PagesController@getEventsClosed']);
     Route::get('/contact', ['as' => 'contact.locale', 'uses' => 'PagesController@getContact']);
     Route::post('/contact', ['as' => 'contact.post','uses'=>'PagesController@postContact']);
     Route::get('/booking', ['as' => 'booking','uses'=>'PagesController@booking']);

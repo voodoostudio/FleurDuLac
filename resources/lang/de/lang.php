@@ -57,6 +57,7 @@ return [
 //  CONTACT END
 
 //  EVENTS START
+    'closed' => 'Geschlossen',
     'sub_title_events' => 'Infrastructures et professionnels à votre service',
     'description_events_1' => 'Du petit-déjeuner au menu gastronomique, du séminaires au mariage.<br> En passant par le buffet business ou la pause-café, du sur mesure pour tous événements.',
     'description_events_2' => 'Notre équipe de professionnel se tient à votre disposition pour vous assister,<br>vous conseiller et vous établir une offre sur mesure.',

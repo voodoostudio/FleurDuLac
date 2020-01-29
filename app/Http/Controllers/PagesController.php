@@ -33,6 +33,10 @@ class PagesController extends Controller
         return view('pages.events');
     }
 
+    public function getEventsClosed(){
+        return view('pages.events-closed');
+    }
+
     public function getContact(){
         return view('pages.contact');
     }
