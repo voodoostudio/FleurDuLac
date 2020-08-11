@@ -57,7 +57,7 @@ return [
 //  CONTACT END
 
 //  EVENTS START
-    'closed' => 'Geschlossen',
+    'contact_hotel_for_info' => 'Kontaktieren Sie das Hotel für weitere Informationen',
     'sub_title_events' => 'Infrastructures et professionnels à votre service',
     'description_events_1' => 'Du petit-déjeuner au menu gastronomique, du séminaires au mariage.<br> En passant par le buffet business ou la pause-café, du sur mesure pour tous événements.',
     'description_events_2' => 'Notre équipe de professionnel se tient à votre disposition pour vous assister,<br>vous conseiller et vous établir une offre sur mesure.',
@@ -143,7 +143,7 @@ return [
 //  INDEX END
 
 //  RESTAURANT START
-    'restaurant_closed' => 'Restaurant geschlossen',
+    'restaurant_closed' => 'Das Restaurant ist geöffnet',
     'sub_title_restaurant' => 'Un panorama unique pour un repas memorable',
     'description_restaurant_1' => 'L’hiver, le restaurant La Fleur du Lac vous accueille dans différentes ambiances.<br>La salle principale de 100 places, le Salon d’Or de 40 places.<br>Aux beaux jours, la véranda de 60 places et la terrasse de 40 places à fleur d’eau.',
     'title_restaurant_1' => 'Envie de plats raffinés classiques revisités et de saveurs oubliées',

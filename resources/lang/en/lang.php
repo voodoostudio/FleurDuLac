@@ -57,7 +57,7 @@ return [
 //  CONTACT END
 
 //  EVENTS START
-    'closed' => 'Closed',
+    'contact_hotel_for_info' => 'Contact hotel for more information',
     'sub_title_events' => 'Infrastructure and a professional team to serve you.',
     'description_events_1' => 'From breakfast to a gastronomic menu, from a professional meeting to a wedding<br>Or a business buffet or a coffee break, all custom-made events.',
     'description_events_2' => 'Our professional team is at your disposal to assist you,<br>to advise and propose a custom-made offer.',
@@ -143,7 +143,7 @@ return [
 //  INDEX END
 
 //  RESTAURANT START
-    'restaurant_closed' => 'Restaurant is closed',
+    'restaurant_closed' => 'Restaurant is open',
     'sub_title_restaurant' => 'A unique panorama for an unforgettable meal',
     'description_restaurant_1' => 'In winter, the restaurant “La Fleur du Lac” welcomes you in various surroundings. <br> 100 persons may be seated in the main dining room and 40 in the “Salon d’or”. <br> For the sunny days, 60 persons may be seated in the veranda and 40 at the terrace at the edge of the lake.',
     'title_restaurant_1' => 'Would you like to taste a classic, refined, rearranged dish or a forgotten flavor ?',

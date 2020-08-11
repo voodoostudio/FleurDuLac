@@ -13,7 +13,7 @@
         <div class="inner-container container">
             <div class="ravis-title">
                 <div class="inner-box">
-                    <div class="title text-uppercase">{{ trans('lang.closed') }}</div>
+                    <div class="title text-uppercase">{{ trans('lang.contact_hotel_for_info') }}</div>
                 </div>
             </div>
 
